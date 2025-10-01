@@ -5,705 +5,305 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ședințe și Proiecte Urbanism</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        /* Reset */
+        *, *::before, *::after {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
         }
 
         :root {
-            --primary-color: #2563eb;
-            --primary-hover: #1d4ed8;
-            --secondary-color: #64748b;
-            --background: #0f172a;
-            --surface: #1e293b;
-            --surface-hover: #334155;
-            --text-primary: #f1f5f9;
-            --text-secondary: #94a3b8;
-            --border-color: #334155;
-            --accent: #3b82f6;
-            --success: #10b981;
-            --warning: #f59e0b;
-            --glow-color: #3b82f680;
+          --background: #f9fafb;
+          --surface: #ffffff;
+          --surface-hover: #f3f4f6;
+          --text-primary: #111827;
+          --text-secondary: #6b7280;
+          --border-color: #e5e7eb;
+          --accent: #2563eb;
         }
 
         body {
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            background: var(--background);
-            color: var(--text-primary);
-            min-height: 100vh;
-            background-image: 
-                radial-gradient(circle at 20% 50%, #1e40af20 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, #7c3aed20 0%, transparent 50%),
-                radial-gradient(circle at 40% 20%, #06b6d420 0%, transparent 50%);
-            animation: backgroundShift 20s ease-in-out infinite;
-        }
-
-        @keyframes backgroundShift {
-            0%, 100% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
+          font-family: 'Inter', system-ui, sans-serif;
+          background: var(--background);
+          color: var(--text-primary);
+          line-height: 1.5;
         }
 
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
+          max-width: 900px;
+          margin: 0 auto;
+          padding: 24px;
         }
 
         header {
-            text-align: center;
-            padding: 40px 20px;
-            background: linear-gradient(135deg, var(--surface) 0%, var(--surface)80 100%);
-            border-radius: 20px;
-            margin-bottom: 40px;
-            backdrop-filter: blur(10px);
-            border: 1px solid var(--border-color);
-            position: relative;
-            overflow: hidden;
-        }
-
-        header::before {
-            content: '';
-            position: absolute;
-            top: -2px;
-            left: -2px;
-            right: -2px;
-            bottom: -2px;
-            background: linear-gradient(45deg, var(--accent), var(--primary-color), var(--success));
-            border-radius: 20px;
-            opacity: 0;
-            z-index: -1;
-            transition: opacity 0.3s ease;
-            animation: gradientRotate 3s linear infinite;
-        }
-
-        @keyframes gradientRotate {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        header:hover::before {
-            opacity: 0.3;
+          text-align: center;
+          margin-bottom: 40px;
         }
 
         h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 10px;
-            background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            animation: textGlow 3s ease-in-out infinite alternate;
-        }
-
-        @keyframes textGlow {
-            0% { filter: brightness(1) drop-shadow(0 0 20px var(--glow-color)); }
-            100% { filter: brightness(1.2) drop-shadow(0 0 30px var(--glow-color)); }
+          font-size: 2rem;
+          font-weight: 700;
+          margin-bottom: 8px;
+          color: var(--text-primary);
         }
 
         .subtitle {
-            color: var(--text-secondary);
-            font-size: 1.1rem;
+          color: var(--text-secondary);
+          font-size: 1rem;
         }
 
+        /* Search */
         .search-container {
-            position: relative;
-            margin-bottom: 40px;
-            animation: slideDown 0.5s ease-out;
-        }
-
-        @keyframes slideDown {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+          margin-bottom: 32px;
+          position: relative;
         }
 
         .search-box {
-            width: 100%;
-            padding: 16px 50px 16px 20px;
-            font-size: 1rem;
-            border: 2px solid var(--border-color);
-            border-radius: 12px;
-            background: var(--surface);
-            color: var(--text-primary);
-            transition: all 0.3s ease;
-            backdrop-filter: blur(10px);
-        }
-
-        .search-box:focus {
-            outline: none;
-            border-color: var(--accent);
-            box-shadow: 0 0 0 3px var(--glow-color), 0 10px 40px -10px var(--glow-color);
-            transform: translateY(-2px);
+          width: 100%;
+          padding: 12px 40px 12px 14px;
+          font-size: 1rem;
+          border: 1px solid var(--border-color);
+          border-radius: 8px;
+          background: var(--surface);
+          color: var(--text-primary);
         }
 
         .search-icon {
-            position: absolute;
-            right: 20px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: var(--text-secondary);
-            pointer-events: none;
-            transition: color 0.3s ease;
+          position: absolute;
+          right: 12px;
+          top: 50%;
+          transform: translateY(-50%);
+          color: var(--text-secondary);
+          pointer-events: none;
+          font-size: 1.1rem;
         }
 
-        .search-box:focus ~ .search-icon {
-            color: var(--accent);
-        }
-
+        /* Stats */
         .stats {
-            display: flex;
-            gap: 20px;
-            margin-bottom: 30px;
-            flex-wrap: wrap;
+          display: flex;
+          gap: 16px;
+          margin-bottom: 32px;
+          flex-wrap: wrap;
         }
 
         .stat-card {
-            flex: 1;
-            min-width: 150px;
-            padding: 20px;
-            background: var(--surface);
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
-            text-align: center;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .stat-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, var(--accent), var(--success));
-            transform: scaleX(0);
-            transition: transform 0.3s ease;
-        }
-
-        .stat-card:hover::before {
-            transform: scaleX(1);
-        }
-
-        .stat-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px -10px var(--glow-color);
-            border-color: var(--accent);
+          flex: 1;
+          min-width: 160px;
+          padding: 20px;
+          background: var(--surface);
+          border-radius: 8px;
+          border: 1px solid var(--border-color);
+          text-align: center;
         }
 
         .stat-number {
-            font-size: 2rem;
-            font-weight: bold;
-            color: var(--accent);
-            margin-bottom: 5px;
+          font-size: 1.5rem;
+          font-weight: 600;
+          color: var(--accent);
+          margin-bottom: 4px;
         }
 
         .stat-label {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+          font-size: 0.85rem;
+          color: var(--text-secondary);
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
         }
 
-        .meetings-grid {
-            display: grid;
-            gap: 25px;
-            animation: fadeIn 0.8s ease-out;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
+        /* Meetings */
         .meeting-card {
-            background: var(--surface);
-            border-radius: 16px;
-            padding: 25px;
-            border: 1px solid var(--border-color);
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-            animation: slideUp 0.5s ease-out;
-        }
-
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .meeting-card::after {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle, var(--glow-color) 0%, transparent 70%);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-            pointer-events: none;
-        }
-
-        .meeting-card:hover::after {
-            opacity: 1;
-        }
-
-        .meeting-card:hover {
-            transform: translateY(-5px) scale(1.02);
-            box-shadow: 0 20px 40px -15px rgba(59, 130, 246, 0.3);
-            border-color: var(--accent);
+          background: var(--surface);
+          border: 1px solid var(--border-color);
+          border-radius: 10px;
+          padding: 20px;
+          margin-bottom: 20px;
         }
 
         .meeting-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: start;
-            margin-bottom: 20px;
-            padding-bottom: 15px;
-            border-bottom: 1px solid var(--border-color);
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+          margin-bottom: 16px;
         }
 
         .meeting-title {
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: var(--text-primary);
-            margin-bottom: 8px;
+          font-size: 1.1rem;
+          font-weight: 600;
         }
 
         .meeting-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent);
-            text-decoration: none;
-            font-size: 0.9rem;
-            padding: 8px 16px;
-            border-radius: 8px;
-            background: var(--accent)20;
-            transition: all 0.3s ease;
-            border: 1px solid transparent;
-        }
-
-        .meeting-link:hover {
-            background: var(--accent)30;
-            border-color: var(--accent);
-            transform: translateX(5px);
-            box-shadow: 0 5px 15px -5px var(--glow-color);
-        }
-
-        .projects-section {
-            margin-top: 20px;
+          color: var(--accent);
+          font-size: 0.9rem;
+          text-decoration: none;
         }
 
         .projects-label {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .projects-label::after {
-            content: '';
-            flex: 1;
-            height: 1px;
-            background: var(--border-color);
-        }
-
-        .project-list {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
+          font-size: 0.85rem;
+          color: var(--text-secondary);
+          margin-bottom: 8px;
         }
 
         .project-item {
-            background: var(--background);
-            border-radius: 10px;
-            padding: 15px;
-            transition: all 0.3s ease;
-            border: 1px solid transparent;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .project-item::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 3px;
-            background: linear-gradient(180deg, var(--accent), var(--success));
-            transform: scaleY(0);
-            transition: transform 0.3s ease;
-        }
-
-        .project-item:hover::before {
-            transform: scaleY(1);
-        }
-
-        .project-item:hover {
-            background: var(--surface-hover);
-            transform: translateX(8px);
-            border-color: var(--border-color);
+          background: var(--surface-hover);
+          border-radius: 6px;
+          padding: 12px;
+          margin-bottom: 10px;
         }
 
         .project-title {
-            font-weight: 500;
-            margin-bottom: 8px;
-            color: var(--text-primary);
+          font-weight: 500;
+          margin-bottom: 4px;
         }
 
         .project-street {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            gap: 5px;
+          font-size: 0.85rem;
+          color: var(--text-secondary);
+          margin-bottom: 6px;
         }
 
         .project-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            color: var(--accent);
-            text-decoration: none;
-            font-size: 0.85rem;
-            transition: all 0.3s ease;
-            padding: 5px 10px;
-            border-radius: 6px;
+          font-size: 0.85rem;
+          color: var(--accent);
+          text-decoration: none;
         }
 
-        .project-link:hover {
-            background: var(--accent)20;
-            transform: translateX(3px);
-        }
-
+        /* No results */
         .no-results {
-            text-align: center;
-            padding: 60px 20px;
-            color: var(--text-secondary);
-            font-size: 1.1rem;
-            background: var(--surface);
-            border-radius: 16px;
-            border: 1px solid var(--border-color);
-            animation: fadeIn 0.5s ease-out;
+          text-align: center;
+          padding: 40px 20px;
+          color: var(--text-secondary);
+          background: var(--surface);
+          border-radius: 8px;
+          border: 1px solid var(--border-color);
         }
 
         .highlight {
-            background: linear-gradient(90deg, var(--warning)40, var(--warning)20);
-            padding: 2px 4px;
-            border-radius: 3px;
-            color: var(--text-primary);
-            font-weight: 500;
-            animation: highlightPulse 1s ease-in-out;
-        }
-
-        @keyframes highlightPulse {
-            0%, 100% { background: linear-gradient(90deg, var(--warning)40, var(--warning)20); }
-            50% { background: linear-gradient(90deg, var(--warning)60, var(--warning)40); }
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 1.8rem;
-            }
-            
-            .meeting-header {
-                flex-direction: column;
-                gap: 10px;
-            }
-            
-            .stats {
-                flex-direction: column;
-            }
+          background: #fde68a;
+          padding: 2px 4px;
+          border-radius: 3px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Ședințe Comisie Urbanism</h1>
-            <p class="subtitle">Primăria Cluj-Napoca - Portal Proiecte</p>
-        </header>
+<div class="container">
+    <header>
+        <h1>Ședințe Comisie Urbanism</h1>
+        <p class="subtitle">Primăria Cluj-Napoca - Portal Proiecte</p>
+    </header>
 
-        <div class="search-container">
-            <input type="text" 
-                   id="searchInput" 
-                   class="search-box" 
-                   placeholder="Caută în titluri, străzi sau orice alt text...">
-            <span class="search-icon">🔍</span>
-        </div>
-
-        <div class="stats">
-            <div class="stat-card">
-                <div class="stat-number" id="totalMeetings">0</div>
-                <div class="stat-label">Ședințe</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="totalProjects">0</div>
-                <div class="stat-label">Proiecte</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="visibleItems">0</div>
-                <div class="stat-label">Rezultate</div>
-            </div>
-        </div>
-
-        <div id="meetingsContainer" class="meetings-grid"></div>
+    <div class="search-container">
+        <input type="text" id="searchInput" class="search-box" placeholder="Caută proiecte sau ședințe...">
+        <span class="search-icon">🔍</span>
     </div>
 
-    <script>
-        // Data will be loaded from meetings.json file
-        let meetingsData = [];
-        let filteredData = [];
+    <div class="stats">
+        <div class="stat-card">
+            <div class="stat-number" id="totalMeetings">0</div>
+            <div class="stat-label">Ședințe</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="totalProjects">0</div>
+            <div class="stat-label">Proiecte</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="visibleItems">0</div>
+            <div class="stat-label">Rezultate</div>
+        </div>
+    </div>
 
-        function escapeHtml(text) {
-            const div = document.createElement('div');
-            div.textContent = text;
-            return div.innerHTML;
-        }
+    <div id="meetingsContainer"></div>
+</div>
 
-        function highlightText(text, searchTerm) {
-            if (!searchTerm) return escapeHtml(text);
-            
-            const escaped = escapeHtml(text);
-            const regex = new RegExp(`(${escapeHtml(searchTerm)})`, 'gi');
-            return escaped.replace(regex, '<span class="highlight">$1</span>');
-        }
+<script>
+    let meetingsData = [];
+    let filteredData = [];
 
-        function renderMeetings(data, searchTerm = '') {
-            const container = document.getElementById('meetingsContainer');
-            
-            if (data.length === 0) {
-                container.innerHTML = `
-                    <div class="no-results">
-                        <p>🔍 Nu s-au găsit rezultate pentru căutarea ta.</p>
-                        <p style="margin-top: 10px; font-size: 0.9rem;">Încearcă alte cuvinte cheie sau verifică ortografia.</p>
-                    </div>
-                `;
-                updateStats(0, 0);
-                return;
-            }
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
 
-            const html = data.map((meeting, index) => {
-                const projectsHtml = meeting.projects.map(project => `
-                    <div class="project-item">
-                        <div class="project-title">${highlightText(project.title, searchTerm)}</div>
-                        ${project.street ? `
-                            <div class="project-street">
-                                📍 ${highlightText(project.street, searchTerm)}
-                            </div>
-                        ` : ''}
-                        <a href="${project.url}" 
-                           target="_blank" 
-                           class="project-link">
-                            Vezi proiectul →
-                        </a>
-                    </div>
-                `).join('');
+    function highlightText(text, searchTerm) {
+      if (!searchTerm) return escapeHtml(text);
+      const regex = new RegExp(`(${searchTerm})`, 'gi');
+      return escapeHtml(text).replace(regex, '<span class="highlight">$1</span>');
+    }
 
-                // Add a note if showing filtered projects
-                const filterNote = meeting.isPartialMatch && searchTerm ? `
-                    <div style="font-size: 0.8rem; color: var(--warning); margin-bottom: 10px; padding: 8px; background: var(--warning)10; border-radius: 6px; border: 1px solid var(--warning)30;">
-                        📌 Se afișează doar proiectele care corespund căutării (${meeting.projects.length} din ${meetingsData.find(m => m.title === meeting.title)?.projects.length || meeting.projects.length})
-                    </div>
-                ` : '';
+    function renderMeetings(data, searchTerm = '') {
+      const container = document.getElementById('meetingsContainer');
+      if (data.length === 0) {
+        container.innerHTML = `<div class="no-results">🔍 Nu s-au găsit rezultate</div>`;
+        updateStats(0, 0);
+        return;
+      }
 
-                return `
-                    <div class="meeting-card" style="animation-delay: ${index * 0.1}s">
-                        <div class="meeting-header">
-                            <div>
-                                <div class="meeting-title">
-                                    ${highlightText(meeting.title, searchTerm)}
-                                </div>
-                            </div>
-                            <a href="${meeting.url}" 
-                               target="_blank" 
-                               class="meeting-link">
-                                Detalii ședință →
-                            </a>
-                        </div>
-                        <div class="projects-section">
-                            <div class="projects-label">
-                                Proiecte ${meeting.isPartialMatch && searchTerm ? 'găsite' : 'discutate'} (${meeting.projects.length})
-                            </div>
-                            ${filterNote}
-                            <div class="project-list">
-                                ${projectsHtml}
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }).join('');
+      const html = data.map(meeting => `
+        <div class="meeting-card">
+          <div class="meeting-header">
+            <div class="meeting-title">${highlightText(meeting.title, searchTerm)}</div>
+            <a href="${meeting.url}" target="_blank" class="meeting-link">Detalii →</a>
+          </div>
+          <div class="projects-section">
+            <div class="projects-label">Proiecte (${meeting.projects.length})</div>
+            ${meeting.projects.map(p => `
+              <div class="project-item">
+                <div class="project-title">${highlightText(p.title, searchTerm)}</div>
+                ${p.street ? `<div class="project-street">📍 ${highlightText(p.street, searchTerm)}</div>` : ''}
+                <a href="${p.url}" target="_blank" class="project-link">Vezi proiectul →</a>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `).join('');
 
-            container.innerHTML = html;
-            
-            const visibleProjects = data.reduce((sum, meeting) => sum + meeting.projects.length, 0);
-            updateStats(data.length, visibleProjects);
-        }
+      container.innerHTML = html;
 
-        function updateStats(meetings, projects) {
-            document.getElementById('visibleItems').textContent = meetings;
-            
-            // Animate the numbers
-            animateNumber('visibleItems', meetings);
-        }
+      const visibleProjects = data.reduce((sum, m) => sum + m.projects.length, 0);
+      updateStats(data.length, visibleProjects);
+    }
 
-        function animateNumber(elementId, target) {
-            const element = document.getElementById(elementId);
-            const current = parseInt(element.textContent);
-            const increment = target > current ? 1 : -1;
-            const steps = Math.abs(target - current);
-            
-            if (steps === 0) return;
-            
-            let step = 0;
-            const timer = setInterval(() => {
-                step++;
-                element.textContent = current + (increment * step);
-                if (step >= steps) {
-                    clearInterval(timer);
-                }
-            }, 30);
-        }
+    function updateStats(meetings, projects) {
+      document.getElementById('totalMeetings').textContent = meetingsData.length;
+      document.getElementById('totalProjects').textContent = meetingsData.reduce((s, m) => s + m.projects.length, 0);
+      document.getElementById('visibleItems').textContent = projects;
+    }
 
-        function filterMeetings(searchTerm) {
-            if (!searchTerm) {
-                filteredData = [...meetingsData];
-            } else {
-                const term = searchTerm.toLowerCase();
-                filteredData = [];
-                
-                // Filter meetings and their projects
-                meetingsData.forEach(meeting => {
-                    const meetingMatch = meeting.title.toLowerCase().includes(term);
-                    
-                    // Filter projects that match the search term
-                    const matchingProjects = meeting.projects.filter(project => 
-                        project.title.toLowerCase().includes(term) ||
-                        project.street.toLowerCase().includes(term)
-                    );
-                    
-                    // Include meeting if:
-                    // 1. The meeting title matches, show all projects
-                    // 2. Any projects match, show only matching projects
-                    if (meetingMatch) {
-                        filteredData.push({
-                            ...meeting,
-                            projects: meeting.projects, // Show all projects if meeting title matches
-                            isPartialMatch: false
-                        });
-                    } else if (matchingProjects.length > 0) {
-                        filteredData.push({
-                            ...meeting,
-                            projects: matchingProjects, // Show only matching projects
-                            isPartialMatch: true
-                        });
-                    }
-                });
-            }
-            
-            renderMeetings(filteredData, searchTerm);
-        }
+    function filterMeetings(searchTerm) {
+      if (!searchTerm) {
+        filteredData = [...meetingsData];
+      } else {
+        const term = searchTerm.toLowerCase();
+        filteredData = [];
+        meetingsData.forEach(meeting => {
+          const meetingMatch = meeting.title.toLowerCase().includes(term);
+          const matchingProjects = meeting.projects.filter(p =>
+            p.title.toLowerCase().includes(term) || p.street.toLowerCase().includes(term)
+          );
+          if (meetingMatch) {
+            filteredData.push({...meeting, projects: meeting.projects});
+          } else if (matchingProjects.length > 0) {
+            filteredData.push({...meeting, projects: matchingProjects});
+          }
+        });
+      }
+      renderMeetings(filteredData, searchTerm);
+    }
 
-        // Initialize
-        async function init() {
-            try {
-                // Show loading state
-                const container = document.getElementById('meetingsContainer');
-                container.innerHTML = `
-                    <div class="no-results">
-                        <p>⏳ Se încarcă datele...</p>
-                    </div>
-                `;
-                
-                // Fetch the meetings data from JSON file
-                const response = await fetch('meetings.json');
-                
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                
-                meetingsData = await response.json();
-                filteredData = [...meetingsData];
-                
-                // Calculate total stats
-                const totalMeetings = meetingsData.length;
-                const totalProjects = meetingsData.reduce((sum, meeting) => sum + meeting.projects.length, 0);
-                
-                // Set initial stats with animation
-                setTimeout(() => animateNumber('totalMeetings', totalMeetings), 300);
-                setTimeout(() => animateNumber('totalProjects', totalProjects), 500);
-                
-                // Render all meetings initially
-                renderMeetings(meetingsData);
-                
-                // Setup search functionality
-                const searchInput = document.getElementById('searchInput');
-                let searchTimeout;
-                
-                searchInput.addEventListener('input', (e) => {
-                    clearTimeout(searchTimeout);
-                    searchTimeout = setTimeout(() => {
-                        filterMeetings(e.target.value.trim());
-                    }, 300);
-                });
-                
-                // Add keyboard shortcut for search (Ctrl+K or Cmd+K)
-                document.addEventListener('keydown', (e) => {
-                    if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
-                        e.preventDefault();
-                        searchInput.focus();
-                        searchInput.select();
-                    }
-                });
-                
-            } catch (error) {
-                console.error('Error loading meetings data:', error);
-                const container = document.getElementById('meetingsContainer');
-                container.innerHTML = `
-                    <div class="no-results">
-                        <p>❌ Eroare la încărcarea datelor</p>
-                        <p style="margin-top: 10px; font-size: 0.9rem; color: #ef4444;">
-                            ${error.message}<br>
-                            Asigură-te că fișierul 'meetings.json' există în același director cu pagina HTML.
-                        </p>
-                    </div>
-                `;
-                
-                // Set stats to 0 on error
-                document.getElementById('totalMeetings').textContent = '0';
-                document.getElementById('totalProjects').textContent = '0';
-                document.getElementById('visibleItems').textContent = '0';
-            }
-        }
+    async function init() {
+      const response = await fetch('meetings.json');
+      meetingsData = await response.json();
+      filteredData = [...meetingsData];
 
-        // Start the app
-        document.addEventListener('DOMContentLoaded', init);
-    </script>
+      renderMeetings(meetingsData);
+
+      const searchInput = document.getElementById('searchInput');
+      searchInput.addEventListener('input', e => {
+        filterMeetings(e.target.value.trim());
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+</script>
 </body>
 </html>
