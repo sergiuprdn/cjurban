@@ -1,0 +1,39 @@
+name: Crawl
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Run the JAR
+        run: |
+          java -jar crawler.jar
+
+      - name: Commit and push generated artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # stage only specific generated files or directories
+          git add meetings.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Updated meetings.json"
+          git push origin HEAD:${{ github.ref }}
