@@ -34,7 +34,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           # Stage only crawler-generated static data files.
-          git add meetings.json certificates.json
+          git add meetings.json certificates.json construction-permits.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0

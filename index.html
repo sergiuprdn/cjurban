@@ -291,7 +291,7 @@
 <main class="container">
     <header>
         <h1>Urbanism Cluj-Napoca</h1>
-        <p class="subtitle">Ședințe ale comisiei și certificate de urbanism emise</p>
+        <p class="subtitle">Ședințe ale comisiei, certificate și autorizații de construire</p>
     </header>
 
     <div class="tabs" role="tablist" aria-label="Categorii urbanism">
@@ -302,6 +302,10 @@
         <button id="certificatesTab" class="tab-button" type="button" role="tab"
                 aria-selected="false" aria-controls="contentPanel" data-view="certificates" tabindex="-1">
             Certificate de urbanism
+        </button>
+        <button id="constructionPermitsTab" class="tab-button" type="button" role="tab"
+                aria-selected="false" aria-controls="contentPanel" data-view="constructionPermits" tabindex="-1">
+            Autorizații de construire
         </button>
     </div>
 
@@ -335,12 +339,14 @@
 <script>
     const datasets = {
       meetings: [],
-      certificates: []
+      certificates: [],
+      constructionPermits: []
     };
     const loadErrors = {};
     const searchTerms = {
       meetings: '',
-      certificates: ''
+      certificates: '',
+      constructionPermits: ''
     };
     let activeView = 'meetings';
 
@@ -357,6 +363,13 @@
         hash: '#certificate',
         placeholder: 'Caută după număr, dată, scop sau adresă...',
         primaryLabel: 'Certificate',
+        secondaryLabel: 'Ani'
+      },
+      constructionPermits: {
+        tabId: 'constructionPermitsTab',
+        hash: '#autorizatii-construire',
+        placeholder: 'Caută după număr, dată, lucrări sau adresă...',
+        primaryLabel: 'Autorizații',
         secondaryLabel: 'Ani'
       }
     };
@@ -494,6 +507,52 @@
       `).join('');
     }
 
+    function renderConstructionPermits(searchTerm) {
+      const term = searchable(searchTerm);
+      const permits = datasets.constructionPermits.filter(permit => {
+        if (!term) return true;
+        return [permit.title, permit.date, permit.works, permit.address]
+          .some(value => searchable(value).includes(term));
+      });
+
+      const coveredYears = new Set(datasets.constructionPermits.flatMap(permit => {
+        const match = `${permit.title ?? ''} ${permit.date ?? ''}`.match(/\b(?:19|20)\d{2}\b/g);
+        return match ? [match.at(-1)] : [];
+      }));
+      updateStats(datasets.constructionPermits.length, coveredYears.size, permits.length);
+
+      if (permits.length === 0) {
+        renderEmptyState();
+        return;
+      }
+
+      document.getElementById('resultsContainer').innerHTML = permits.map(permit => `
+        <article class="certificate-card permit-card">
+          <div class="card-header">
+            <h2 class="card-title">${highlightText(permit.title, searchTerm)}</h2>
+            <a href="${safeUrl(permit.url)}" target="_blank" rel="noopener noreferrer" class="card-link">
+              Detalii →
+            </a>
+          </div>
+          ${permit.date ? `
+            <div class="certificate-date">Emisă la ${highlightText(permit.date, searchTerm)}</div>
+          ` : ''}
+          ${permit.works ? `
+            <div class="certificate-field">
+              <div class="field-label">Lucrări</div>
+              <div>${highlightText(permit.works, searchTerm)}</div>
+            </div>
+          ` : ''}
+          ${permit.address ? `
+            <div class="certificate-field">
+              <div class="field-label">Adresă</div>
+              <div>📍 ${highlightText(permit.address, searchTerm)}</div>
+            </div>
+          ` : ''}
+        </article>
+      `).join('');
+    }
+
     function renderEmptyState() {
       const container = document.getElementById('resultsContainer');
       if (loadErrors[activeView]) {
@@ -513,8 +572,10 @@
       const term = searchTerms[activeView];
       if (activeView === 'meetings') {
         renderMeetings(term);
-      } else {
+      } else if (activeView === 'certificates') {
         renderCertificates(term);
+      } else {
+        renderConstructionPermits(term);
       }
     }
 
@@ -563,7 +624,10 @@
         tab.addEventListener('keydown', event => {
           if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
           event.preventDefault();
-          const nextView = activeView === 'meetings' ? 'certificates' : 'meetings';
+          const views = Object.keys(viewConfig);
+          const direction = event.key === 'ArrowRight' ? 1 : -1;
+          const nextIndex = (views.indexOf(activeView) + direction + views.length) % views.length;
+          const nextView = views[nextIndex];
           setActiveView(nextView);
           document.getElementById(viewConfig[nextView].tabId).focus();
         });
@@ -576,12 +640,13 @@
 
       await Promise.all([
         loadDataset('meetings', 'meetings.json'),
-        loadDataset('certificates', 'certificates.json')
+        loadDataset('certificates', 'certificates.json'),
+        loadDataset('constructionPermits', 'construction-permits.json')
       ]);
 
-      const initialView = window.location.hash === viewConfig.certificates.hash
-        ? 'certificates'
-        : 'meetings';
+      const initialView = Object.keys(viewConfig).find(view =>
+        window.location.hash === viewConfig[view].hash
+      ) ?? 'meetings';
       setActiveView(initialView, false);
     }
 
