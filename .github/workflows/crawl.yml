@@ -33,12 +33,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # stage only specific generated files or directories
-          git add meetings.json
+          # Stage only crawler-generated static data files.
+          git add meetings.json certificates.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "Updated meetings.json"
+          git commit -m "Update urbanism data"
           git push origin HEAD:${{ github.ref }}
