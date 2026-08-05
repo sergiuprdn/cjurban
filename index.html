@@ -1,257 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ro">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Urbanism Cluj-Napoca</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Caută rapid în ședințele CTATU, certificatele de urbanism și autorizațiile de construire publicate pentru Cluj-Napoca.">
+    <meta name="theme-color" content="#10293b">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ro_RO">
+    <meta property="og:title" content="Urbanism Cluj-Napoca">
+    <meta property="og:description" content="Ședințe, certificate și autorizații — date publice, ușor de căutat.">
+    <meta property="og:image" content="https://sergiuprdn.github.io/cjurban/og.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Urbanism Cluj-Napoca — Ședințe, certificate și autorizații</title>
     <style>
         *, *::before, *::after {
-          margin: 0;
-          padding: 0;
           box-sizing: border-box;
         }
 
         :root {
-          --background: #f9fafb;
+          color-scheme: light;
+          --navy-950: #0a1e2d;
+          --navy-900: #10293b;
+          --navy-800: #173a52;
+          --paper: #f4f2ea;
           --surface: #ffffff;
-          --surface-hover: #f3f4f6;
-          --text-primary: #111827;
-          --text-secondary: #6b7280;
-          --border-color: #e5e7eb;
-          --accent: #2563eb;
-          --accent-soft: #eff6ff;
+          --surface-subtle: #f7f8f5;
+          --ink: #142735;
+          --muted: #526977;
+          --muted-strong: #3b5667;
+          --line: #d5dee1;
+          --line-strong: #aebfc7;
+          --lime: #d9f25f;
+          --lime-dark: #aec728;
+          --blue: #2e6e96;
+          --blue-soft: #e8f1f5;
+          --mark: #eef77e;
+          --danger: #a2372c;
+          --danger-soft: #fff0ec;
+          --shadow: 0 22px 54px rgb(8 31 46 / 0.13);
+          --radius-lg: 24px;
+          --radius-md: 16px;
+          --radius-sm: 10px;
+          --content-width: 1160px;
+        }
+
+        html {
+          scroll-behavior: smooth;
+          scroll-padding-top: 16px;
         }
 
         body {
-          font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-          background: var(--background);
-          color: var(--text-primary);
-          line-height: 1.5;
+          margin: 0;
+          background: var(--paper);
+          color: var(--ink);
+          font-family: "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+          font-size: 16px;
+          line-height: 1.55;
+          text-rendering: optimizeLegibility;
         }
 
-        .container {
-          max-width: 900px;
-          margin: 0 auto;
-          padding: 24px;
-        }
-
-        header {
-          text-align: center;
-          margin-bottom: 28px;
-        }
-
-        h1 {
-          font-size: 2rem;
-          font-weight: 700;
-          margin-bottom: 8px;
-        }
-
-        .subtitle {
-          color: var(--text-secondary);
-          font-size: 1rem;
-        }
-
-        .tabs {
-          display: flex;
-          gap: 8px;
-          margin-bottom: 28px;
-          padding: 5px;
-          background: var(--surface-hover);
-          border: 1px solid var(--border-color);
-          border-radius: 10px;
-        }
-
-        .tab-button {
-          flex: 1;
-          min-height: 44px;
-          padding: 9px 14px;
-          border: 0;
-          border-radius: 7px;
-          background: transparent;
-          color: var(--text-secondary);
+        button,
+        input,
+        select {
           font: inherit;
-          font-weight: 600;
+        }
+
+        button,
+        select {
           cursor: pointer;
         }
 
-        .tab-button:hover {
-          color: var(--text-primary);
+        a {
+          color: inherit;
         }
 
-        .tab-button.active {
-          color: var(--accent);
-          background: var(--surface);
-          box-shadow: 0 1px 3px rgb(0 0 0 / 0.08);
+        ::selection {
+          background: var(--lime);
+          color: var(--navy-950);
         }
 
-        .tab-button:focus-visible,
-        .search-box:focus-visible,
-        a:focus-visible {
-          outline: 3px solid rgb(37 99 235 / 0.3);
-          outline-offset: 2px;
+        [hidden] {
+          display: none !important;
         }
 
-        .search-container {
-          margin-bottom: 32px;
-          position: relative;
-        }
-
-        .search-box {
-          width: 100%;
-          padding: 12px 42px 12px 14px;
-          font-size: 1rem;
-          border: 1px solid var(--border-color);
-          border-radius: 8px;
-          background: var(--surface);
-          color: var(--text-primary);
-        }
-
-        .search-icon {
-          position: absolute;
-          right: 12px;
-          top: 50%;
-          transform: translateY(-50%);
-          color: var(--text-secondary);
-          pointer-events: none;
-          font-size: 1.1rem;
-        }
-
-        .stats {
-          display: flex;
-          gap: 16px;
-          margin-bottom: 32px;
-          flex-wrap: wrap;
-        }
-
-        .stat-card {
-          flex: 1;
-          min-width: 160px;
-          padding: 20px;
-          background: var(--surface);
-          border-radius: 8px;
-          border: 1px solid var(--border-color);
-          text-align: center;
-        }
-
-        .stat-number {
-          font-size: 1.5rem;
-          font-weight: 600;
-          color: var(--accent);
-          margin-bottom: 4px;
-        }
-
-        .stat-label {
-          font-size: 0.85rem;
-          color: var(--text-secondary);
-          text-transform: uppercase;
-          letter-spacing: 0.05em;
-        }
-
-        .meeting-card,
-        .certificate-card {
-          background: var(--surface);
-          border: 1px solid var(--border-color);
-          border-radius: 10px;
-          padding: 20px;
-          margin-bottom: 20px;
-        }
-
-        .card-header {
-          display: flex;
-          justify-content: space-between;
-          align-items: baseline;
-          gap: 16px;
-          margin-bottom: 16px;
-        }
-
-        .card-title {
-          font-size: 1.1rem;
-          font-weight: 600;
-        }
-
-        .card-link,
-        .project-link {
-          color: var(--accent);
-          text-decoration: none;
-          white-space: nowrap;
-        }
-
-        .card-link {
-          font-size: 0.9rem;
-        }
-
-        .projects-label,
-        .field-label,
-        .certificate-date {
-          font-size: 0.85rem;
-          color: var(--text-secondary);
-        }
-
-        .projects-label {
-          margin-bottom: 8px;
-        }
-
-        .project-item,
-        .certificate-field {
-          background: var(--surface-hover);
-          border-radius: 6px;
-          padding: 12px;
-          margin-bottom: 10px;
-        }
-
-        .project-item:last-child,
-        .certificate-field:last-child {
-          margin-bottom: 0;
-        }
-
-        .project-title {
-          font-weight: 500;
-          margin-bottom: 4px;
-        }
-
-        .project-street {
-          font-size: 0.85rem;
-          color: var(--text-secondary);
-          margin-bottom: 6px;
-        }
-
-        .project-link {
-          font-size: 0.85rem;
-        }
-
-        .certificate-date {
-          margin: -8px 0 14px;
-        }
-
-        .field-label {
-          margin-bottom: 4px;
-          font-weight: 600;
-          text-transform: uppercase;
-          letter-spacing: 0.04em;
-        }
-
-        .no-results {
-          text-align: center;
-          padding: 40px 20px;
-          color: var(--text-secondary);
-          background: var(--surface);
-          border-radius: 8px;
-          border: 1px solid var(--border-color);
-        }
-
-        .error-message {
-          color: #991b1b;
-          background: #fef2f2;
-          border-color: #fecaca;
-        }
-
-        .highlight {
-          background: #fde68a;
-          padding: 2px 3px;
-          border-radius: 3px;
-        }
-
-        .screen-reader-text {
+        .sr-only {
           position: absolute;
           width: 1px;
           height: 1px;
@@ -263,115 +95,1337 @@
           border: 0;
         }
 
-        @media (max-width: 600px) {
-          .container {
-            padding: 18px;
+        .skip-link {
+          position: fixed;
+          top: 12px;
+          left: 12px;
+          z-index: 100;
+          padding: 10px 14px;
+          border-radius: 8px;
+          background: var(--lime);
+          color: var(--navy-950);
+          font-weight: 700;
+          transform: translateY(-160%);
+          transition: transform 160ms ease;
+        }
+
+        .skip-link:focus {
+          transform: translateY(0);
+        }
+
+        .masthead {
+          position: relative;
+          min-height: 510px;
+          overflow: hidden;
+          background:
+            radial-gradient(circle at 85% 18%, rgb(71 121 151 / 0.2), transparent 32%),
+            var(--navy-900);
+          color: #f8f6ee;
+        }
+
+        .masthead::before {
+          position: absolute;
+          inset: -20% -10% -35% 55%;
+          content: "";
+          opacity: 0.19;
+          background-image:
+            linear-gradient(rgb(202 222 232 / 0.5) 1px, transparent 1px),
+            linear-gradient(90deg, rgb(202 222 232 / 0.5) 1px, transparent 1px),
+            linear-gradient(rgb(202 222 232 / 0.28) 1px, transparent 1px),
+            linear-gradient(90deg, rgb(202 222 232 / 0.28) 1px, transparent 1px);
+          background-size: 84px 84px, 84px 84px, 21px 21px, 21px 21px;
+          transform: rotate(11deg);
+          transform-origin: center;
+          pointer-events: none;
+        }
+
+        .topbar,
+        .hero,
+        .page-shell,
+        .footer-inner {
+          width: min(calc(100% - 48px), var(--content-width));
+          margin-inline: auto;
+        }
+
+        .topbar {
+          position: relative;
+          z-index: 2;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          min-height: 84px;
+          border-bottom: 1px solid rgb(255 255 255 / 0.16);
+        }
+
+        .brand {
+          display: inline-flex;
+          align-items: center;
+          gap: 11px;
+          color: #fff;
+          font-size: 0.94rem;
+          font-weight: 800;
+          letter-spacing: 0.09em;
+          text-decoration: none;
+        }
+
+        .brand-mark {
+          display: grid;
+          width: 36px;
+          height: 36px;
+          place-items: center;
+          border-radius: 50%;
+          background: var(--lime);
+          color: var(--navy-950);
+          font-size: 0.79rem;
+          letter-spacing: -0.03em;
+        }
+
+        .topbar-link,
+        .source-link {
+          display: inline-flex;
+          min-height: 44px;
+          align-items: center;
+          justify-content: center;
+          gap: 6px;
+          font-weight: 680;
+          text-underline-offset: 4px;
+          text-decoration-thickness: 1px;
+        }
+
+        .topbar-link {
+          color: #e3ebee;
+          font-size: 0.9rem;
+        }
+
+        .hero {
+          position: relative;
+          z-index: 1;
+          display: grid;
+          grid-template-columns: minmax(0, 1.3fr) minmax(290px, 0.7fr);
+          gap: 64px;
+          align-items: end;
+          padding: 70px 0 112px;
+        }
+
+        .eyebrow {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin: 0 0 18px;
+          color: #c7d6dc;
+          font-size: 0.77rem;
+          font-weight: 750;
+          letter-spacing: 0.14em;
+          text-transform: uppercase;
+        }
+
+        .eyebrow::before {
+          width: 28px;
+          height: 3px;
+          background: var(--lime);
+          content: "";
+        }
+
+        .hero h1 {
+          max-width: 720px;
+          margin: 0;
+          font-size: clamp(2.7rem, 6vw, 5.6rem);
+          font-weight: 730;
+          letter-spacing: -0.055em;
+          line-height: 0.98;
+        }
+
+        .hero h1 em {
+          color: var(--lime);
+          font-family: Georgia, "Times New Roman", serif;
+          font-weight: 400;
+        }
+
+        .hero-copy {
+          max-width: 610px;
+          margin: 25px 0 0;
+          color: #cbd8dd;
+          font-size: clamp(1rem, 1.8vw, 1.15rem);
+        }
+
+        .hero-stats {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          border-top: 1px solid rgb(255 255 255 / 0.25);
+          border-bottom: 1px solid rgb(255 255 255 / 0.25);
+        }
+
+        .hero-stat {
+          min-width: 0;
+          padding: 22px 18px 22px 0;
+        }
+
+        .hero-stat + .hero-stat {
+          padding-left: 22px;
+          border-left: 1px solid rgb(255 255 255 / 0.25);
+        }
+
+        .hero-stat strong {
+          display: block;
+          color: var(--lime);
+          font-size: clamp(1.65rem, 3vw, 2.45rem);
+          font-variant-numeric: tabular-nums;
+          letter-spacing: -0.04em;
+          line-height: 1.05;
+        }
+
+        .hero-stat span {
+          display: block;
+          margin-top: 7px;
+          color: #c2d0d6;
+          font-size: 0.84rem;
+        }
+
+        .hero-freshness {
+          grid-column: 1 / -1;
+          margin: 14px 0 0;
+          color: #9eb2bc;
+          font-size: 0.81rem;
+        }
+
+        .page-shell {
+          position: relative;
+          z-index: 3;
+          margin-top: -54px;
+          padding-bottom: 84px;
+        }
+
+        .explorer {
+          overflow: hidden;
+          border: 1px solid rgb(174 191 199 / 0.8);
+          border-radius: var(--radius-lg);
+          background: var(--surface);
+          box-shadow: var(--shadow);
+        }
+
+        .category-bar {
+          display: grid;
+          grid-template-columns: 160px minmax(0, 1fr);
+          align-items: center;
+          gap: 26px;
+          padding: 22px 26px;
+          border-bottom: 1px solid var(--line);
+          background: var(--surface-subtle);
+        }
+
+        .category-label {
+          margin: 0;
+          color: var(--muted);
+          font-size: 0.75rem;
+          font-weight: 760;
+          letter-spacing: 0.11em;
+          text-transform: uppercase;
+        }
+
+        .tabs {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 8px;
+          padding: 5px;
+          border: 1px solid var(--line);
+          border-radius: 14px;
+          background: #eaf0f1;
+        }
+
+        .tab-button {
+          display: flex;
+          min-width: 0;
+          min-height: 48px;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          padding: 9px 13px;
+          border: 0;
+          border-radius: 10px;
+          background: transparent;
+          color: var(--muted-strong);
+          font-weight: 690;
+          line-height: 1.15;
+          transition: background-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+        }
+
+        .tab-button:hover {
+          color: var(--navy-900);
+          background: rgb(255 255 255 / 0.65);
+        }
+
+        .tab-button.active {
+          background: var(--navy-900);
+          color: #fff;
+          box-shadow: 0 3px 10px rgb(16 41 59 / 0.2);
+        }
+
+        .tab-count {
+          min-width: 28px;
+          padding: 2px 7px;
+          border-radius: 999px;
+          background: rgb(16 41 59 / 0.09);
+          color: inherit;
+          font-size: 0.72rem;
+          font-variant-numeric: tabular-nums;
+        }
+
+        .tab-button.active .tab-count {
+          background: var(--lime);
+          color: var(--navy-950);
+        }
+
+        .controls {
+          display: grid;
+          grid-template-columns: minmax(280px, 1fr) auto;
+          gap: 18px;
+          padding: 26px;
+        }
+
+        .field-label {
+          display: block;
+          margin-bottom: 8px;
+          color: var(--ink);
+          font-size: 0.84rem;
+          font-weight: 700;
+        }
+
+        .search-wrap {
+          position: relative;
+        }
+
+        .search-box {
+          width: 100%;
+          min-height: 52px;
+          padding: 12px 50px 12px 46px;
+          border: 1px solid var(--line-strong);
+          border-radius: 12px;
+          outline: 0;
+          background: #fff;
+          color: var(--ink);
+          transition: border-color 160ms ease, box-shadow 160ms ease;
+        }
+
+        .search-box::placeholder {
+          color: #6e818b;
+        }
+
+        .search-box:focus {
+          border-color: var(--blue);
+          box-shadow: 0 0 0 4px rgb(46 110 150 / 0.17);
+        }
+
+        .search-glyph {
+          position: absolute;
+          left: 18px;
+          bottom: 18px;
+          width: 14px;
+          height: 14px;
+          border: 2px solid var(--muted);
+          border-radius: 50%;
+          pointer-events: none;
+        }
+
+        .search-glyph::after {
+          position: absolute;
+          right: -6px;
+          bottom: -4px;
+          width: 7px;
+          height: 2px;
+          border-radius: 2px;
+          background: var(--muted);
+          content: "";
+          transform: rotate(45deg);
+          transform-origin: left center;
+        }
+
+        .clear-search {
+          position: absolute;
+          right: 7px;
+          bottom: 5px;
+          display: grid;
+          width: 42px;
+          height: 42px;
+          place-items: center;
+          border: 0;
+          border-radius: 9px;
+          background: transparent;
+          color: var(--muted);
+          font-size: 1.45rem;
+          line-height: 1;
+        }
+
+        .clear-search:hover {
+          background: var(--blue-soft);
+          color: var(--navy-900);
+        }
+
+        .filters {
+          display: flex;
+          gap: 12px;
+        }
+
+        .filter-field {
+          min-width: 158px;
+        }
+
+        .filter-select {
+          width: 100%;
+          min-height: 52px;
+          padding: 11px 38px 11px 13px;
+          border: 1px solid var(--line-strong);
+          border-radius: 12px;
+          outline: 0;
+          background: #fff;
+          color: var(--ink);
+        }
+
+        .filter-select:focus {
+          border-color: var(--blue);
+          box-shadow: 0 0 0 4px rgb(46 110 150 / 0.17);
+        }
+
+        .search-hint {
+          margin: 8px 0 0;
+          color: var(--muted);
+          font-size: 0.77rem;
+        }
+
+        .keycap {
+          display: inline-grid;
+          min-width: 20px;
+          height: 20px;
+          place-items: center;
+          padding-inline: 5px;
+          border: 1px solid var(--line-strong);
+          border-bottom-width: 2px;
+          border-radius: 5px;
+          background: var(--surface-subtle);
+          color: var(--muted-strong);
+          font-size: 0.7rem;
+          line-height: 1;
+        }
+
+        .results-section {
+          width: min(100%, 960px);
+          margin: 0 auto;
+          padding: 58px 0 0;
+        }
+
+        .results-header {
+          display: flex;
+          align-items: end;
+          justify-content: space-between;
+          gap: 24px;
+          margin-bottom: 22px;
+        }
+
+        .section-kicker {
+          margin: 0 0 6px;
+          color: var(--blue);
+          font-size: 0.76rem;
+          font-weight: 760;
+          letter-spacing: 0.12em;
+          text-transform: uppercase;
+        }
+
+        .results-header h2 {
+          margin: 0;
+          font-size: clamp(1.65rem, 3vw, 2.25rem);
+          letter-spacing: -0.035em;
+          line-height: 1.12;
+        }
+
+        .results-summary {
+          max-width: 46%;
+          margin: 0 0 3px;
+          color: var(--muted);
+          font-size: 0.9rem;
+          text-align: right;
+        }
+
+        .result-list {
+          display: grid;
+          gap: 14px;
+        }
+
+        .record-card {
+          overflow: hidden;
+          border: 1px solid var(--line);
+          border-radius: var(--radius-md);
+          background: var(--surface);
+          box-shadow: 0 6px 18px rgb(16 41 59 / 0.045);
+          transition: border-color 170ms ease, box-shadow 170ms ease;
+        }
+
+        .record-card:hover {
+          border-color: var(--line-strong);
+          box-shadow: 0 10px 24px rgb(16 41 59 / 0.07);
+        }
+
+        .record-main {
+          padding: 21px 22px;
+        }
+
+        .record-topline {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 18px;
+          margin-bottom: 12px;
+        }
+
+        .record-type {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          margin: 0;
+          color: var(--blue);
+          font-size: 0.71rem;
+          font-weight: 780;
+          letter-spacing: 0.11em;
+          text-transform: uppercase;
+        }
+
+        .record-type::before {
+          width: 8px;
+          height: 8px;
+          border-radius: 2px;
+          background: var(--lime-dark);
+          content: "";
+        }
+
+        .source-link {
+          flex: none;
+          color: var(--navy-800);
+          font-size: 0.84rem;
+          text-decoration: underline;
+          text-decoration-color: var(--line-strong);
+          transition: color 160ms ease, text-decoration-color 160ms ease;
+        }
+
+        .source-link:hover {
+          color: var(--blue);
+          text-decoration-color: currentColor;
+        }
+
+        .source-link .arrow {
+          display: inline-block;
+          transition: transform 160ms ease;
+        }
+
+        .source-link:hover .arrow {
+          transform: translate(2px, -2px);
+        }
+
+        .record-title {
+          max-width: 780px;
+          margin: 0;
+          overflow-wrap: anywhere;
+          color: var(--ink);
+          font-size: clamp(1.05rem, 2vw, 1.22rem);
+          font-weight: 710;
+          letter-spacing: -0.015em;
+          line-height: 1.35;
+        }
+
+        .record-date {
+          margin: 7px 0 0;
+          color: var(--muted);
+          font-size: 0.82rem;
+        }
+
+        .record-detail {
+          margin-top: 17px;
+          padding-top: 16px;
+          border-top: 1px solid var(--line);
+        }
+
+        .detail-label {
+          margin: 0 0 5px;
+          color: var(--muted);
+          font-size: 0.72rem;
+          font-weight: 750;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+        }
+
+        .detail-value {
+          margin: 0;
+          overflow-wrap: anywhere;
+          color: var(--ink);
+        }
+
+        .detail-value.is-clamped {
+          display: -webkit-box;
+          overflow: hidden;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 3;
+        }
+
+        .detail-value.is-expanded {
+          display: block;
+          overflow: visible;
+        }
+
+        .expand-button {
+          min-height: 40px;
+          margin: 5px 0 -8px -10px;
+          padding: 5px 10px;
+          border: 0;
+          border-radius: 8px;
+          background: transparent;
+          color: var(--blue);
+          font-size: 0.82rem;
+          font-weight: 700;
+        }
+
+        .expand-button:hover {
+          background: var(--blue-soft);
+        }
+
+        .address-line {
+          display: grid;
+          grid-template-columns: 22px 1fr;
+          gap: 7px;
+          margin-top: 16px;
+          color: var(--muted-strong);
+          font-size: 0.91rem;
+          overflow-wrap: anywhere;
+        }
+
+        .address-pin {
+          position: relative;
+          width: 13px;
+          height: 13px;
+          margin: 4px 0 0 2px;
+          border: 2px solid var(--blue);
+          border-radius: 50% 50% 50% 0;
+          transform: rotate(-45deg);
+        }
+
+        .address-pin::after {
+          position: absolute;
+          top: 3px;
+          left: 3px;
+          width: 3px;
+          height: 3px;
+          border-radius: 50%;
+          background: var(--blue);
+          content: "";
+        }
+
+        .project-disclosure {
+          border-top: 1px solid var(--line);
+        }
+
+        .project-disclosure summary {
+          display: flex;
+          min-height: 52px;
+          align-items: center;
+          gap: 10px;
+          padding: 12px 22px;
+          color: var(--navy-800);
+          font-size: 0.87rem;
+          font-weight: 710;
+          list-style: none;
+          user-select: none;
+        }
+
+        .project-disclosure summary::-webkit-details-marker {
+          display: none;
+        }
+
+        .project-disclosure summary::before {
+          width: 8px;
+          height: 8px;
+          border-right: 2px solid currentColor;
+          border-bottom: 2px solid currentColor;
+          content: "";
+          transform: rotate(-45deg);
+          transition: transform 160ms ease;
+        }
+
+        .project-disclosure[open] summary::before {
+          transform: rotate(45deg) translate(-2px, -2px);
+        }
+
+        .project-count {
+          display: inline-grid;
+          min-width: 27px;
+          height: 27px;
+          place-items: center;
+          padding: 0 7px;
+          border-radius: 999px;
+          background: var(--blue-soft);
+          color: var(--blue);
+          font-size: 0.73rem;
+          font-variant-numeric: tabular-nums;
+        }
+
+        .summary-action {
+          margin-left: auto;
+          color: var(--muted);
+          font-size: 0.78rem;
+          font-weight: 560;
+        }
+
+        .projects-list {
+          border-top: 1px solid var(--line);
+          background: var(--surface-subtle);
+        }
+
+        .project-row {
+          display: grid;
+          grid-template-columns: 34px minmax(0, 1fr) auto;
+          gap: 12px;
+          align-items: start;
+          padding: 15px 22px;
+        }
+
+        .project-row + .project-row {
+          border-top: 1px solid var(--line);
+        }
+
+        .project-index {
+          display: grid;
+          width: 30px;
+          height: 30px;
+          place-items: center;
+          border: 1px solid var(--line);
+          border-radius: 50%;
+          background: #fff;
+          color: var(--muted);
+          font-size: 0.7rem;
+          font-variant-numeric: tabular-nums;
+        }
+
+        .project-title {
+          margin: 1px 0 0;
+          color: var(--ink);
+          font-size: 0.92rem;
+          font-weight: 670;
+          line-height: 1.42;
+        }
+
+        .project-street {
+          margin: 4px 0 0;
+          overflow-wrap: anywhere;
+          color: var(--muted);
+          font-size: 0.8rem;
+        }
+
+        .project-link {
+          display: inline-flex;
+          min-width: 44px;
+          min-height: 44px;
+          align-items: center;
+          justify-content: center;
+          margin: -7px -10px -7px 0;
+          border-radius: 9px;
+          color: var(--blue);
+          font-size: 1.1rem;
+          font-weight: 700;
+          text-decoration: none;
+        }
+
+        .project-link:hover {
+          background: var(--blue-soft);
+        }
+
+        .project-link span:first-child {
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          padding: 0;
+          margin: -1px;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+          border: 0;
+        }
+
+        .meeting-card > .record-detail {
+          margin-top: 0;
+          padding: 16px 22px;
+        }
+
+        mark {
+          border-radius: 3px;
+          background: var(--mark);
+          color: inherit;
+          box-decoration-break: clone;
+          -webkit-box-decoration-break: clone;
+        }
+
+        .empty-state,
+        .error-state {
+          padding: 58px 28px;
+          border: 1px dashed var(--line-strong);
+          border-radius: var(--radius-md);
+          background: rgb(255 255 255 / 0.56);
+          text-align: center;
+        }
+
+        .empty-symbol {
+          display: grid;
+          width: 52px;
+          height: 52px;
+          margin: 0 auto 16px;
+          place-items: center;
+          border-radius: 50%;
+          background: var(--blue-soft);
+          color: var(--blue);
+          font-family: Georgia, serif;
+          font-size: 1.35rem;
+          font-style: italic;
+          font-weight: 700;
+        }
+
+        .empty-state h3,
+        .error-state h3 {
+          margin: 0;
+          font-size: 1.15rem;
+        }
+
+        .empty-state p,
+        .error-state p {
+          max-width: 540px;
+          margin: 8px auto 0;
+          color: var(--muted);
+        }
+
+        .error-state {
+          border-style: solid;
+          border-color: #e4b8b0;
+          background: var(--danger-soft);
+        }
+
+        .action-button,
+        .load-more {
+          display: inline-flex;
+          min-height: 46px;
+          align-items: center;
+          justify-content: center;
+          margin-top: 20px;
+          padding: 10px 17px;
+          border: 1px solid var(--navy-900);
+          border-radius: 10px;
+          background: var(--navy-900);
+          color: #fff;
+          font-weight: 710;
+        }
+
+        .action-button:hover,
+        .load-more:hover {
+          background: var(--navy-800);
+        }
+
+        .pagination {
+          text-align: center;
+        }
+
+        .load-more {
+          min-width: 220px;
+          margin-top: 26px;
+        }
+
+        .pagination-note {
+          margin: 10px 0 0;
+          color: var(--muted);
+          font-size: 0.79rem;
+        }
+
+        .skeleton-card {
+          height: 174px;
+          overflow: hidden;
+          border: 1px solid var(--line);
+          border-radius: var(--radius-md);
+          background: #fff;
+        }
+
+        .skeleton-line {
+          height: 12px;
+          margin: 22px;
+          border-radius: 999px;
+          background: linear-gradient(90deg, #e7ecec 20%, #f7f8f6 45%, #e7ecec 70%);
+          background-size: 240% 100%;
+          animation: skeleton 1.5s ease infinite;
+        }
+
+        .skeleton-line:nth-child(2) {
+          width: 70%;
+          height: 18px;
+          margin-top: 30px;
+        }
+
+        .skeleton-line:nth-child(3) {
+          width: 45%;
+        }
+
+        @keyframes skeleton {
+          to { background-position: -240% 0; }
+        }
+
+        .no-script {
+          margin-top: 28px;
+          padding: 18px;
+          border: 1px solid #dfb9a9;
+          border-radius: 12px;
+          background: #fff3ed;
+        }
+
+        footer {
+          border-top: 1px solid #cdd6d7;
+          background: #e9e8e1;
+        }
+
+        .footer-inner {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 48px;
+          padding-block: 34px 42px;
+          color: var(--muted-strong);
+          font-size: 0.84rem;
+        }
+
+        .footer-inner p {
+          max-width: 700px;
+          margin: 0;
+        }
+
+        .footer-source {
+          flex: none;
+          font-weight: 700;
+          text-underline-offset: 3px;
+        }
+
+        :focus-visible {
+          outline: 3px solid var(--blue);
+          outline-offset: 3px;
+        }
+
+        .masthead :focus-visible {
+          outline-color: var(--lime);
+        }
+
+        @media (max-width: 900px) {
+          .hero {
+            grid-template-columns: 1fr;
+            gap: 40px;
+            padding-top: 54px;
           }
 
-          h1 {
-            font-size: 1.65rem;
+          .hero-stats {
+            max-width: 520px;
           }
 
-          .tabs,
-          .card-header {
-            flex-direction: column;
+          .category-bar {
+            grid-template-columns: 1fr;
+            gap: 12px;
+          }
+
+          .controls {
+            grid-template-columns: 1fr;
+          }
+
+          .filters {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+
+          .filter-field {
+            min-width: 0;
+          }
+
+          .results-section {
+            padding-inline: 18px;
+          }
+        }
+
+        @media (max-width: 620px) {
+          .topbar,
+          .hero,
+          .page-shell,
+          .footer-inner {
+            width: min(calc(100% - 30px), var(--content-width));
+          }
+
+          .masthead {
+            min-height: 0;
+          }
+
+          .masthead::before {
+            inset: 24% -55% -20% 24%;
+          }
+
+          .topbar {
+            min-height: 70px;
+          }
+
+          .topbar-link span:first-child {
+            display: none;
+          }
+
+          .topbar-link {
+            min-width: 44px;
+          }
+
+          .hero {
+            gap: 0;
+            padding: 38px 0 78px;
+          }
+
+          .hero h1 {
+            font-size: clamp(2.35rem, 12vw, 3.55rem);
+          }
+
+          .hero-copy {
+            margin-top: 18px;
+            font-size: 0.97rem;
+          }
+
+          .hero-stats {
+            display: none;
+          }
+
+          .page-shell {
+            margin-top: -42px;
+            padding-bottom: 60px;
+          }
+
+          .explorer {
+            border-radius: 18px;
+          }
+
+          .category-bar,
+          .controls {
+            padding: 16px;
+          }
+
+          .category-label {
+            display: none;
+          }
+
+          .tabs {
+            gap: 4px;
+            padding: 4px;
           }
 
           .tab-button {
-            width: 100%;
+            flex-direction: column;
+            gap: 3px;
+            min-height: 58px;
+            padding: 7px 4px;
+            font-size: 0.74rem;
           }
 
-          .card-header {
+          .tab-count {
+            min-width: auto;
+            padding: 1px 6px;
+            font-size: 0.64rem;
+          }
+
+          .search-hint {
+            display: none;
+          }
+
+          .results-section {
+            padding-top: 42px;
+            padding-inline: 0;
+          }
+
+          .results-header {
+            display: block;
+          }
+
+          .results-summary {
+            max-width: none;
+            margin-top: 9px;
+            text-align: left;
+          }
+
+          .record-main {
+            padding: 18px 17px;
+          }
+
+          .record-topline {
             align-items: flex-start;
+            margin-bottom: 9px;
+          }
+
+          .source-link {
+            min-width: 44px;
+            min-height: 44px;
+            margin-top: -7px;
+            padding-inline: 10px;
+          }
+
+          .source-link span:first-child {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+          }
+
+          .project-disclosure summary {
+            padding-inline: 17px;
+          }
+
+          .project-row {
+            grid-template-columns: 28px minmax(0, 1fr) 36px;
+            gap: 9px;
+            padding: 14px 17px;
+          }
+
+          .project-index {
+            width: 26px;
+            height: 26px;
+          }
+
+          .footer-inner {
+            display: block;
+          }
+
+          .footer-source {
+            display: inline-block;
+            margin-top: 18px;
+          }
+        }
+
+        @media (max-width: 400px) {
+          .filters {
+            grid-template-columns: 1fr;
+          }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          html { scroll-behavior: auto; }
+          *, *::before, *::after {
+            scroll-behavior: auto !important;
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
           }
         }
     </style>
 </head>
-<body>
-<main class="container">
-    <header>
-        <h1>Urbanism Cluj-Napoca</h1>
-        <p class="subtitle">Ședințe ale comisiei, certificate și autorizații de construire</p>
-    </header>
+<body id="top">
+<a class="skip-link" href="#content" data-scroll-target="content">Sari la conținut</a>
 
-    <div class="tabs" role="tablist" aria-label="Categorii urbanism">
-        <button id="meetingsTab" class="tab-button active" type="button" role="tab"
-                aria-selected="true" aria-controls="contentPanel" data-view="meetings">
-            Ședințe comisie
-        </button>
-        <button id="certificatesTab" class="tab-button" type="button" role="tab"
-                aria-selected="false" aria-controls="contentPanel" data-view="certificates" tabindex="-1">
-            Certificate de urbanism
-        </button>
-        <button id="constructionPermitsTab" class="tab-button" type="button" role="tab"
-                aria-selected="false" aria-controls="contentPanel" data-view="constructionPermits" tabindex="-1">
-            Autorizații de construire
-        </button>
+<header class="masthead">
+    <nav class="topbar" aria-label="Navigare principală">
+        <a class="brand" href="#top" data-scroll-target="top" aria-label="CJ Urban — începutul paginii">
+            <span class="brand-mark" aria-hidden="true">CJ</span>
+            <span>CJ·URBAN</span>
+        </a>
+        <a class="topbar-link" href="https://primariaclujnapoca.ro/urbanism/" target="_blank" rel="noopener noreferrer"
+           aria-label="Deschide sursa oficială (se deschide într-o filă nouă)">
+            <span>Sursa oficială</span> <span aria-hidden="true">↗</span>
+        </a>
+    </nav>
+
+    <div class="hero">
+        <div>
+            <p class="eyebrow">Date publice despre oraș</p>
+            <h1>Găsește ce se construiește în <em>Cluj.</em></h1>
+            <p class="hero-copy">Caută într-un singur loc ședințe CTATU, certificate de urbanism și autorizații de construire, cu acces direct la fiecare document-sursă.</p>
+        </div>
+        <div class="hero-stats" aria-label="Acoperirea datelor">
+            <div class="hero-stat">
+                <strong id="heroDocuments">—</strong>
+                <span>documente și proiecte</span>
+            </div>
+            <div class="hero-stat">
+                <strong id="heroYears">—</strong>
+                <span>ani acoperiți</span>
+            </div>
+            <p class="hero-freshness" id="heroFreshness">Se verifică cele mai recente date…</p>
+        </div>
     </div>
+</header>
 
-    <section id="contentPanel" role="tabpanel" aria-labelledby="meetingsTab">
-        <div class="search-container">
-            <label class="screen-reader-text" for="searchInput">Caută</label>
-            <input type="search" id="searchInput" class="search-box"
-                   placeholder="Caută proiecte sau ședințe..." autocomplete="off">
-            <span class="search-icon" aria-hidden="true">🔍</span>
+<main class="page-shell" id="content" tabindex="-1">
+    <section class="explorer" aria-label="Căutare în datele de urbanism">
+        <div class="category-bar">
+            <p class="category-label">Alege registrul</p>
+            <div class="tabs" role="tablist" aria-label="Registre de urbanism">
+                <button id="meetingsTab" class="tab-button active" type="button" role="tab"
+                        aria-label="Ședințe CTATU" aria-selected="true"
+                        aria-controls="contentPanel" data-view="meetings">
+                    <span>Ședințe</span>
+                    <span class="tab-count" id="meetingsCount" aria-label="se încarcă">—</span>
+                </button>
+                <button id="certificatesTab" class="tab-button" type="button" role="tab"
+                        aria-label="Certificate de urbanism" aria-selected="false"
+                        aria-controls="contentPanel" data-view="certificates" tabindex="-1">
+                    <span>Certificate</span>
+                    <span class="tab-count" id="certificatesCount" aria-label="se încarcă">—</span>
+                </button>
+                <button id="constructionPermitsTab" class="tab-button" type="button" role="tab"
+                        aria-label="Autorizații de construire" aria-selected="false"
+                        aria-controls="contentPanel" data-view="constructionPermits" tabindex="-1">
+                    <span>Autorizații</span>
+                    <span class="tab-count" id="constructionPermitsCount" aria-label="se încarcă">—</span>
+                </button>
+            </div>
         </div>
 
-        <div class="stats" aria-live="polite">
-            <div class="stat-card">
-                <div class="stat-number" id="primaryTotal">0</div>
-                <div class="stat-label" id="primaryLabel">Ședințe</div>
+        <div class="controls">
+            <div class="search-field">
+                <label class="field-label" id="searchLabel" for="searchInput">Caută în ședințe și proiecte</label>
+                <div class="search-wrap">
+                    <span class="search-glyph" aria-hidden="true"></span>
+                    <input type="search" id="searchInput" class="search-box"
+                           placeholder="Adresă, proiect sau dată…" autocomplete="off"
+                           aria-describedby="searchHint">
+                    <button class="clear-search" id="clearSearch" type="button" aria-label="Șterge căutarea" hidden>×</button>
+                </div>
+                <p class="search-hint" id="searchHint">Căutarea ignoră diacriticele · apasă <span class="keycap">/</span> pentru acces rapid</p>
             </div>
-            <div class="stat-card">
-                <div class="stat-number" id="secondaryTotal">0</div>
-                <div class="stat-label" id="secondaryLabel">Proiecte</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="visibleItems">0</div>
-                <div class="stat-label">Rezultate</div>
+
+            <div class="filters">
+                <div class="filter-field">
+                    <label class="field-label" id="periodLabel" for="periodSelect">An</label>
+                    <select class="filter-select" id="periodSelect" aria-labelledby="periodLabel">
+                        <option value="all">Toți anii</option>
+                    </select>
+                </div>
+                <div class="filter-field">
+                    <label class="field-label" for="sortSelect">Ordonează</label>
+                    <select class="filter-select" id="sortSelect">
+                        <option value="desc">Cele mai noi</option>
+                        <option value="asc">Cele mai vechi</option>
+                    </select>
+                </div>
             </div>
         </div>
-
-        <div id="resultsContainer"></div>
     </section>
+
+    <section class="results-section" id="contentPanel" role="tabpanel" aria-labelledby="meetingsTab" aria-busy="true">
+        <div class="results-header">
+            <div>
+                <p class="section-kicker" id="viewKicker">Comisia de urbanism</p>
+                <h2 id="viewTitle">Ședințe CTATU</h2>
+            </div>
+            <p class="results-summary" id="resultsSummary" role="status" aria-live="polite">Se încarcă datele…</p>
+        </div>
+
+        <div class="result-list" id="resultsContainer">
+            <div class="skeleton-card" aria-hidden="true">
+                <div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div>
+            </div>
+            <div class="skeleton-card" aria-hidden="true">
+                <div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div>
+            </div>
+            <div class="skeleton-card" aria-hidden="true">
+                <div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div>
+            </div>
+        </div>
+        <div class="pagination" id="paginationArea"></div>
+        <p class="sr-only" id="loadMoreStatus" role="status" aria-live="polite"></p>
+    </section>
+
+    <noscript>
+        <p class="no-script">Această pagină are nevoie de JavaScript pentru a căuta în fișierele publice. Poți consulta datele direct pe site-ul Primăriei Cluj-Napoca.</p>
+    </noscript>
 </main>
+
+<footer>
+    <div class="footer-inner">
+        <p>Acesta este un index independent al informațiilor publice. Conținutul documentelor aparține instituției emitente; verifică întotdeauna pagina-sursă pentru forma oficială și eventuale actualizări.</p>
+        <a class="footer-source" href="https://primariaclujnapoca.ro/urbanism/" target="_blank" rel="noopener noreferrer">Primăria Cluj-Napoca ↗</a>
+    </div>
+</footer>
 
 <script>
     const datasets = {
-      meetings: [],
-      certificates: [],
-      constructionPermits: []
+      meetings: null,
+      certificates: null,
+      constructionPermits: null
     };
+
+    const dataFiles = {
+      meetings: 'meetings.json',
+      certificates: 'certificates.json',
+      constructionPermits: 'construction-permits.json'
+    };
+
     const loadErrors = {};
+    const loadPromises = {};
     const searchTerms = {
       meetings: '',
       certificates: '',
       constructionPermits: ''
     };
+    const filters = {
+      meetings: {period: 'all', sort: 'desc'},
+      certificates: {period: 'all', sort: 'desc'},
+      constructionPermits: {period: 'all', sort: 'desc'}
+    };
+    const visibleLimits = {
+      meetings: 8,
+      certificates: 18,
+      constructionPermits: 18
+    };
+
     let activeView = 'meetings';
 
     const viewConfig = {
       meetings: {
         tabId: 'meetingsTab',
+        countId: 'meetingsCount',
         hash: '#sedinte',
-        placeholder: 'Caută proiecte sau ședințe...',
-        primaryLabel: 'Ședințe',
-        secondaryLabel: 'Proiecte'
+        kicker: 'Comisia de urbanism',
+        title: 'Ședințe CTATU',
+        searchLabel: 'Caută în ședințe și proiecte',
+        placeholder: 'Adresă, proiect sau dată…',
+        periodLabel: 'An',
+        allPeriodsLabel: 'Toți anii',
+        batchSize: 8
       },
       certificates: {
         tabId: 'certificatesTab',
+        countId: 'certificatesCount',
         hash: '#certificate',
-        placeholder: 'Caută după număr, dată, scop sau adresă...',
-        primaryLabel: 'Certificate',
-        secondaryLabel: 'Ani'
+        kicker: 'Documentație și informare',
+        title: 'Certificate de urbanism',
+        searchLabel: 'Caută în certificate',
+        placeholder: 'Număr, adresă sau scop…',
+        periodLabel: 'Lună',
+        allPeriodsLabel: 'Toate lunile',
+        batchSize: 18
       },
       constructionPermits: {
         tabId: 'constructionPermitsTab',
+        countId: 'constructionPermitsCount',
         hash: '#autorizatii-construire',
-        placeholder: 'Caută după număr, dată, lucrări sau adresă...',
-        primaryLabel: 'Autorizații',
-        secondaryLabel: 'Ani'
+        kicker: 'Lucrări autorizate',
+        title: 'Autorizații de construire',
+        searchLabel: 'Caută în autorizații',
+        placeholder: 'Număr, adresă sau lucrări…',
+        periodLabel: 'Lună',
+        allPeriodsLabel: 'Toate lunile',
+        batchSize: 18
       }
+    };
+
+    const romanianMonths = {
+      ianuarie: 0,
+      februarie: 1,
+      martie: 2,
+      aprilie: 3,
+      mai: 4,
+      iunie: 5,
+      iulie: 6,
+      august: 7,
+      septembrie: 8,
+      octombrie: 9,
+      noiembrie: 10,
+      decembrie: 11
     };
 
     function escapeHtml(value) {
@@ -380,210 +1434,452 @@
       return div.innerHTML;
     }
 
+    function escapeAttribute(value) {
+      return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;');
+    }
+
+    function foldText(value) {
+      return String(value ?? '')
+        .toLocaleLowerCase('ro-RO')
+        .normalize('NFD')
+        .replace(/\p{M}/gu, '');
+    }
+
+    function searchable(value) {
+      return foldText(value).replace(/\s+/g, ' ').trim();
+    }
+
     function highlightText(value, searchTerm) {
       const text = String(value ?? '');
-      if (!searchTerm) return escapeHtml(text);
+      const needle = foldText(searchTerm).trim();
+      if (!needle) return escapeHtml(text);
 
-      const escapedTerm = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      const regex = new RegExp(`(${escapedTerm})`, 'gi');
-      return text.split(regex).map((part, index) =>
-        index % 2 === 1
-          ? `<span class="highlight">${escapeHtml(part)}</span>`
-          : escapeHtml(part)
-      ).join('');
+      let originalOffset = 0;
+      let folded = '';
+      const sourceMap = [];
+
+      for (const character of text) {
+        const normalizedCharacter = foldText(character);
+        for (const normalizedUnit of normalizedCharacter) {
+          folded += normalizedUnit;
+          sourceMap.push({start: originalOffset, end: originalOffset + character.length});
+        }
+        originalOffset += character.length;
+      }
+
+      const ranges = [];
+      let searchFrom = 0;
+      while (searchFrom < folded.length) {
+        const foundAt = folded.indexOf(needle, searchFrom);
+        if (foundAt < 0) break;
+        const first = sourceMap[foundAt];
+        const last = sourceMap[foundAt + needle.length - 1];
+        if (first && last) ranges.push({start: first.start, end: last.end});
+        searchFrom = foundAt + needle.length;
+      }
+
+      if (ranges.length === 0) return escapeHtml(text);
+
+      let html = '';
+      let cursor = 0;
+      ranges.forEach(range => {
+        html += escapeHtml(text.slice(cursor, range.start));
+        html += `<mark>${escapeHtml(text.slice(range.start, range.end))}</mark>`;
+        cursor = range.end;
+      });
+      return html + escapeHtml(text.slice(cursor));
     }
 
     function safeUrl(value) {
       try {
         const url = new URL(value, window.location.href);
-        if (url.protocol === 'http:' || url.protocol === 'https:') {
-          return escapeHtml(url.href);
-        }
+        return ['http:', 'https:'].includes(url.protocol) ? url.href : '';
       } catch (error) {
-        // Invalid crawler data is rendered as a disabled link.
+        return '';
       }
-      return '#';
     }
 
-    function searchable(value) {
-      return String(value ?? '').toLocaleLowerCase('ro-RO');
+    function sourceLink(url, label, className = 'source-link') {
+      const href = safeUrl(url);
+      if (!href) return '<span class="source-link">Sursă indisponibilă</span>';
+      return `
+        <a href="${escapeAttribute(href)}" target="_blank" rel="noopener noreferrer" class="${escapeAttribute(className)}"
+           aria-label="${escapeAttribute(label)} (se deschide într-o filă nouă)">
+          <span>Deschide sursa</span> <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      `;
     }
 
-    function renderMeetings(searchTerm) {
-      const term = searchable(searchTerm);
-      const meetings = datasets.meetings.flatMap(meeting => {
-        const projects = Array.isArray(meeting.projects) ? meeting.projects : [];
-        if (!term || searchable(meeting.title).includes(term)) {
-          return [{...meeting, projects}];
-        }
+    function parseRomanianDate(value) {
+      const match = searchable(value).match(/\b(\d{1,2})\s+(ianuarie|februarie|martie|aprilie|mai|iunie|iulie|august|septembrie|octombrie|noiembrie|decembrie)\s+(\d{4})\b/);
+      if (!match) return null;
+      const day = Number(match[1]);
+      const month = romanianMonths[match[2]];
+      const year = Number(match[3]);
+      const date = new Date(Date.UTC(year, month, day));
+      const isValid = !Number.isNaN(date.getTime())
+        && date.getUTCDate() === day
+        && date.getUTCMonth() === month
+        && date.getUTCFullYear() === year;
+      return isValid ? date : null;
+    }
 
-        const matchingProjects = projects.filter(project =>
-          searchable(project.title).includes(term)
-          || searchable(project.street).includes(term)
-        );
-        return matchingProjects.length > 0 ? [{...meeting, projects: matchingProjects}] : [];
-      });
+    function itemDate(item) {
+      return parseRomanianDate(item.date || item.title);
+    }
 
-      const visibleProjects = meetings.reduce((sum, meeting) => sum + meeting.projects.length, 0);
-      updateStats(
-        datasets.meetings.length,
-        datasets.meetings.reduce((sum, meeting) =>
-          sum + (Array.isArray(meeting.projects) ? meeting.projects.length : 0), 0),
-        visibleProjects
+    function itemPeriod(item, view) {
+      const date = itemDate(item);
+      if (!date) return '';
+      if (view === 'meetings') return String(date.getUTCFullYear());
+      return `${date.getUTCFullYear()}-${String(date.getUTCMonth() + 1).padStart(2, '0')}`;
+    }
+
+    function periodLabel(value, view) {
+      if (view === 'meetings') return value;
+      const [year, month] = value.split('-').map(Number);
+      const label = new Intl.DateTimeFormat('ro-RO', {
+        month: 'long',
+        year: 'numeric',
+        timeZone: 'UTC'
+      }).format(new Date(Date.UTC(year, month - 1, 1)));
+      return label.charAt(0).toLocaleUpperCase('ro-RO') + label.slice(1);
+    }
+
+    function sortByDate(items, direction) {
+      const multiplier = direction === 'asc' ? 1 : -1;
+      return items
+        .map((item, sourceIndex) => ({item, sourceIndex, date: itemDate(item)?.getTime() ?? 0}))
+        .sort((a, b) => ((a.date - b.date) * multiplier) || (a.sourceIndex - b.sourceIndex))
+        .map(entry => entry.item);
+    }
+
+    function renderLongText(value, searchTerm, id, forceExpanded = false) {
+      const text = String(value ?? '');
+      const isLong = text.length > 190;
+      return `
+        <p class="detail-value${isLong ? (forceExpanded ? ' is-expanded' : ' is-clamped') : ''}" id="${escapeAttribute(id)}">${highlightText(text, searchTerm)}</p>
+        ${isLong ? `
+          <button class="expand-button" type="button" data-expand="${escapeAttribute(id)}" aria-expanded="${forceExpanded}">
+            ${forceExpanded ? 'Restrânge' : 'Citește tot'}
+          </button>
+        ` : ''}
+      `;
+    }
+
+    function renderMeeting(meeting, searchTerm, index) {
+      const projects = Array.isArray(meeting.projects) ? meeting.projects : [];
+      const normalizedTerm = searchable(searchTerm);
+      const meetingTitleMatches = normalizedTerm && searchable(meeting.title).includes(normalizedTerm);
+      const shouldOpen = index === 0 || (normalizedTerm && !meetingTitleMatches);
+      const projectsLabel = searchable(searchTerm) ? 'Proiecte găsite' : 'Proiecte listate';
+
+      return `
+        <article class="record-card meeting-card" data-result-index="${index}" tabindex="-1">
+          <div class="record-main">
+            <div class="record-topline">
+              <p class="record-type">Ședință CTATU</p>
+              ${sourceLink(meeting.url, `Deschide sursa pentru ${meeting.title}`)}
+            </div>
+            <h3 class="record-title">${highlightText(meeting.title, searchTerm)}</h3>
+          </div>
+          ${projects.length > 0 ? `
+            <details class="project-disclosure"${shouldOpen ? ' open' : ''}>
+              <summary>
+                <span>${projectsLabel}</span>
+                <span class="project-count">${projects.length.toLocaleString('ro-RO')}</span>
+                <span class="summary-action">extinde / restrânge</span>
+              </summary>
+              <div class="projects-list">
+                ${projects.map((project, projectIndex) => `
+                  <div class="project-row">
+                    <span class="project-index" aria-hidden="true">${projectIndex + 1}</span>
+                    <div>
+                      <p class="project-title">${highlightText(project.title, searchTerm)}</p>
+                      <p class="project-street">${project.street ? highlightText(project.street, searchTerm) : 'Adresă nepublicată'}</p>
+                    </div>
+                    ${sourceLink(project.url, `Deschide proiectul ${project.title}`, 'project-link')}
+                  </div>
+                `).join('')}
+              </div>
+            </details>
+          ` : `
+            <div class="record-detail">
+              <p class="detail-value">Nu sunt proiecte listate pentru această ședință.</p>
+            </div>
+          `}
+        </article>
+      `;
+    }
+
+    function renderDocument(item, searchTerm, index, view) {
+      const isCertificate = view === 'certificates';
+      const detail = isCertificate ? item.purpose : item.works;
+      const type = isCertificate ? 'Certificat de urbanism' : 'Autorizație de construire';
+      const detailLabel = isCertificate ? 'Scop' : 'Lucrări';
+      const detailId = `${view}-detail-${index}`;
+      const detailContainsMatch = Boolean(searchable(searchTerm))
+        && searchable(detail).includes(searchable(searchTerm));
+
+      return `
+        <article class="record-card" data-result-index="${index}" tabindex="-1">
+          <div class="record-main">
+            <div class="record-topline">
+              <p class="record-type">${type}</p>
+              ${sourceLink(item.url, `Deschide sursa pentru ${item.title}`)}
+            </div>
+            <h3 class="record-title">${highlightText(item.title, searchTerm)}</h3>
+            ${item.date ? `<p class="record-date">Emis${isCertificate ? '' : 'ă'} la ${highlightText(item.date, searchTerm)}</p>` : ''}
+            ${detail ? `
+              <div class="record-detail">
+                <p class="detail-label">${detailLabel}</p>
+                ${renderLongText(detail, searchTerm, detailId, detailContainsMatch)}
+              </div>
+            ` : ''}
+            <div class="address-line">
+              <span class="address-pin" aria-hidden="true"></span>
+              <span>${item.address ? highlightText(item.address, searchTerm) : 'Adresă nepublicată'}</span>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function matchingResults(view) {
+      const source = datasets[view] || [];
+      const term = searchable(searchTerms[view]);
+      const {period, sort} = filters[view];
+      const inPeriod = source.filter(item => period === 'all' || itemPeriod(item, view) === period);
+
+      if (view === 'meetings') {
+        const meetings = inPeriod.flatMap(meeting => {
+          const allProjects = Array.isArray(meeting.projects) ? meeting.projects : [];
+          if (!term || searchable(meeting.title).includes(term)) {
+            return [{...meeting, projects: allProjects}];
+          }
+          const projects = allProjects.filter(project =>
+            searchable(project.title).includes(term) || searchable(project.street).includes(term)
+          );
+          return projects.length ? [{...meeting, projects}] : [];
+        });
+        return sortByDate(meetings, sort);
+      }
+
+      const textFields = view === 'certificates'
+        ? ['title', 'date', 'purpose', 'address']
+        : ['title', 'date', 'works', 'address'];
+      const documents = inPeriod.filter(item =>
+        !term || textFields.some(field => searchable(item[field]).includes(term))
       );
-
-      if (meetings.length === 0) {
-        renderEmptyState();
-        return;
-      }
-
-      document.getElementById('resultsContainer').innerHTML = meetings.map(meeting => `
-        <article class="meeting-card">
-          <div class="card-header">
-            <h2 class="card-title">${highlightText(meeting.title, searchTerm)}</h2>
-            <a href="${safeUrl(meeting.url)}" target="_blank" rel="noopener noreferrer" class="card-link">
-              Detalii →
-            </a>
-          </div>
-          <div class="projects-label">Proiecte (${meeting.projects.length})</div>
-          ${meeting.projects.map(project => `
-            <div class="project-item">
-              <div class="project-title">${highlightText(project.title, searchTerm)}</div>
-              ${project.street ? `
-                <div class="project-street">📍 ${highlightText(project.street, searchTerm)}</div>
-              ` : ''}
-              <a href="${safeUrl(project.url)}" target="_blank" rel="noopener noreferrer" class="project-link">
-                Vezi proiectul →
-              </a>
-            </div>
-          `).join('')}
-        </article>
-      `).join('');
+      return sortByDate(documents, sort);
     }
 
-    function renderCertificates(searchTerm) {
-      const term = searchable(searchTerm);
-      const certificates = datasets.certificates.filter(certificate => {
-        if (!term) return true;
-        return [certificate.title, certificate.date, certificate.purpose, certificate.address]
-          .some(value => searchable(value).includes(term));
-      });
-
-      const coveredYears = new Set(datasets.certificates.flatMap(certificate => {
-        const match = `${certificate.title ?? ''} ${certificate.date ?? ''}`.match(/\b(?:19|20)\d{2}\b/g);
-        return match ? [match.at(-1)] : [];
-      }));
-      updateStats(datasets.certificates.length, coveredYears.size, certificates.length);
-
-      if (certificates.length === 0) {
-        renderEmptyState();
-        return;
+    function resultSummary(view, results) {
+      if (view === 'meetings') {
+        const projects = results.reduce((total, meeting) => total + meeting.projects.length, 0);
+        const meetingLabel = results.length === 1 ? 'ședință' : 'ședințe';
+        const projectLabel = projects === 1 ? 'proiect' : 'proiecte';
+        return `${results.length.toLocaleString('ro-RO')} ${meetingLabel} · ${projects.toLocaleString('ro-RO')} ${projectLabel}`;
       }
-
-      document.getElementById('resultsContainer').innerHTML = certificates.map(certificate => `
-        <article class="certificate-card">
-          <div class="card-header">
-            <h2 class="card-title">${highlightText(certificate.title, searchTerm)}</h2>
-            <a href="${safeUrl(certificate.url)}" target="_blank" rel="noopener noreferrer" class="card-link">
-              Detalii →
-            </a>
-          </div>
-          ${certificate.date ? `
-            <div class="certificate-date">Emis la ${highlightText(certificate.date, searchTerm)}</div>
-          ` : ''}
-          ${certificate.purpose ? `
-            <div class="certificate-field">
-              <div class="field-label">Scop</div>
-              <div>${highlightText(certificate.purpose, searchTerm)}</div>
-            </div>
-          ` : ''}
-          ${certificate.address ? `
-            <div class="certificate-field">
-              <div class="field-label">Adresă</div>
-              <div>📍 ${highlightText(certificate.address, searchTerm)}</div>
-            </div>
-          ` : ''}
-        </article>
-      `).join('');
-    }
-
-    function renderConstructionPermits(searchTerm) {
-      const term = searchable(searchTerm);
-      const permits = datasets.constructionPermits.filter(permit => {
-        if (!term) return true;
-        return [permit.title, permit.date, permit.works, permit.address]
-          .some(value => searchable(value).includes(term));
-      });
-
-      const coveredYears = new Set(datasets.constructionPermits.flatMap(permit => {
-        const match = `${permit.title ?? ''} ${permit.date ?? ''}`.match(/\b(?:19|20)\d{2}\b/g);
-        return match ? [match.at(-1)] : [];
-      }));
-      updateStats(datasets.constructionPermits.length, coveredYears.size, permits.length);
-
-      if (permits.length === 0) {
-        renderEmptyState();
-        return;
-      }
-
-      document.getElementById('resultsContainer').innerHTML = permits.map(permit => `
-        <article class="certificate-card permit-card">
-          <div class="card-header">
-            <h2 class="card-title">${highlightText(permit.title, searchTerm)}</h2>
-            <a href="${safeUrl(permit.url)}" target="_blank" rel="noopener noreferrer" class="card-link">
-              Detalii →
-            </a>
-          </div>
-          ${permit.date ? `
-            <div class="certificate-date">Emisă la ${highlightText(permit.date, searchTerm)}</div>
-          ` : ''}
-          ${permit.works ? `
-            <div class="certificate-field">
-              <div class="field-label">Lucrări</div>
-              <div>${highlightText(permit.works, searchTerm)}</div>
-            </div>
-          ` : ''}
-          ${permit.address ? `
-            <div class="certificate-field">
-              <div class="field-label">Adresă</div>
-              <div>📍 ${highlightText(permit.address, searchTerm)}</div>
-            </div>
-          ` : ''}
-        </article>
-      `).join('');
+      const singular = view === 'certificates' ? 'certificat' : 'autorizație';
+      const plural = view === 'certificates' ? 'certificate' : 'autorizații';
+      return `${results.length.toLocaleString('ro-RO')} ${results.length === 1 ? singular : plural}`;
     }
 
     function renderEmptyState() {
-      const container = document.getElementById('resultsContainer');
-      if (loadErrors[activeView]) {
-        container.innerHTML = `<div class="no-results error-message">${escapeHtml(loadErrors[activeView])}</div>`;
-        return;
-      }
-      container.innerHTML = '<div class="no-results">🔍 Nu s-au găsit rezultate</div>';
+      const term = searchTerms[activeView].trim();
+      const hasFilter = filters[activeView].period !== 'all';
+      const description = term
+        ? `Nu am găsit nimic pentru „${escapeHtml(term)}”. Încearcă o stradă, un număr sau mai puține cuvinte.`
+        : 'Nu există înregistrări pentru perioada selectată.';
+      document.getElementById('resultsContainer').innerHTML = `
+        <div class="empty-state">
+          <span class="empty-symbol" aria-hidden="true">i</span>
+          <h3>Niciun rezultat</h3>
+          <p>${description}</p>
+          ${(term || hasFilter) ? '<button class="action-button" type="button" data-reset-results>Resetează căutarea</button>' : ''}
+        </div>
+      `;
     }
 
-    function updateStats(primary, secondary, visible) {
-      document.getElementById('primaryTotal').textContent = primary.toLocaleString('ro-RO');
-      document.getElementById('secondaryTotal').textContent = secondary.toLocaleString('ro-RO');
-      document.getElementById('visibleItems').textContent = visible.toLocaleString('ro-RO');
+    function renderLoading() {
+      const panel = document.getElementById('contentPanel');
+      panel.setAttribute('aria-busy', 'true');
+      document.getElementById('resultsSummary').textContent = 'Se încarcă datele…';
+      document.getElementById('paginationArea').innerHTML = '';
+      document.getElementById('resultsContainer').innerHTML = Array.from({length: 3}, () => `
+        <div class="skeleton-card" aria-hidden="true">
+          <div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div>
+        </div>
+      `).join('');
+    }
+
+    function renderError() {
+      document.getElementById('contentPanel').setAttribute('aria-busy', 'false');
+      document.getElementById('resultsSummary').textContent = 'Date indisponibile';
+      document.getElementById('paginationArea').innerHTML = '';
+      document.getElementById('resultsContainer').innerHTML = `
+        <div class="error-state">
+          <span class="empty-symbol" aria-hidden="true">!</span>
+          <h3>Datele nu au putut fi încărcate</h3>
+          <p>${escapeHtml(loadErrors[activeView] || 'A apărut o problemă temporară.')}</p>
+          <button class="action-button" type="button" data-retry>Încearcă din nou</button>
+        </div>
+      `;
     }
 
     function renderActiveView() {
-      const term = searchTerms[activeView];
-      if (activeView === 'meetings') {
-        renderMeetings(term);
-      } else if (activeView === 'certificates') {
-        renderCertificates(term);
-      } else {
-        renderConstructionPermits(term);
+      document.getElementById('loadMoreStatus').textContent = '';
+      if (loadErrors[activeView]) {
+        renderError();
+        return;
       }
+      if (!datasets[activeView]) {
+        renderLoading();
+        return;
+      }
+
+      const results = matchingResults(activeView);
+      const limit = visibleLimits[activeView];
+      const visible = results.slice(0, limit);
+      const searchTerm = searchTerms[activeView];
+
+      document.getElementById('contentPanel').setAttribute('aria-busy', 'false');
+      document.getElementById('resultsSummary').textContent = resultSummary(activeView, results);
+
+      if (results.length === 0) {
+        renderEmptyState();
+        document.getElementById('paginationArea').innerHTML = '';
+        return;
+      }
+
+      document.getElementById('resultsContainer').innerHTML = visible.map((item, index) =>
+        activeView === 'meetings'
+          ? renderMeeting(item, searchTerm, index)
+          : renderDocument(item, searchTerm, index, activeView)
+      ).join('');
+
+      const remaining = results.length - visible.length;
+      document.getElementById('paginationArea').innerHTML = remaining > 0 ? `
+        <button class="load-more" id="loadMore" type="button">
+          Arată încă ${Math.min(viewConfig[activeView].batchSize, remaining).toLocaleString('ro-RO')}
+        </button>
+        <p class="pagination-note">Sunt afișate ${visible.length.toLocaleString('ro-RO')} din ${results.length.toLocaleString('ro-RO')}</p>
+      ` : '';
     }
 
-    function setActiveView(view, updateHash = true) {
-      if (!viewConfig[view]) return;
-      activeView = view;
+    function populatePeriodOptions(view) {
+      const select = document.getElementById('periodSelect');
       const config = viewConfig[view];
+      const periods = [...new Set((datasets[view] || []).map(item => itemPeriod(item, view)).filter(Boolean))]
+        .sort((a, b) => b.localeCompare(a));
+      select.innerHTML = `
+        <option value="all">${config.allPeriodsLabel}</option>
+        ${periods.map(value => `<option value="${escapeAttribute(value)}">${escapeHtml(periodLabel(value, view))}</option>`).join('')}
+      `;
+      let resetInvalidPeriod = false;
+      if (filters[view].period !== 'all' && !periods.includes(filters[view].period)) {
+        filters[view].period = 'all';
+        resetInvalidPeriod = true;
+      }
+      select.value = filters[view].period;
+      if (resetInvalidPeriod && view === activeView) updateUrl();
+    }
 
+    function updateGlobalSummary() {
+      const views = Object.keys(datasets);
+      const allSettled = views.every(view => Array.isArray(datasets[view]) || loadErrors[view]);
+      if (!allSettled) return;
+      const complete = Object.values(datasets).every(Array.isArray);
+      const loadedDatasets = Object.fromEntries(
+        Object.entries(datasets).filter(([, items]) => Array.isArray(items))
+      );
+
+      const projectCount = (loadedDatasets.meetings || []).reduce((total, meeting) =>
+        total + (Array.isArray(meeting.projects) ? meeting.projects.length : 0), 0
+      );
+      const total = projectCount
+        + (loadedDatasets.certificates?.length || 0)
+        + (loadedDatasets.constructionPermits?.length || 0);
+      const datedItems = Object.entries(loadedDatasets).flatMap(([view, items]) =>
+        items.map(item => ({date: itemDate(item), view})).filter(entry => entry.date)
+      );
+      const years = new Set(datedItems.map(entry => entry.date.getUTCFullYear()));
+      const newestDate = datedItems.reduce((latest, entry) =>
+        !latest || entry.date > latest ? entry.date : latest, null
+      );
+
+      const prefix = complete ? '' : '≥';
+      document.getElementById('heroDocuments').textContent = `${prefix}${total.toLocaleString('ro-RO')}`;
+      document.getElementById('heroYears').textContent = `${prefix}${years.size.toLocaleString('ro-RO')}`;
+      const latestLabel = newestDate
+        ? new Intl.DateTimeFormat('ro-RO', {day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC'}).format(newestDate)
+        : '';
+      document.getElementById('heroFreshness').textContent = complete
+        ? `Cele mai recente date: ${latestLabel}`
+        : `Acoperire parțială${latestLabel ? ` · cele mai recente date încărcate: ${latestLabel}` : ''}`;
+    }
+
+    function updateUrl() {
+      const url = new URL(window.location.href);
+      const term = searchTerms[activeView].trim();
+      const {period, sort} = filters[activeView];
+      url.hash = viewConfig[activeView].hash;
+      term ? url.searchParams.set('q', term) : url.searchParams.delete('q');
+      period !== 'all' ? url.searchParams.set('perioada', period) : url.searchParams.delete('perioada');
+      sort !== 'desc' ? url.searchParams.set('ordine', sort) : url.searchParams.delete('ordine');
+      history.replaceState(null, '', url);
+    }
+
+    async function loadDataset(view, force = false) {
+      if (datasets[view] && !force) return datasets[view];
+      if (loadPromises[view] && !force) return loadPromises[view];
+
+      delete loadErrors[view];
+      if (force) datasets[view] = null;
+      if (view === activeView) renderLoading();
+
+      loadPromises[view] = fetch(`./${dataFiles[view]}`)
+        .then(response => {
+          if (!response.ok) throw new Error(`răspuns HTTP ${response.status}`);
+          return response.json();
+        })
+        .then(data => {
+          if (!Array.isArray(data)) throw new Error('formatul fișierului nu este valid');
+          datasets[view] = data;
+          const count = document.getElementById(viewConfig[view].countId);
+          count.textContent = data.length.toLocaleString('ro-RO');
+          count.setAttribute('aria-label', `${data.length.toLocaleString('ro-RO')} înregistrări`);
+          if (view === activeView) {
+            populatePeriodOptions(view);
+            renderActiveView();
+          }
+          updateGlobalSummary();
+          return data;
+        })
+        .catch(error => {
+          loadErrors[view] = `Verifică conexiunea și încearcă din nou (${error.message}).`;
+          const count = document.getElementById(viewConfig[view].countId);
+          count.textContent = '!';
+          count.setAttribute('aria-label', 'date indisponibile');
+          if (view === activeView) renderError();
+          updateGlobalSummary();
+          throw error;
+        })
+        .finally(() => {
+          delete loadPromises[view];
+        });
+
+      return loadPromises[view];
+    }
+
+    function applyViewChrome(view) {
+      const config = viewConfig[view];
       document.querySelectorAll('[role="tab"]').forEach(tab => {
         const selected = tab.dataset.view === view;
         tab.classList.toggle('active', selected);
@@ -593,40 +1889,79 @@
 
       const panel = document.getElementById('contentPanel');
       panel.setAttribute('aria-labelledby', config.tabId);
-      document.getElementById('primaryLabel').textContent = config.primaryLabel;
-      document.getElementById('secondaryLabel').textContent = config.secondaryLabel;
+      document.getElementById('viewKicker').textContent = config.kicker;
+      document.getElementById('viewTitle').textContent = config.title;
+      document.getElementById('searchLabel').textContent = config.searchLabel;
+      document.getElementById('periodLabel').textContent = config.periodLabel;
 
-      const searchInput = document.getElementById('searchInput');
-      searchInput.placeholder = config.placeholder;
-      searchInput.value = searchTerms[view];
+      const input = document.getElementById('searchInput');
+      input.placeholder = config.placeholder;
+      input.value = searchTerms[view];
+      document.getElementById('clearSearch').hidden = !input.value;
+      document.getElementById('sortSelect').value = filters[view].sort;
 
-      if (updateHash && window.location.hash !== config.hash) {
-        history.replaceState(null, '', config.hash);
+      if (datasets[view]) populatePeriodOptions(view);
+      else {
+        document.getElementById('periodSelect').innerHTML = `<option value="all">${config.allPeriodsLabel}</option>`;
       }
+    }
+
+    function setActiveView(view, writeUrl = true) {
+      if (!viewConfig[view]) return;
+      activeView = view;
+      applyViewChrome(view);
+      if (writeUrl) updateUrl();
+      if (datasets[view] || loadErrors[view]) renderActiveView();
+      else {
+        renderLoading();
+        loadDataset(view).catch(() => {});
+      }
+    }
+
+    function resetActiveSearch() {
+      searchTerms[activeView] = '';
+      filters[activeView].period = 'all';
+      visibleLimits[activeView] = viewConfig[activeView].batchSize;
+      const input = document.getElementById('searchInput');
+      input.value = '';
+      document.getElementById('clearSearch').hidden = true;
+      document.getElementById('periodSelect').value = 'all';
       renderActiveView();
+      updateUrl();
+      input.focus();
     }
 
-    async function loadDataset(view, filename) {
-      try {
-        const response = await fetch(filename);
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const data = await response.json();
-        if (!Array.isArray(data)) throw new Error('format JSON invalid');
-        datasets[view] = data;
-      } catch (error) {
-        loadErrors[view] = `Datele nu au putut fi încărcate (${error.message}).`;
-      }
+    function restoreStateFromUrl(view) {
+      const params = new URLSearchParams(window.location.search);
+      searchTerms[view] = params.get('q') || '';
+      filters[view].period = params.get('perioada') || 'all';
+      filters[view].sort = params.get('ordine') === 'asc' ? 'asc' : 'desc';
     }
 
-    async function init() {
+    function bindEvents() {
+      const views = Object.keys(viewConfig);
+
+      document.querySelectorAll('[data-scroll-target]').forEach(link => {
+        link.addEventListener('click', event => {
+          const target = document.getElementById(link.dataset.scrollTarget);
+          if (!target) return;
+          event.preventDefault();
+          target.scrollIntoView({block: 'start'});
+          if (link.classList.contains('skip-link')) target.focus({preventScroll: true});
+        });
+      });
+
       document.querySelectorAll('[role="tab"]').forEach(tab => {
         tab.addEventListener('click', () => setActiveView(tab.dataset.view));
         tab.addEventListener('keydown', event => {
-          if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+          const currentIndex = views.indexOf(activeView);
+          let nextIndex = null;
+          if (event.key === 'ArrowRight') nextIndex = (currentIndex + 1) % views.length;
+          if (event.key === 'ArrowLeft') nextIndex = (currentIndex - 1 + views.length) % views.length;
+          if (event.key === 'Home') nextIndex = 0;
+          if (event.key === 'End') nextIndex = views.length - 1;
+          if (nextIndex === null) return;
           event.preventDefault();
-          const views = Object.keys(viewConfig);
-          const direction = event.key === 'ArrowRight' ? 1 : -1;
-          const nextIndex = (views.indexOf(activeView) + direction + views.length) % views.length;
           const nextView = views[nextIndex];
           setActiveView(nextView);
           document.getElementById(viewConfig[nextView].tabId).focus();
@@ -634,20 +1969,114 @@
       });
 
       document.getElementById('searchInput').addEventListener('input', event => {
-        searchTerms[activeView] = event.target.value.trim();
+        searchTerms[activeView] = event.target.value;
+        visibleLimits[activeView] = viewConfig[activeView].batchSize;
+        document.getElementById('clearSearch').hidden = !event.target.value;
         renderActiveView();
+        updateUrl();
       });
 
-      await Promise.all([
-        loadDataset('meetings', 'meetings.json'),
-        loadDataset('certificates', 'certificates.json'),
-        loadDataset('constructionPermits', 'construction-permits.json')
-      ]);
+      document.getElementById('clearSearch').addEventListener('click', () => {
+        searchTerms[activeView] = '';
+        visibleLimits[activeView] = viewConfig[activeView].batchSize;
+        const input = document.getElementById('searchInput');
+        input.value = '';
+        document.getElementById('clearSearch').hidden = true;
+        renderActiveView();
+        updateUrl();
+        input.focus();
+      });
 
-      const initialView = Object.keys(viewConfig).find(view =>
-        window.location.hash === viewConfig[view].hash
-      ) ?? 'meetings';
-      setActiveView(initialView, false);
+      document.getElementById('periodSelect').addEventListener('change', event => {
+        filters[activeView].period = event.target.value;
+        visibleLimits[activeView] = viewConfig[activeView].batchSize;
+        renderActiveView();
+        updateUrl();
+      });
+
+      document.getElementById('sortSelect').addEventListener('change', event => {
+        filters[activeView].sort = event.target.value;
+        visibleLimits[activeView] = viewConfig[activeView].batchSize;
+        renderActiveView();
+        updateUrl();
+      });
+
+      document.getElementById('paginationArea').addEventListener('click', event => {
+        if (!event.target.closest('#loadMore')) return;
+        const totalResults = matchingResults(activeView).length;
+        const previousCount = Math.min(visibleLimits[activeView], totalResults);
+        visibleLimits[activeView] += viewConfig[activeView].batchSize;
+        renderActiveView();
+        const currentCount = Math.min(visibleLimits[activeView], totalResults);
+        const addedCount = currentCount - previousCount;
+        requestAnimationFrame(() => {
+          const firstNewResult = document.querySelector(`[data-result-index="${previousCount}"]`);
+          if (firstNewResult) {
+            firstNewResult.focus({preventScroll: true});
+            firstNewResult.scrollIntoView({block: 'nearest'});
+          }
+          document.getElementById('loadMoreStatus').textContent =
+            `${addedCount.toLocaleString('ro-RO')} rezultate adăugate. Sunt afișate ${currentCount.toLocaleString('ro-RO')} din ${totalResults.toLocaleString('ro-RO')}.`;
+        });
+      });
+
+      document.getElementById('resultsContainer').addEventListener('click', event => {
+        const expandButton = event.target.closest('[data-expand]');
+        if (expandButton) {
+          const content = document.getElementById(expandButton.dataset.expand);
+          if (!content) return;
+          const expanded = expandButton.getAttribute('aria-expanded') === 'true';
+          expandButton.setAttribute('aria-expanded', String(!expanded));
+          expandButton.textContent = expanded ? 'Citește tot' : 'Restrânge';
+          content.classList.toggle('is-expanded', !expanded);
+          content.classList.toggle('is-clamped', expanded);
+          return;
+        }
+
+        if (event.target.closest('[data-reset-results]')) {
+          resetActiveSearch();
+          return;
+        }
+
+        if (event.target.closest('[data-retry]')) {
+          loadDataset(activeView, true).catch(() => {});
+        }
+      });
+
+      document.addEventListener('keydown', event => {
+        const target = event.target;
+        const isTyping = target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target instanceof HTMLSelectElement;
+        if (event.key === '/' && !isTyping && !event.metaKey && !event.ctrlKey && !event.altKey) {
+          event.preventDefault();
+          document.getElementById('searchInput').focus();
+        }
+        if (event.key === 'Escape' && document.activeElement === document.getElementById('searchInput') && searchTerms[activeView]) {
+          event.preventDefault();
+          document.getElementById('clearSearch').click();
+        }
+      });
+
+      window.addEventListener('hashchange', () => {
+        const hashView = views.find(view => window.location.hash === viewConfig[view].hash);
+        if (hashView && hashView !== activeView) {
+          restoreStateFromUrl(hashView);
+          setActiveView(hashView, false);
+        }
+      });
+    }
+
+    async function init() {
+      const views = Object.keys(viewConfig);
+      const initialView = views.find(view => window.location.hash === viewConfig[view].hash) || 'meetings';
+      activeView = initialView;
+      restoreStateFromUrl(initialView);
+      bindEvents();
+      applyViewChrome(initialView);
+      renderLoading();
+
+      await loadDataset(initialView).catch(() => {});
+      const backgroundViews = views.filter(view => view !== initialView);
+      Promise.allSettled(backgroundViews.map(view => loadDataset(view)));
     }
 
     document.addEventListener('DOMContentLoaded', init);
