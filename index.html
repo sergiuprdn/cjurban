@@ -12,6 +12,10 @@
     <meta property="og:image" content="https://sergiuprdn.github.io/cjurban/og.png">
     <meta name="twitter:card" content="summary_large_image">
     <title>Urbanism Cluj-Napoca — Ședințe, certificate și autorizații</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
+          integrity="sha384-c6Rcwz4e4CITMbu/NBmnNS8yN2sC3cUElMEMfP3vqqKFp7GOYaaBBCqmaWBjmkjb" crossorigin="anonymous">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"
+            integrity="sha384-NElt3Op+9NBMCYaef5HxeJmU4Xeard/Lku8ek6hoPTvYkQPh3zLIrJP7KiRocsxO" crossorigin="anonymous"></script>
     <style>
         *, *::before, *::after {
           box-sizing: border-box;
@@ -850,6 +854,152 @@
           padding: 16px 22px;
         }
 
+        .meeting-body.has-map {
+          display: grid;
+          grid-template-columns: minmax(0, 1fr) minmax(320px, 0.85fr);
+          border-top: 1px solid var(--line);
+          background: var(--surface-subtle);
+        }
+
+        .meeting-body.has-map .projects-list {
+          border-top: 0;
+        }
+
+        .map-panel {
+          position: sticky;
+          top: 16px;
+          align-self: start;
+          padding: 16px 16px 14px;
+          border-left: 1px solid var(--line);
+        }
+
+        .meeting-map {
+          height: min(440px, 62vh);
+          border: 1px solid var(--line-strong);
+          border-radius: var(--radius-sm);
+          background: #e6ebe8;
+          z-index: 0;
+        }
+
+        .map-note {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 4px 12px;
+          margin: 10px 2px 0;
+          color: var(--muted);
+          font-size: 0.76rem;
+        }
+
+        .map-legend {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+        }
+
+        .legend-dot {
+          width: 12px;
+          height: 12px;
+          border: 2px solid var(--navy-900);
+          border-radius: 50%;
+          background: var(--navy-900);
+        }
+
+        .legend-dot.is-approximate {
+          border-style: dashed;
+          background: #fff;
+        }
+
+        .map-pin {
+          display: grid;
+          place-items: center;
+          border: 2px solid #fff;
+          border-radius: 50%;
+          background: var(--navy-900);
+          color: #fff;
+          font-size: 0.72rem;
+          font-weight: 760;
+          font-variant-numeric: tabular-nums;
+          box-shadow: 0 2px 6px rgb(8 31 46 / 0.35);
+        }
+
+        .map-pin.is-approximate {
+          border: 2px dashed var(--navy-900);
+          background: #fff;
+          color: var(--navy-900);
+        }
+
+        .map-pin.is-active {
+          border: 2px solid var(--navy-950);
+          background: var(--lime);
+          color: var(--navy-950);
+        }
+
+        .map-popup-title {
+          margin: 0 0 4px;
+          color: var(--ink);
+          font-size: 0.86rem;
+          font-weight: 700;
+          line-height: 1.35;
+        }
+
+        .map-popup-street,
+        .map-popup-note {
+          margin: 0;
+          color: var(--muted);
+          font-size: 0.78rem;
+        }
+
+        .map-popup-note {
+          margin-top: 4px;
+          font-style: italic;
+        }
+
+        .leaflet-container {
+          font-family: inherit;
+        }
+
+        .leaflet-popup-content {
+          margin: 12px 14px;
+        }
+
+        .leaflet-popup-content a.map-popup-link {
+          display: inline-block;
+          margin-top: 6px;
+          color: var(--blue);
+          font-size: 0.8rem;
+          font-weight: 700;
+        }
+
+        button.project-index {
+          padding: 0;
+          border-color: var(--navy-900);
+          background: var(--navy-900);
+          color: #fff;
+          font-weight: 700;
+        }
+
+        button.project-index.is-approximate {
+          border-style: dashed;
+          background: #fff;
+          color: var(--navy-900);
+        }
+
+        button.project-index:hover,
+        .project-row.is-active button.project-index {
+          border: 1px solid var(--navy-950);
+          background: var(--lime);
+          color: var(--navy-950);
+        }
+
+        .project-row.is-active {
+          background: rgb(217 242 95 / 0.18);
+        }
+
+        .project-unmapped {
+          font-style: italic;
+        }
+
         mark {
           border-radius: 3px;
           background: var(--mark);
@@ -1015,6 +1165,21 @@
             grid-template-columns: 1fr;
             gap: 40px;
             padding-top: 54px;
+          }
+
+          .meeting-body.has-map {
+            grid-template-columns: 1fr;
+          }
+
+          .map-panel {
+            position: static;
+            order: -1;
+            border-bottom: 1px solid var(--line);
+            border-left: 0;
+          }
+
+          .meeting-map {
+            height: 300px;
           }
 
           .hero-stats {
@@ -1374,6 +1539,15 @@
 
     let activeView = 'meetings';
 
+    // Address -> {lat, lon, precision} from geocodes.json; maps are skipped while it is missing.
+    let geocodes = null;
+    let geocodesReady = Promise.resolve();
+    // Projects and locations of the meeting cards currently rendered, by result index.
+    let renderedMeetings = [];
+    // Leaflet maps of the rendered cards, by result index. Created lazily once a map scrolls into view.
+    const meetingMaps = new Map();
+    let mapObserver = null;
+
     const viewConfig = {
       meetings: {
         tabId: 'meetingsTab',
@@ -1572,12 +1746,50 @@
       `;
     }
 
+    function projectLocation(project) {
+      const street = String(project.street ?? '').trim();
+      const location = street && geocodes ? geocodes[street] : null;
+      return location && Number.isFinite(location.lat) && Number.isFinite(location.lon) ? location : null;
+    }
+
+    function renderProjectIndex(project, projectIndex, location, meetingIndex) {
+      if (!location) {
+        return `<span class="project-index" aria-hidden="true">${projectIndex + 1}</span>`;
+      }
+      const approximate = location.precision !== 'exact';
+      return `
+        <button class="project-index${approximate ? ' is-approximate' : ''}" type="button"
+                data-map-focus="${meetingIndex}" data-project-index="${projectIndex}"
+                aria-label="Arată pe hartă proiectul ${projectIndex + 1}${approximate ? ' (poziție aproximativă)' : ''}">${projectIndex + 1}</button>
+      `;
+    }
+
+    function renderMapPanel(meeting, locations, meetingIndex) {
+      const located = locations.filter(Boolean);
+      if (!window.L || located.length === 0) return '';
+      const approximateCount = located.filter(location => location.precision !== 'exact').length;
+      return `
+        <div class="map-panel">
+          <div class="meeting-map" data-map-index="${meetingIndex}" role="region"
+               aria-label="${escapeAttribute(`Harta proiectelor din ${meeting.title}`)}"></div>
+          <p class="map-note">
+            <span>${located.length.toLocaleString('ro-RO')} din ${locations.length.toLocaleString('ro-RO')} proiecte pe hartă</span>
+            <span class="map-legend"><span class="legend-dot" aria-hidden="true"></span>adresă exactă</span>
+            ${approximateCount > 0 ? `<span class="map-legend"><span class="legend-dot is-approximate" aria-hidden="true"></span>doar strada / zona</span>` : ''}
+          </p>
+        </div>
+      `;
+    }
+
     function renderMeeting(meeting, searchTerm, index) {
       const projects = Array.isArray(meeting.projects) ? meeting.projects : [];
       const normalizedTerm = searchable(searchTerm);
       const meetingTitleMatches = normalizedTerm && searchable(meeting.title).includes(normalizedTerm);
       const shouldOpen = index === 0 || (normalizedTerm && !meetingTitleMatches);
       const projectsLabel = searchable(searchTerm) ? 'Proiecte găsite' : 'Proiecte listate';
+      const locations = projects.map(projectLocation);
+      const mapPanel = renderMapPanel(meeting, locations, index);
+      renderedMeetings[index] = {projects, locations};
 
       return `
         <article class="record-card meeting-card" data-result-index="${index}" tabindex="-1">
@@ -1595,17 +1807,22 @@
                 <span class="project-count">${projects.length.toLocaleString('ro-RO')}</span>
                 <span class="summary-action">extinde / restrânge</span>
               </summary>
-              <div class="projects-list">
-                ${projects.map((project, projectIndex) => `
-                  <div class="project-row">
-                    <span class="project-index" aria-hidden="true">${projectIndex + 1}</span>
-                    <div>
-                      <p class="project-title">${highlightText(project.title, searchTerm)}</p>
-                      <p class="project-street">${project.street ? highlightText(project.street, searchTerm) : 'Adresă nepublicată'}</p>
+              <div class="meeting-body${mapPanel ? ' has-map' : ''}">
+                <div class="projects-list">
+                  ${projects.map((project, projectIndex) => `
+                    <div class="project-row" data-project-row="${index}-${projectIndex}">
+                      ${renderProjectIndex(project, projectIndex, locations[projectIndex], index)}
+                      <div>
+                        <p class="project-title">${highlightText(project.title, searchTerm)}</p>
+                        <p class="project-street">${project.street ? highlightText(project.street, searchTerm) : 'Adresă nepublicată'}${
+                          mapPanel && project.street && !locations[projectIndex] ? ' · <span class="project-unmapped">negăsită pe hartă</span>' : ''
+                        }</p>
+                      </div>
+                      ${sourceLink(project.url, `Deschide proiectul ${project.title}`, 'project-link')}
                     </div>
-                    ${sourceLink(project.url, `Deschide proiectul ${project.title}`, 'project-link')}
-                  </div>
-                `).join('')}
+                  `).join('')}
+                </div>
+                ${mapPanel}
               </div>
             </details>
           ` : `
@@ -1615,6 +1832,117 @@
           `}
         </article>
       `;
+    }
+
+    function destroyMeetingMaps() {
+      mapObserver?.disconnect();
+      meetingMaps.forEach(({map}) => map.remove());
+      meetingMaps.clear();
+      renderedMeetings = [];
+    }
+
+    function observeMeetingMaps() {
+      const containers = document.querySelectorAll('.meeting-map[data-map-index]');
+      if (!window.L || containers.length === 0) return;
+      mapObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          mapObserver.unobserve(entry.target);
+          createMeetingMap(entry.target);
+        });
+      }, {rootMargin: '200px 0px'});
+      containers.forEach(container => mapObserver.observe(container));
+    }
+
+    function spreadDuplicates(locations) {
+      // Street-level fallbacks often share a coordinate; fan those pins out a few metres so all stay clickable.
+      const seen = new Map();
+      return locations.map(location => {
+        if (!location) return null;
+        const key = `${location.lat},${location.lon}`;
+        const count = seen.get(key) || 0;
+        seen.set(key, count + 1);
+        if (count === 0) return [location.lat, location.lon];
+        const angle = count * 2.4;
+        const radius = 0.00012 * Math.sqrt(count);
+        return [location.lat + radius * Math.sin(angle), location.lon + radius * Math.cos(angle) * 1.45];
+      });
+    }
+
+    function createMeetingMap(container) {
+      const meetingIndex = Number(container.dataset.mapIndex);
+      const rendered = renderedMeetings[meetingIndex];
+      if (!rendered || meetingMaps.has(meetingIndex)) return meetingMaps.get(meetingIndex);
+
+      const map = L.map(container, {
+        scrollWheelZoom: false,
+        dragging: !L.Browser.mobile,
+        zoomSnap: 0.5
+      });
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a>'
+      }).addTo(map);
+
+      const markers = [];
+      const points = spreadDuplicates(rendered.locations);
+      rendered.projects.forEach((project, projectIndex) => {
+        const location = rendered.locations[projectIndex];
+        if (!location) return;
+        const approximate = location.precision !== 'exact';
+        const href = safeUrl(project.url);
+        const marker = L.marker(points[projectIndex], {
+          title: `${projectIndex + 1}. ${project.street}`,
+          alt: `Proiectul ${projectIndex + 1}`,
+          riseOnHover: true,
+          icon: L.divIcon({
+            className: `map-pin${approximate ? ' is-approximate' : ''}`,
+            html: String(projectIndex + 1),
+            iconSize: [28, 28],
+            iconAnchor: [14, 14],
+            popupAnchor: [0, -14]
+          })
+        }).addTo(map);
+        marker.bindPopup(`
+          <p class="map-popup-title">${projectIndex + 1}. ${escapeHtml(project.title)}</p>
+          <p class="map-popup-street">${escapeHtml(project.street)}</p>
+          ${approximate ? `<p class="map-popup-note">Poziție aproximativă: numărul nu apare în OpenStreetMap, pinul marchează ${location.precision === 'street' ? 'strada' : 'zona'}.</p>` : ''}
+          ${href ? `<a class="map-popup-link" href="${escapeAttribute(href)}" target="_blank" rel="noopener noreferrer">Deschide proiectul ↗</a>` : ''}
+        `, {maxWidth: 260});
+        marker.on('popupopen', () => setActiveProject(meetingIndex, projectIndex));
+        marker.on('popupclose', () => setActiveProject(meetingIndex, null));
+        markers[projectIndex] = marker;
+      });
+
+      const bounds = L.latLngBounds(points.filter(Boolean));
+      map.fitBounds(bounds.pad(0.15), {maxZoom: 16});
+      const entry = {map, markers};
+      meetingMaps.set(meetingIndex, entry);
+      return entry;
+    }
+
+    function setActiveProject(meetingIndex, projectIndex) {
+      document.querySelectorAll(`[data-project-row^="${meetingIndex}-"]`).forEach(row => {
+        row.classList.toggle('is-active', row.dataset.projectRow === `${meetingIndex}-${projectIndex}`);
+      });
+      meetingMaps.get(meetingIndex)?.markers.forEach((marker, index) => {
+        if (!marker) return;
+        marker.getElement()?.classList.toggle('is-active', index === projectIndex);
+        marker.setZIndexOffset(index === projectIndex ? 1000 : 0);
+      });
+    }
+
+    function focusProjectOnMap(meetingIndex, projectIndex) {
+      const container = document.querySelector(`.meeting-map[data-map-index="${meetingIndex}"]`);
+      if (!container) return;
+      const entry = createMeetingMap(container);
+      const marker = entry?.markers[projectIndex];
+      if (!marker) return;
+      entry.map.setView(marker.getLatLng(), Math.max(entry.map.getZoom(), 16));
+      marker.openPopup();
+      if (container.getBoundingClientRect().bottom < 0 || container.getBoundingClientRect().top > window.innerHeight) {
+        container.scrollIntoView({block: 'nearest'});
+      }
     }
 
     function renderDocument(item, searchTerm, index, view) {
@@ -1758,11 +2086,13 @@
         return;
       }
 
+      destroyMeetingMaps();
       document.getElementById('resultsContainer').innerHTML = visible.map((item, index) =>
         activeView === 'meetings'
           ? renderMeeting(item, searchTerm, index)
           : renderDocument(item, searchTerm, index, activeView)
       ).join('');
+      if (activeView === 'meetings') observeMeetingMaps();
 
       const remaining = results.length - visible.length;
       document.getElementById('paginationArea').innerHTML = remaining > 0 ? `
@@ -1849,6 +2179,8 @@
           if (!response.ok) throw new Error(`răspuns HTTP ${response.status}`);
           return response.json();
         })
+        // Meeting cards embed their maps, so wait for the (optional) locations before the first render.
+        .then(data => view === 'meetings' ? geocodesReady.then(() => data) : data)
         .then(data => {
           if (!Array.isArray(data)) throw new Error('formatul fișierului nu este valid');
           datasets[view] = data;
@@ -2021,6 +2353,12 @@
       });
 
       document.getElementById('resultsContainer').addEventListener('click', event => {
+        const mapFocusButton = event.target.closest('[data-map-focus]');
+        if (mapFocusButton) {
+          focusProjectOnMap(Number(mapFocusButton.dataset.mapFocus), Number(mapFocusButton.dataset.projectIndex));
+          return;
+        }
+
         const expandButton = event.target.closest('[data-expand]');
         if (expandButton) {
           const content = document.getElementById(expandButton.dataset.expand);
@@ -2073,6 +2411,16 @@
       bindEvents();
       applyViewChrome(initialView);
       renderLoading();
+
+      geocodesReady = fetch('./geocodes.json')
+        .then(response => {
+          if (!response.ok) throw new Error(`răspuns HTTP ${response.status}`);
+          return response.json();
+        })
+        .then(data => {
+          geocodes = data;
+        })
+        .catch(error => console.warn('Hărțile ședințelor nu sunt disponibile:', error));
 
       await loadDataset(initialView).catch(() => {});
       const backgroundViews = views.filter(view => view !== initialView);

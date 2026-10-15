@@ -1,0 +1,7401 @@
+{
+  "(corelare cu proiectul pasajului rutier b-dul Muncii- str. Oasului)" : null,
+  "Aleea Azur" : {
+    "lat" : 46.741779,
+    "lon" : 23.586938,
+    "precision" : "street"
+  },
+  "Aleea Bâlea nr. 9A-9B" : {
+    "lat" : 46.749344,
+    "lon" : 23.564995,
+    "precision" : "exact"
+  },
+  "Aleea Bâlea, nr. 9A-9B" : {
+    "lat" : 46.749344,
+    "lon" : 23.564995,
+    "precision" : "exact"
+  },
+  "Aleea Cisnădie 8" : {
+    "lat" : 46.749018,
+    "lon" : 23.64633,
+    "precision" : "street"
+  },
+  "Aleea Janovics Jeno nr. 15" : {
+    "lat" : 46.721157,
+    "lon" : 23.570974,
+    "precision" : "exact"
+  },
+  "Aleea Lavandei" : null,
+  "Aleea Leonida Neamtu, nr.2" : {
+    "lat" : 46.749348,
+    "lon" : 23.597554,
+    "precision" : "street"
+  },
+  "Aleea Mestecenilor nr.10" : {
+    "lat" : 46.758742,
+    "lon" : 23.582149,
+    "precision" : "street"
+  },
+  "Aleea Meziad" : {
+    "lat" : 46.750872,
+    "lon" : 23.54969,
+    "precision" : "street"
+  },
+  "Aleea Muzicii nr. 20" : {
+    "lat" : 46.747678,
+    "lon" : 23.584197,
+    "precision" : "street"
+  },
+  "Aleea Negoiu nr. 9B" : {
+    "lat" : 46.749938,
+    "lon" : 23.562345,
+    "precision" : "exact"
+  },
+  "Aleea Pataki Samuel nr. 3" : {
+    "lat" : 46.727451,
+    "lon" : 23.578058,
+    "precision" : "exact"
+  },
+  "Aleea Stadionului nr. 1" : {
+    "lat" : 46.767319,
+    "lon" : 23.573494,
+    "precision" : "exact"
+  },
+  "Aleea Teius" : {
+    "lat" : 46.750633,
+    "lon" : 23.648963,
+    "precision" : "street"
+  },
+  "Aleea Teiuș – nord" : {
+    "lat" : 46.750633,
+    "lon" : 23.648963,
+    "precision" : "street"
+  },
+  "Aleea Toplița – sud" : {
+    "lat" : 46.750657,
+    "lon" : 23.645791,
+    "precision" : "street"
+  },
+  "Aleea Târnăveni" : {
+    "lat" : 46.749829,
+    "lon" : 23.647901,
+    "precision" : "street"
+  },
+  "Aleea Uranus– vest" : {
+    "lat" : 46.746643,
+    "lon" : 23.63107,
+    "precision" : "street"
+  },
+  "Aurel Vlaicu Est" : {
+    "lat" : 46.781446,
+    "lon" : 23.634029,
+    "precision" : "street"
+  },
+  "B-dul 1 Decembrie 1918 ,nr. 31" : {
+    "lat" : 46.768517,
+    "lon" : 23.566896,
+    "precision" : "exact"
+  },
+  "B-dul 21 Decembrie 1989 nr.88" : {
+    "lat" : 46.773971,
+    "lon" : 23.600018,
+    "precision" : "exact"
+  },
+  "B-dul Muncii latura nordică" : {
+    "lat" : 46.798005,
+    "lon" : 23.61135,
+    "precision" : "street"
+  },
+  "B-dul Muncii nr. 197" : {
+    "lat" : 46.796733,
+    "lon" : 23.652959,
+    "precision" : "street"
+  },
+  "B-dul Muncii nr. 277" : {
+    "lat" : 46.797213,
+    "lon" : 23.657079,
+    "precision" : "exact"
+  },
+  "B-dul Muncii nr. 4-6" : {
+    "lat" : 46.79661,
+    "lon" : 23.638401,
+    "precision" : "exact"
+  },
+  "B-dul Muncii nr.16" : {
+    "lat" : 46.795499,
+    "lon" : 23.628459,
+    "precision" : "exact"
+  },
+  "B-dul Muncii – str. Hector Berlioz Vest" : {
+    "lat" : 46.798005,
+    "lon" : 23.61135,
+    "precision" : "street"
+  },
+  "B-dul Muncii – sud" : {
+    "lat" : 46.798005,
+    "lon" : 23.61135,
+    "precision" : "street"
+  },
+  "B-dul Muncii, nr. 69A" : {
+    "lat" : 46.79642,
+    "lon" : 23.619988,
+    "precision" : "exact"
+  },
+  "B-dul. Muncii nr. 1-15" : {
+    "lat" : 46.799385,
+    "lon" : 23.611414,
+    "precision" : "exact"
+  },
+  "B-dul. Muncii sud și teritoriile adiacente" : {
+    "lat" : 46.798005,
+    "lon" : 23.61135,
+    "precision" : "street"
+  },
+  "B.P. Hasdeu nr. 3" : null,
+  "Babeș – str. B.P. Hașdeu" : {
+    "lat" : 46.765006,
+    "lon" : 23.585186,
+    "precision" : "street"
+  },
+  "Baile Someseni" : null,
+  "Bd. 1 Decembrie 1918 nr. 142" : {
+    "lat" : 46.758884,
+    "lon" : 23.539721,
+    "precision" : "exact"
+  },
+  "Bd. 1 Decembrie 1918, nr. 140A" : {
+    "lat" : 46.762482,
+    "lon" : 23.54564,
+    "precision" : "street"
+  },
+  "Bd. 1 decembrie 1918" : {
+    "lat" : 46.762482,
+    "lon" : 23.54564,
+    "precision" : "street"
+  },
+  "Bd. 21 decembrie 1989 nr. 21" : {
+    "lat" : 46.772353,
+    "lon" : 23.593933,
+    "precision" : "exact"
+  },
+  "Bd. Eroilor nr. 31" : {
+    "lat" : 46.770404,
+    "lon" : 23.59375,
+    "precision" : "exact"
+  },
+  "Bd. Muncii" : {
+    "lat" : 46.798005,
+    "lon" : 23.61135,
+    "precision" : "street"
+  },
+  "Bd. Muncii nord" : {
+    "lat" : 46.798005,
+    "lon" : 23.61135,
+    "precision" : "street"
+  },
+  "Bd. Muncii nr 4-6" : {
+    "lat" : 46.79661,
+    "lon" : 23.638401,
+    "precision" : "exact"
+  },
+  "Bd. Muncii nr. 18" : {
+    "lat" : 46.795979,
+    "lon" : 23.631144,
+    "precision" : "street"
+  },
+  "Bd. Muncii nr. 191-195" : {
+    "lat" : 46.795979,
+    "lon" : 23.631144,
+    "precision" : "street"
+  },
+  "Bd. Muncii nr. 197" : {
+    "lat" : 46.796733,
+    "lon" : 23.652959,
+    "precision" : "street"
+  },
+  "Bd. Muncii nr. 2 – str. Byron nr. 1-3" : {
+    "lat" : 46.795979,
+    "lon" : 23.631144,
+    "precision" : "street"
+  },
+  "Bd. Muncii nr. 213b" : {
+    "lat" : 46.79881,
+    "lon" : 23.609059,
+    "precision" : "street"
+  },
+  "Bd. Muncii nr. 80" : {
+    "lat" : 46.795979,
+    "lon" : 23.631144,
+    "precision" : "street"
+  },
+  "Bd. Muncii nr.18" : {
+    "lat" : 46.795979,
+    "lon" : 23.631144,
+    "precision" : "street"
+  },
+  "Bdul. Muncii – sud" : {
+    "lat" : 46.798005,
+    "lon" : 23.61135,
+    "precision" : "street"
+  },
+  "Bdv. 1 decembrie 1918 nr. 142" : null,
+  "Bulevardul Nicolae Titulescu" : {
+    "lat" : 46.76931,
+    "lon" : 23.609462,
+    "precision" : "street"
+  },
+  "Bvd 1 decembrie 1918 nr. 15" : {
+    "lat" : 46.762482,
+    "lon" : 23.54564,
+    "precision" : "street"
+  },
+  "Bvd Eroilor nr 45" : {
+    "lat" : 46.770418,
+    "lon" : 23.595046,
+    "precision" : "exact"
+  },
+  "Bvd. Muncii nr. 2, str. G. Byron nr. 1-3" : {
+    "lat" : 46.795979,
+    "lon" : 23.631144,
+    "precision" : "street"
+  },
+  "Bvd. Muncii nr. 86-90" : {
+    "lat" : 46.798005,
+    "lon" : 23.61135,
+    "precision" : "street"
+  },
+  "Bvd. Muncii nr.4-6" : {
+    "lat" : 46.79661,
+    "lon" : 23.638401,
+    "precision" : "exact"
+  },
+  "C-tin Brâncuși nr 115" : null,
+  "Calea Baciului nr 117" : {
+    "lat" : 46.78441,
+    "lon" : 23.555717,
+    "precision" : "street"
+  },
+  "Calea Baciului nr 22" : {
+    "lat" : 46.784419,
+    "lon" : 23.556212,
+    "precision" : "exact"
+  },
+  "Calea Baciului nr. 1-3" : {
+    "lat" : 46.783974,
+    "lon" : 23.539369,
+    "precision" : "exact"
+  },
+  "Calea Baciului nr. 101" : {
+    "lat" : 46.78441,
+    "lon" : 23.555717,
+    "precision" : "street"
+  },
+  "Calea Baciului nr. 18" : {
+    "lat" : 46.783024,
+    "lon" : 23.558701,
+    "precision" : "street"
+  },
+  "Calea Baciului nr. 2-4" : {
+    "lat" : 46.78467,
+    "lon" : 23.536351,
+    "precision" : "exact"
+  },
+  "Calea Baciului nr. 66-70" : {
+    "lat" : 46.785832,
+    "lon" : 23.551819,
+    "precision" : "exact"
+  },
+  "Calea Baciului nr. 72-74" : {
+    "lat" : 46.785891,
+    "lon" : 23.551271,
+    "precision" : "exact"
+  },
+  "Calea Baciului nr. 78" : {
+    "lat" : 46.783024,
+    "lon" : 23.558701,
+    "precision" : "street"
+  },
+  "Calea Baciului nr. 81-83" : {
+    "lat" : 46.783024,
+    "lon" : 23.558701,
+    "precision" : "street"
+  },
+  "Calea Baciului nr.101" : {
+    "lat" : 46.78441,
+    "lon" : 23.555717,
+    "precision" : "street"
+  },
+  "Calea Baciului nr.38 – str. Ileana Cosânzeana nr.2" : {
+    "lat" : 46.78441,
+    "lon" : 23.555717,
+    "precision" : "street"
+  },
+  "Calea Dezmirului nr. 16-18" : {
+    "lat" : 46.779211,
+    "lon" : 23.691027,
+    "precision" : "street"
+  },
+  "Calea Dorobantilor" : {
+    "lat" : 46.772448,
+    "lon" : 23.604173,
+    "precision" : "street"
+  },
+  "Calea Dorobantilor Nr. 43-45" : {
+    "lat" : 46.773045,
+    "lon" : 23.605268,
+    "precision" : "exact"
+  },
+  "Calea Dorobantilor nr. 30-36, str. T. Mosoiu nr. 35" : {
+    "lat" : 46.772078,
+    "lon" : 23.603139,
+    "precision" : "exact"
+  },
+  "Calea Dorobantilor nr. 65" : {
+    "lat" : 46.773746,
+    "lon" : 23.607433,
+    "precision" : "exact"
+  },
+  "Calea Dorobantilor – sud" : {
+    "lat" : 46.772448,
+    "lon" : 23.604173,
+    "precision" : "street"
+  },
+  "Calea Dorobanților" : {
+    "lat" : 46.772448,
+    "lon" : 23.604173,
+    "precision" : "street"
+  },
+  "Calea Dorobanților 91A" : {
+    "lat" : 46.777527,
+    "lon" : 23.618883,
+    "precision" : "street"
+  },
+  "Calea Dorobanților nr. 65" : {
+    "lat" : 46.773746,
+    "lon" : 23.607433,
+    "precision" : "exact"
+  },
+  "Calea Dorobanților nr. 98" : {
+    "lat" : 46.776471,
+    "lon" : 23.617699,
+    "precision" : "exact"
+  },
+  "Calea Dorobanților – str. Coastei" : {
+    "lat" : 46.772448,
+    "lon" : 23.604173,
+    "precision" : "street"
+  },
+  "Calea Dorobanților – str. Episcop Nicolae Ivan" : {
+    "lat" : 46.772448,
+    "lon" : 23.604173,
+    "precision" : "street"
+  },
+  "Calea Dorobanților, nr. 65" : {
+    "lat" : 46.773746,
+    "lon" : 23.607433,
+    "precision" : "exact"
+  },
+  "Calea Floresti 56" : {
+    "lat" : 46.760158,
+    "lon" : 23.55018,
+    "precision" : "exact"
+  },
+  "Calea Florești, nr. 64" : {
+    "lat" : 46.757831,
+    "lon" : 23.544102,
+    "precision" : "exact"
+  },
+  "Calea Manastur nr. 3-5" : {
+    "lat" : 46.760197,
+    "lon" : 23.570468,
+    "precision" : "exact"
+  },
+  "Calea Motilor nr. 75" : {
+    "lat" : 46.764831,
+    "lon" : 23.575475,
+    "precision" : "street"
+  },
+  "Calea Moților 23" : {
+    "lat" : 46.76742,
+    "lon" : 23.582728,
+    "precision" : "exact"
+  },
+  "Calea Moților nr. 106, ap. 6" : {
+    "lat" : 46.764058,
+    "lon" : 23.573609,
+    "precision" : "exact"
+  },
+  "Calea Moților nr. 123" : {
+    "lat" : 46.763756,
+    "lon" : 23.573551,
+    "precision" : "street"
+  },
+  "Calea Moților nr. 137A" : {
+    "lat" : 46.763519,
+    "lon" : 23.573753,
+    "precision" : "exact"
+  },
+  "Calea Moților nr. 24-26" : {
+    "lat" : 46.767772,
+    "lon" : 23.582713,
+    "precision" : "exact"
+  },
+  "Calea Moților nr. 96" : {
+    "lat" : 46.764831,
+    "lon" : 23.575475,
+    "precision" : "street"
+  },
+  "Calea Moților, nr 24-26" : {
+    "lat" : 46.767772,
+    "lon" : 23.582713,
+    "precision" : "exact"
+  },
+  "Calea Mănăștur nr. 26-28" : {
+    "lat" : 46.763089,
+    "lon" : 23.572652,
+    "precision" : "street"
+  },
+  "Calea Mănăștur nr. 3-5" : {
+    "lat" : 46.760197,
+    "lon" : 23.570468,
+    "precision" : "exact"
+  },
+  "Calea Mănăștur nr. 50" : {
+    "lat" : 46.761838,
+    "lon" : 23.56636,
+    "precision" : "exact"
+  },
+  "Calea Mănăștur nr. 68A" : {
+    "lat" : 46.761623,
+    "lon" : 23.564985,
+    "precision" : "exact"
+  },
+  "Calea Mănăștur – Calea Moților – str. Mărginașă – str. Uzinei Electrice" : {
+    "lat" : 46.763089,
+    "lon" : 23.572652,
+    "precision" : "street"
+  },
+  "Calea Someșeni (Băile Someșeni)" : {
+    "lat" : 46.778983,
+    "lon" : 23.673294,
+    "precision" : "street"
+  },
+  "Calea Someșeni nr. 8" : {
+    "lat" : 46.777435,
+    "lon" : 23.648777,
+    "precision" : "exact"
+  },
+  "Calea Turzii" : {
+    "lat" : 46.760292,
+    "lon" : 23.59802,
+    "precision" : "street"
+  },
+  "Calea Turzii 111C" : {
+    "lat" : 46.756924,
+    "lon" : 23.598418,
+    "precision" : "exact"
+  },
+  "Calea Turzii 174" : {
+    "lat" : 46.748245,
+    "lon" : 23.592357,
+    "precision" : "exact"
+  },
+  "Calea Turzii 194" : {
+    "lat" : 46.734682,
+    "lon" : 23.594343,
+    "precision" : "exact"
+  },
+  "Calea Turzii 201-203" : {
+    "lat" : 46.749509,
+    "lon" : 23.594528,
+    "precision" : "exact"
+  },
+  "Calea Turzii 24" : {
+    "lat" : 46.765675,
+    "lon" : 23.598635,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr 225-229" : {
+    "lat" : 46.745488,
+    "lon" : 23.592864,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr 235- nr. 237" : {
+    "lat" : 46.744883,
+    "lon" : 23.5927,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr 235-237" : {
+    "lat" : 46.744883,
+    "lon" : 23.5927,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 173" : {
+    "lat" : 46.752605,
+    "lon" : 23.596094,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 178" : {
+    "lat" : 46.742973,
+    "lon" : 23.591432,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 186" : {
+    "lat" : 46.746275,
+    "lon" : 23.590722,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 188D" : {
+    "lat" : 46.740035,
+    "lon" : 23.591218,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 192" : {
+    "lat" : 46.735414,
+    "lon" : 23.594283,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 200" : {
+    "lat" : 46.732844,
+    "lon" : 23.594398,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 223" : {
+    "lat" : 46.746335,
+    "lon" : 23.593478,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 225-229" : {
+    "lat" : 46.745488,
+    "lon" : 23.592864,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 235-237" : {
+    "lat" : 46.744883,
+    "lon" : 23.5927,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 247" : {
+    "lat" : 46.743514,
+    "lon" : 23.592539,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 251" : {
+    "lat" : 46.742359,
+    "lon" : 23.592669,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 35" : {
+    "lat" : 46.764865,
+    "lon" : 23.59879,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 4" : {
+    "lat" : 46.76719,
+    "lon" : 23.597853,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 50" : {
+    "lat" : 46.763635,
+    "lon" : 23.597718,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 72" : {
+    "lat" : 46.760798,
+    "lon" : 23.597573,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr. 86A" : {
+    "lat" : 46.759198,
+    "lon" : 23.59807,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr.178" : {
+    "lat" : 46.742973,
+    "lon" : 23.591432,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr.186" : {
+    "lat" : 46.746275,
+    "lon" : 23.590722,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr.194" : {
+    "lat" : 46.734682,
+    "lon" : 23.594343,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr.251" : {
+    "lat" : 46.742359,
+    "lon" : 23.592669,
+    "precision" : "exact"
+  },
+  "Calea Turzii nr.72" : {
+    "lat" : 46.760798,
+    "lon" : 23.597573,
+    "precision" : "exact"
+  },
+  "Cartier Borhanci" : {
+    "lat" : 46.746879,
+    "lon" : 23.6387,
+    "precision" : "area"
+  },
+  "Cartier Lomb" : {
+    "lat" : 46.755418,
+    "lon" : 23.566699,
+    "precision" : "area"
+  },
+  "Cartodrom- Gheorgheni" : null,
+  "Centura Ocolitoare Cluj N-E- latura sudică" : null,
+  "Centura Ocolitoare Cluj NE- latura sudică" : null,
+  "Centura ocolitoare Cluj N-E" : null,
+  "Cheile Baciului nr. 3" : {
+    "lat" : 46.779374,
+    "lon" : 23.514468,
+    "precision" : "street"
+  },
+  "Cheile Baciului nr. 4" : {
+    "lat" : 46.783203,
+    "lon" : 23.52784,
+    "precision" : "street"
+  },
+  "Cheile Baciului, nr. 924B" : {
+    "lat" : 46.783203,
+    "lon" : 23.52784,
+    "precision" : "street"
+  },
+  "Colonia Borhanci 72" : {
+    "lat" : 46.746879,
+    "lon" : 23.6387,
+    "precision" : "area"
+  },
+  "Colonia Faget 2C" : {
+    "lat" : 46.73445,
+    "lon" : 23.592116,
+    "precision" : "area"
+  },
+  "Colonia Făget" : {
+    "lat" : 46.73445,
+    "lon" : 23.592116,
+    "precision" : "area"
+  },
+  "Colonia Sopor" : {
+    "lat" : 46.761257,
+    "lon" : 23.654419,
+    "precision" : "area"
+  },
+  "Colonia Sopor fn" : {
+    "lat" : 46.761257,
+    "lon" : 23.654419,
+    "precision" : "area"
+  },
+  "Colonia Sopor nr 48" : {
+    "lat" : 46.761257,
+    "lon" : 23.654419,
+    "precision" : "area"
+  },
+  "Colonia Sopor nr. 29D prov – nr. 29E prov" : {
+    "lat" : 46.761257,
+    "lon" : 23.654419,
+    "precision" : "area"
+  },
+  "Colonia Sopor nr. 32A" : {
+    "lat" : 46.761257,
+    "lon" : 23.654419,
+    "precision" : "area"
+  },
+  "Colonia Sopor nr. 42C" : {
+    "lat" : 46.761257,
+    "lon" : 23.654419,
+    "precision" : "area"
+  },
+  "Colonia Sopor – nord" : {
+    "lat" : 46.761257,
+    "lon" : 23.654419,
+    "precision" : "area"
+  },
+  "Corneliu Coposu nr. 167, 167A" : {
+    "lat" : 46.78281,
+    "lon" : 23.565103,
+    "precision" : "exact"
+  },
+  "Câmpului est – Fânațe la Stâni" : {
+    "lat" : 46.751924,
+    "lon" : 23.565156,
+    "precision" : "street"
+  },
+  "Dealul Fânațelor" : {
+    "lat" : 46.822248,
+    "lon" : 23.594541,
+    "precision" : "street"
+  },
+  "Dealul popii ( cartier Borhanci)" : null,
+  "Drumul Sf Ioan" : {
+    "lat" : 46.747979,
+    "lon" : 23.536979,
+    "precision" : "street"
+  },
+  "Drumul Sf. Ioan nr.10k" : {
+    "lat" : 46.721865,
+    "lon" : 23.574336,
+    "precision" : "exact"
+  },
+  "Drumul Sf. Ioan – str. Colonia Făget" : {
+    "lat" : 46.747979,
+    "lon" : 23.536979,
+    "precision" : "street"
+  },
+  "Drumul Sf. Ioan – vest" : {
+    "lat" : 46.747979,
+    "lon" : 23.536979,
+    "precision" : "street"
+  },
+  "Drumul Sf. Ion" : null,
+  "Drumul Sf. Ion-sud" : null,
+  "Drumul Sfântul Ion, nr. 109 prov." : null,
+  "Eremia Grigorescu 88" : {
+    "lat" : 46.773459,
+    "lon" : 23.568888,
+    "precision" : "exact"
+  },
+  "Eugen Lovinescu nr. 4" : {
+    "lat" : 46.748445,
+    "lon" : 23.566614,
+    "precision" : "exact"
+  },
+  "Expo Transilvania – parc Aurel Vlaicu" : null,
+  "Expo Transilvania, amenajare și extindere parc Aurel Vlaicu, amenajare străzi adiacente , construire parking" : null,
+  "Expo Transilvania, amenajare și extindere parc Aurel Vlaicu, amenajare străzi adiacente, construire parking" : null,
+  "Faza HCL" : null,
+  "HCL 103/2004" : null,
+  "La Terenuri, cartier Mănăștur" : null,
+  "Lombului nr. 30" : {
+    "lat" : 46.787543,
+    "lon" : 23.559598,
+    "precision" : "exact"
+  },
+  "Meseșan Lia Corina (Bumbar și asociații)" : null,
+  "Municipiul Cluj-Napoca" : null,
+  "Mărișel nr 3" : {
+    "lat" : 46.750028,
+    "lon" : 23.556717,
+    "precision" : "street"
+  },
+  "P-ța 1 Mai" : {
+    "lat" : 46.786261,
+    "lon" : 23.605695,
+    "precision" : "street"
+  },
+  "P-ța 1 Mai – str. Porțelanului" : {
+    "lat" : 46.786261,
+    "lon" : 23.605695,
+    "precision" : "street"
+  },
+  "P.U.Z str. Frunzișului nr. 117" : null,
+  "PUZ Vantului HCL 460/2007" : null,
+  "PUZ aprobat prin HCL 340 din 2011" : null,
+  "Parc Est" : null,
+  "Parcul Central" : null,
+  "Parcul central „Simion Barnuțiu”" : null,
+  "Piața 1 Mai nr 4-5" : {
+    "lat" : 46.786341,
+    "lon" : 23.606587,
+    "precision" : "exact"
+  },
+  "Piața 1 Mai nr. 4-5" : {
+    "lat" : 46.786341,
+    "lon" : 23.606587,
+    "precision" : "exact"
+  },
+  "Piața Mărăști" : {
+    "lat" : 46.778392,
+    "lon" : 23.615009,
+    "precision" : "street"
+  },
+  "Piața Timotei Cipariu" : {
+    "lat" : 46.76768,
+    "lon" : 23.599784,
+    "precision" : "street"
+  },
+  "Piața Ștefan cel Mare" : {
+    "lat" : 46.768758,
+    "lon" : 23.599048,
+    "precision" : "street"
+  },
+  "Pod Oasului-Rasaritului- străzile Rasaritului – Câmpul Painii – pod Ira" : null,
+  "Someșului nr. 15-21" : {
+    "lat" : 46.778145,
+    "lon" : 23.594038,
+    "precision" : "exact"
+  },
+  "Sopor" : {
+    "lat" : 46.741265,
+    "lon" : 23.655207,
+    "precision" : "street"
+  },
+  "Spicului nr.112 prov." : {
+    "lat" : 46.791929,
+    "lon" : 23.570231,
+    "precision" : "street"
+  },
+  "Splaiul Independenței nr. 8" : {
+    "lat" : 46.765538,
+    "lon" : 23.563698,
+    "precision" : "exact"
+  },
+  "Str Borhanaciului Est (Dealul Popii)" : null,
+  "Str Bună Ziua – nord" : {
+    "lat" : 46.74722,
+    "lon" : 23.593791,
+    "precision" : "street"
+  },
+  "Str Campina nr 31 intersecție cu Str Ierbii nr 1" : {
+    "lat" : 46.788459,
+    "lon" : 23.6191,
+    "precision" : "exact"
+  },
+  "Str Drumul Sf Ion" : null,
+  "Str Eremia Grigorescu nr 88" : {
+    "lat" : 46.773459,
+    "lon" : 23.568888,
+    "precision" : "exact"
+  },
+  "Str Liniștei nr. 2" : {
+    "lat" : 46.782332,
+    "lon" : 23.660503,
+    "precision" : "exact"
+  },
+  "Str Măceșului nr 64A" : {
+    "lat" : 46.743027,
+    "lon" : 23.604968,
+    "precision" : "exact"
+  },
+  "Str Mărișel 1" : {
+    "lat" : 46.750028,
+    "lon" : 23.556717,
+    "precision" : "street"
+  },
+  "Str Oașului nr. 332J" : {
+    "lat" : 46.790464,
+    "lon" : 23.598343,
+    "precision" : "street"
+  },
+  "Str Octav Bancilă" : {
+    "lat" : 46.785564,
+    "lon" : 23.651612,
+    "precision" : "street"
+  },
+  "Str Povarnisului – est" : {
+    "lat" : 46.777819,
+    "lon" : 23.562167,
+    "precision" : "street"
+  },
+  "Str Siretului nr 17" : {
+    "lat" : 46.779106,
+    "lon" : 23.627248,
+    "precision" : "exact"
+  },
+  "Str Theodor Pallady, nr. 28" : {
+    "lat" : 46.754256,
+    "lon" : 23.633664,
+    "precision" : "street"
+  },
+  "Str Traian Vuia, nr. 14" : {
+    "lat" : 46.783904,
+    "lon" : 23.645444,
+    "precision" : "exact"
+  },
+  "Str Tribunul Vladutiu nr. 15" : {
+    "lat" : 46.783006,
+    "lon" : 23.625601,
+    "precision" : "street"
+  },
+  "Str. 21 Decembrie 1989, nr. 98" : null,
+  "Str. A. Einstein nr. 8" : null,
+  "Str. A. V. Voievod (Cartodrom)" : null,
+  "Str. Actorului nr. 51" : {
+    "lat" : 46.771282,
+    "lon" : 23.616002,
+    "precision" : "exact"
+  },
+  "Str. Aiudului, nr. 46/1" : {
+    "lat" : 46.780552,
+    "lon" : 23.648213,
+    "precision" : "exact"
+  },
+  "Str. Al. Xenopol nr.24" : null,
+  "Str. Albert Einstein nr.1" : {
+    "lat" : 46.775458,
+    "lon" : 23.588287,
+    "precision" : "exact"
+  },
+  "Str. Alexandru Graur, nr. 6" : {
+    "lat" : 46.748886,
+    "lon" : 23.606664,
+    "precision" : "exact"
+  },
+  "Str. Alexandru Macedonski nr. 15" : {
+    "lat" : 46.754019,
+    "lon" : 23.615759,
+    "precision" : "street"
+  },
+  "Str. Amos Frâncu nr. 6" : {
+    "lat" : 46.761564,
+    "lon" : 23.604681,
+    "precision" : "exact"
+  },
+  "Str. Anton Bacalbașa – str. Odobești" : {
+    "lat" : 46.800418,
+    "lon" : 23.603496,
+    "precision" : "street"
+  },
+  "Str. Antonin Ciolan" : {
+    "lat" : 46.721514,
+    "lon" : 23.568005,
+    "precision" : "street"
+  },
+  "Str. Arad nr. 23" : {
+    "lat" : 46.786083,
+    "lon" : 23.618464,
+    "precision" : "exact"
+  },
+  "Str. Argeș, nr 19-21" : {
+    "lat" : 46.775422,
+    "lon" : 23.59827,
+    "precision" : "exact"
+  },
+  "Str. Arieșului nr.2" : {
+    "lat" : 46.773279,
+    "lon" : 23.612626,
+    "precision" : "exact"
+  },
+  "Str. Arțarului" : {
+    "lat" : 46.751728,
+    "lon" : 23.612253,
+    "precision" : "street"
+  },
+  "Str. Arțarului nr. 43" : {
+    "lat" : 46.750203,
+    "lon" : 23.609672,
+    "precision" : "exact"
+  },
+  "Str. Arțarului, nr. 27" : {
+    "lat" : 46.751728,
+    "lon" : 23.612253,
+    "precision" : "street"
+  },
+  "Str. Arțarului, nr.48" : {
+    "lat" : 46.751728,
+    "lon" : 23.612253,
+    "precision" : "street"
+  },
+  "Str. Aurel Ghurghianu" : null,
+  "Str. Aurel Vlaicu nr. 21" : {
+    "lat" : 46.780352,
+    "lon" : 23.624364,
+    "precision" : "exact"
+  },
+  "Str. Aurel Vlaicu nr.21" : {
+    "lat" : 46.780352,
+    "lon" : 23.624364,
+    "precision" : "exact"
+  },
+  "Str. Azuga- Aleea Albac str. Dima – str.Sighisoarei str. Gheorghe Dima- Vest" : null,
+  "Str. Becas nr. 40" : {
+    "lat" : 46.754504,
+    "lon" : 23.611348,
+    "precision" : "street"
+  },
+  "Str. Becaș nr. 32-34" : {
+    "lat" : 46.754607,
+    "lon" : 23.610914,
+    "precision" : "exact"
+  },
+  "Str. Becaș nr. 35" : {
+    "lat" : 46.755798,
+    "lon" : 23.609816,
+    "precision" : "street"
+  },
+  "Str. Becaș nr.16" : {
+    "lat" : 46.755798,
+    "lon" : 23.609816,
+    "precision" : "street"
+  },
+  "Str. Bicaz – sud" : {
+    "lat" : 46.750189,
+    "lon" : 23.64662,
+    "precision" : "street"
+  },
+  "Str. Blajului, nr. 2" : {
+    "lat" : 46.785063,
+    "lon" : 23.642483,
+    "precision" : "street"
+  },
+  "Str. Bobâlnei 54-54A" : {
+    "lat" : 46.788564,
+    "lon" : 23.621364,
+    "precision" : "exact"
+  },
+  "Str. Bobâlnei, nr. 56" : {
+    "lat" : 46.788602,
+    "lon" : 23.621422,
+    "precision" : "exact"
+  },
+  "Str. Borhanci" : {
+    "lat" : 46.765983,
+    "lon" : 23.619875,
+    "precision" : "street"
+  },
+  "Str. Borhanciului" : {
+    "lat" : 46.751944,
+    "lon" : 23.636217,
+    "precision" : "street"
+  },
+  "Str. Borhanciului nord" : {
+    "lat" : 46.751944,
+    "lon" : 23.636217,
+    "precision" : "street"
+  },
+  "Str. Borhanciului nr. 76F" : {
+    "lat" : 46.752171,
+    "lon" : 23.631995,
+    "precision" : "exact"
+  },
+  "Str. Borhanciului – Str. Recoltei" : {
+    "lat" : 46.751944,
+    "lon" : 23.636217,
+    "precision" : "street"
+  },
+  "Str. Branului nr. 10" : {
+    "lat" : 46.787437,
+    "lon" : 23.645734,
+    "precision" : "street"
+  },
+  "Str. București nr. 75-77" : {
+    "lat" : 46.780776,
+    "lon" : 23.605179,
+    "precision" : "street"
+  },
+  "Str. Bujorului nr. 25" : {
+    "lat" : 46.794123,
+    "lon" : 23.608445,
+    "precision" : "exact"
+  },
+  "Str. Bumbești nr.7A" : {
+    "lat" : 46.786184,
+    "lon" : 23.565416,
+    "precision" : "exact"
+  },
+  "Str. Buna Ziua – latura nordica" : {
+    "lat" : 46.74722,
+    "lon" : 23.593791,
+    "precision" : "street"
+  },
+  "Str. Buna Ziua – latura sudică" : {
+    "lat" : 46.74722,
+    "lon" : 23.593791,
+    "precision" : "street"
+  },
+  "Str. Buna ziua – latura sudică" : {
+    "lat" : 46.750104,
+    "lon" : 23.606047,
+    "precision" : "street"
+  },
+  "Str. Buna ziua – sud" : {
+    "lat" : 46.750104,
+    "lon" : 23.606047,
+    "precision" : "street"
+  },
+  "Str. Bună Ziua" : {
+    "lat" : 46.74722,
+    "lon" : 23.593791,
+    "precision" : "street"
+  },
+  "Str. Bună Ziua nr. 57" : {
+    "lat" : 46.750444,
+    "lon" : 23.60599,
+    "precision" : "exact"
+  },
+  "Str. Bună Ziua – sud" : {
+    "lat" : 46.74722,
+    "lon" : 23.593791,
+    "precision" : "street"
+  },
+  "Str. Burebista nr. 5-7" : {
+    "lat" : 46.783436,
+    "lon" : 23.589654,
+    "precision" : "street"
+  },
+  "Str. Busuiocului nr. 58" : {
+    "lat" : 46.790807,
+    "lon" : 23.561238,
+    "precision" : "exact"
+  },
+  "Str. Bârc I nr. 17" : {
+    "lat" : 46.791091,
+    "lon" : 23.653783,
+    "precision" : "exact"
+  },
+  "Str. Bârc II nr. 5" : {
+    "lat" : 46.792523,
+    "lon" : 23.654666,
+    "precision" : "exact"
+  },
+  "Str. Băișoara nr. 2, nr. 4" : null,
+  "Str. C-tin Brancusi nr. 134" : null,
+  "Str. C. Brâncuși nr. 98" : null,
+  "Str. Caisului 34" : {
+    "lat" : 46.756067,
+    "lon" : 23.586749,
+    "precision" : "exact"
+  },
+  "Str. Caisului nr. 34" : {
+    "lat" : 46.756067,
+    "lon" : 23.586749,
+    "precision" : "exact"
+  },
+  "Str. Caisului nr.34A" : {
+    "lat" : 46.756067,
+    "lon" : 23.586749,
+    "precision" : "exact"
+  },
+  "Str. Callatis nr. 23" : {
+    "lat" : 46.783122,
+    "lon" : 23.592547,
+    "precision" : "street"
+  },
+  "Str. Campina 11-13" : {
+    "lat" : 46.788597,
+    "lon" : 23.617222,
+    "precision" : "exact"
+  },
+  "Str. Campina 23" : {
+    "lat" : 46.788486,
+    "lon" : 23.61834,
+    "precision" : "exact"
+  },
+  "Str. Campului nr. 199" : {
+    "lat" : 46.751924,
+    "lon" : 23.565156,
+    "precision" : "street"
+  },
+  "Str. Caracal nr. 9" : {
+    "lat" : 46.780807,
+    "lon" : 23.588868,
+    "precision" : "exact"
+  },
+  "Str. Carbunarilor, nr. 3A" : {
+    "lat" : 46.772041,
+    "lon" : 23.611656,
+    "precision" : "exact"
+  },
+  "Str. Card. Iuliu Hossu nr. 31" : null,
+  "Str. Cardinal Iuliu Hossu, nr. 47-49" : {
+    "lat" : 46.768953,
+    "lon" : 23.580485,
+    "precision" : "street"
+  },
+  "Str. Cardinal luliu Hossu Nr. 22-26" : null,
+  "Str. Cardinal luliu Hossu Nr. 28" : null,
+  "Str. Ceahlău nr. 15 – 23" : {
+    "lat" : 46.759181,
+    "lon" : 23.589837,
+    "precision" : "exact"
+  },
+  "Str. Cetății nr. 13" : {
+    "lat" : 46.775703,
+    "lon" : 23.582958,
+    "precision" : "street"
+  },
+  "Str. Cetății nr. 15" : {
+    "lat" : 46.778431,
+    "lon" : 23.581776,
+    "precision" : "street"
+  },
+  "Str. Cireșilor nr. 4/C4; str. L. Pasteur nr. 63/XI-C; Aleea Padin nr. 32/B2; Aleea Băița nr. 5; Aleea Padin nr. 12/C11.B-dul N. Titulescu, nr. 11-15, str. L. Rebreanu nr. 62 str.Ion Meșter nr.6/J;Str. Bucium nr. 3/A2; Aleea Băița nr. 2/K4.B-dul N. Titulescu nr. 147/11; nr. 33/B1; Aleea Muscel nr. 6/C4; Str. Uzinii Electrice nr. 15. Str. Izlazului nr. 3/OM5; Str. Porțile de Fier nr. 8/B2; str. Donath nr. 192/A4; Aleea Tarnița nr. 8/B2; Str. Ștefan Mora nr. 7 /E5; Aleea Rășinari nr. 2" : {
+    "lat" : 46.757945,
+    "lon" : 23.584013,
+    "precision" : "exact"
+  },
+  "Str. Clinicilor nr. 19" : {
+    "lat" : 46.764584,
+    "lon" : 23.577685,
+    "precision" : "exact"
+  },
+  "Str. Clinicilor nr. 29-31" : {
+    "lat" : 46.764619,
+    "lon" : 23.576707,
+    "precision" : "exact"
+  },
+  "Str. Cloșca nr 13" : {
+    "lat" : 46.777299,
+    "lon" : 23.58871,
+    "precision" : "street"
+  },
+  "Str. Cocorilor nr. 40 E" : {
+    "lat" : 46.7939,
+    "lon" : 23.580799,
+    "precision" : "street"
+  },
+  "Str. Cocorilor nr. 40A" : {
+    "lat" : 46.7939,
+    "lon" : 23.580799,
+    "precision" : "street"
+  },
+  "Str. Codru Drăgușanu nr. 7" : {
+    "lat" : 46.79477,
+    "lon" : 23.60668,
+    "precision" : "exact"
+  },
+  "Str. Cojocnei" : {
+    "lat" : 46.783205,
+    "lon" : 23.628813,
+    "precision" : "street"
+  },
+  "Str. Colinei nr.8" : {
+    "lat" : 46.752657,
+    "lon" : 23.537144,
+    "precision" : "street"
+  },
+  "Str. Colonia Borhanci nr. 94" : {
+    "lat" : 46.746879,
+    "lon" : 23.6387,
+    "precision" : "area"
+  },
+  "Str. Colonia Breaza" : {
+    "lat" : 46.798662,
+    "lon" : 23.576962,
+    "precision" : "street"
+  },
+  "Str. Colonia Breaza – latura sudică" : {
+    "lat" : 46.798662,
+    "lon" : 23.576962,
+    "precision" : "street"
+  },
+  "Str. Colonia Faget 2A" : {
+    "lat" : 46.728671,
+    "lon" : 23.586395,
+    "precision" : "exact"
+  },
+  "Str. Cometei nr. 38B" : {
+    "lat" : 46.753744,
+    "lon" : 23.59104,
+    "precision" : "exact"
+  },
+  "Str. Constantin Brâncuși nr 176- 178" : {
+    "lat" : 46.759248,
+    "lon" : 23.615554,
+    "precision" : "exact"
+  },
+  "Str. Constantin Brâncuși, nr 111-113" : {
+    "lat" : 46.762481,
+    "lon" : 23.610656,
+    "precision" : "exact"
+  },
+  "Str. Constantin Brâncuși, nr. 134" : {
+    "lat" : 46.76124,
+    "lon" : 23.611974,
+    "precision" : "exact"
+  },
+  "Str. Constantin Brâncuși, nr. 80" : {
+    "lat" : 46.763836,
+    "lon" : 23.607519,
+    "precision" : "exact"
+  },
+  "Str. Corneliu Coposu nr. 145" : {
+    "lat" : 46.784907,
+    "lon" : 23.565639,
+    "precision" : "exact"
+  },
+  "Str. Corneliu Coposu nr.24-26" : {
+    "lat" : 46.787586,
+    "lon" : 23.577207,
+    "precision" : "exact"
+  },
+  "Str. Corneliu Coposu nr.46" : {
+    "lat" : 46.787121,
+    "lon" : 23.574872,
+    "precision" : "exact"
+  },
+  "Str. Cornului nr. 1" : {
+    "lat" : 46.781233,
+    "lon" : 23.658822,
+    "precision" : "exact"
+  },
+  "Str. Cosasilor nr. 47-49" : {
+    "lat" : 46.788791,
+    "lon" : 23.61311,
+    "precision" : "exact"
+  },
+  "Str. Coșbuc nr. 5" : {
+    "lat" : 46.76611,
+    "lon" : 23.575665,
+    "precision" : "exact"
+  },
+  "Str. Crizantemelor nr. 9" : {
+    "lat" : 46.76501,
+    "lon" : 23.61836,
+    "precision" : "exact"
+  },
+  "Str. Crișan nr. 37" : {
+    "lat" : 46.779472,
+    "lon" : 23.583063,
+    "precision" : "exact"
+  },
+  "Str. Crișan nr. 39" : {
+    "lat" : 46.778981,
+    "lon" : 23.584594,
+    "precision" : "street"
+  },
+  "Str. Câmpina nr. 12 – 12A" : {
+    "lat" : 46.788262,
+    "lon" : 23.61705,
+    "precision" : "exact"
+  },
+  "Str. Câmpina nr.51-53" : {
+    "lat" : 46.788104,
+    "lon" : 23.624294,
+    "precision" : "exact"
+  },
+  "Str. Câmpului fn" : {
+    "lat" : 46.740519,
+    "lon" : 23.571077,
+    "precision" : "street"
+  },
+  "Str. Câmpului nr 159" : {
+    "lat" : 46.750601,
+    "lon" : 23.566381,
+    "precision" : "exact"
+  },
+  "Str. Câmpului nr. 117" : {
+    "lat" : 46.753211,
+    "lon" : 23.564693,
+    "precision" : "exact"
+  },
+  "Str. Câmpului nr. 119" : {
+    "lat" : 46.740519,
+    "lon" : 23.571077,
+    "precision" : "street"
+  },
+  "Str. Câmpului nr. 125A" : {
+    "lat" : 46.751924,
+    "lon" : 23.565156,
+    "precision" : "street"
+  },
+  "Str. Câmpului nr. 127" : {
+    "lat" : 46.740519,
+    "lon" : 23.571077,
+    "precision" : "street"
+  },
+  "Str. Câmpului nr. 135" : {
+    "lat" : 46.744839,
+    "lon" : 23.569708,
+    "precision" : "street"
+  },
+  "Str. Câmpului nr. 159H" : {
+    "lat" : 46.750601,
+    "lon" : 23.566381,
+    "precision" : "exact"
+  },
+  "Str. Câmpului nr. 161" : {
+    "lat" : 46.749924,
+    "lon" : 23.566807,
+    "precision" : "exact"
+  },
+  "Str. Câmpului – sud" : {
+    "lat" : 46.751924,
+    "lon" : 23.565156,
+    "precision" : "street"
+  },
+  "Str. Câmpului, nr. 31" : {
+    "lat" : 46.757942,
+    "lon" : 23.56312,
+    "precision" : "exact"
+  },
+  "Str. Căpitan Grigore Ignat nr. 16-16A" : {
+    "lat" : 46.787629,
+    "lon" : 23.656981,
+    "precision" : "exact"
+  },
+  "Str. D. D. Roșca – est" : {
+    "lat" : 46.726281,
+    "lon" : 23.578297,
+    "precision" : "street"
+  },
+  "Str. Dealul Fanatelor" : {
+    "lat" : 46.822248,
+    "lon" : 23.594541,
+    "precision" : "street"
+  },
+  "Str. Decebal 29-29A" : {
+    "lat" : 46.776767,
+    "lon" : 23.589696,
+    "precision" : "street"
+  },
+  "Str. Decebal nr. 41" : {
+    "lat" : 46.779777,
+    "lon" : 23.588473,
+    "precision" : "exact"
+  },
+  "Str. Decebal nr. 47" : {
+    "lat" : 46.785135,
+    "lon" : 23.593797,
+    "precision" : "street"
+  },
+  "Str. Decebal nr. 57" : {
+    "lat" : 46.780535,
+    "lon" : 23.589799,
+    "precision" : "exact"
+  },
+  "Str. Decebal nr.104-106" : {
+    "lat" : 46.785135,
+    "lon" : 23.593797,
+    "precision" : "street"
+  },
+  "Str. Decebal nr.116" : {
+    "lat" : 46.776767,
+    "lon" : 23.589696,
+    "precision" : "street"
+  },
+  "Str. Decebal, nr. 48-52" : {
+    "lat" : 46.776767,
+    "lon" : 23.589696,
+    "precision" : "street"
+  },
+  "Str. Dimitrie Guști nr. 2" : {
+    "lat" : 46.749044,
+    "lon" : 23.563174,
+    "precision" : "exact"
+  },
+  "Str. Dimitrie Onciu – latura sudica" : null,
+  "Str. Dionisie Roman" : {
+    "lat" : 46.779671,
+    "lon" : 23.637793,
+    "precision" : "street"
+  },
+  "Str. Doina Cornea, nr.14" : {
+    "lat" : 46.764102,
+    "lon" : 23.597405,
+    "precision" : "exact"
+  },
+  "Str. Doinei nr. 45A" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "Str. Doinei nr. 45F" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "Str. Doinei nr. 45G" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "Str. Doinei, nr. 62B" : {
+    "lat" : 46.793686,
+    "lon" : 23.587003,
+    "precision" : "exact"
+  },
+  "Str. Donath 224B- 224C" : {
+    "lat" : 46.769084,
+    "lon" : 23.548622,
+    "precision" : "street"
+  },
+  "Str. Donath nr. 148-160" : {
+    "lat" : 46.769084,
+    "lon" : 23.548622,
+    "precision" : "street"
+  },
+  "Str. Donath nr. 224/B-224/C" : {
+    "lat" : 46.771439,
+    "lon" : 23.553541,
+    "precision" : "street"
+  },
+  "Str. Donath nr.176" : {
+    "lat" : 46.766323,
+    "lon" : 23.545389,
+    "precision" : "exact"
+  },
+  "Str. Donath nr.190" : {
+    "lat" : 46.765644,
+    "lon" : 23.544925,
+    "precision" : "street"
+  },
+  "Str. Donath, nr. 2" : {
+    "lat" : 46.765644,
+    "lon" : 23.544925,
+    "precision" : "street"
+  },
+  "Str. Dorobanților 114-118" : null,
+  "Str. Dorobanților nr. 114" : null,
+  "Str. Dostoievski nr. 18-22" : {
+    "lat" : 46.769195,
+    "lon" : 23.601157,
+    "precision" : "exact"
+  },
+  "Str. Dragos Vodă nr. 16" : {
+    "lat" : 46.78938,
+    "lon" : 23.587449,
+    "precision" : "exact"
+  },
+  "Str. Dunării nr. 65" : {
+    "lat" : 46.777786,
+    "lon" : 23.636997,
+    "precision" : "exact"
+  },
+  "Str. E. Grigorescu nr. 96A" : {
+    "lat" : 46.770963,
+    "lon" : 23.54963,
+    "precision" : "exact"
+  },
+  "Str. E. Murgu nr.11" : null,
+  "Str. Eclipsei nr. 8" : null,
+  "Str. Edgar Quinet nr. 1-3" : {
+    "lat" : 46.746294,
+    "lon" : 23.56589,
+    "precision" : "exact"
+  },
+  "Str. Emil Petrovici nr. 9" : {
+    "lat" : 46.779392,
+    "lon" : 23.590527,
+    "precision" : "exact"
+  },
+  "Str. Episcop Marton Aron" : {
+    "lat" : 46.745734,
+    "lon" : 23.586343,
+    "precision" : "street"
+  },
+  "Str. Eremia Grigorescu nr. 118B" : {
+    "lat" : 46.773583,
+    "lon" : 23.56489,
+    "precision" : "exact"
+  },
+  "Str. Eremia Grigorescu nr. 54" : {
+    "lat" : 46.773243,
+    "lon" : 23.572841,
+    "precision" : "exact"
+  },
+  "Str. Eremia Grigorescu nr. 76A – 78" : {
+    "lat" : 46.773249,
+    "lon" : 23.564889,
+    "precision" : "street"
+  },
+  "Str. Erkel Ferenk nr.1" : null,
+  "Str. Eugen Ionesco-str. Carierei" : null,
+  "Str. F.J Curie nr.1" : null,
+  "Str. Fabricii de Zahăr nr. 33-35" : {
+    "lat" : 46.78183,
+    "lon" : 23.617507,
+    "precision" : "exact"
+  },
+  "Str. Fabricii de Zahăr nr. 41" : {
+    "lat" : 46.781118,
+    "lon" : 23.616344,
+    "precision" : "street"
+  },
+  "Str. Fabricii de Zahăr nr.119" : {
+    "lat" : 46.787033,
+    "lon" : 23.626781,
+    "precision" : "exact"
+  },
+  "Str. Fabricii de Zahăr, nr. 166" : {
+    "lat" : 46.783498,
+    "lon" : 23.623886,
+    "precision" : "street"
+  },
+  "Str. Fabricii de zahar nr.107" : {
+    "lat" : 46.783498,
+    "lon" : 23.623886,
+    "precision" : "street"
+  },
+  "Str. Fabricii de zahăr nr. 147" : {
+    "lat" : 46.789252,
+    "lon" : 23.627509,
+    "precision" : "exact"
+  },
+  "Str. Fabricii nr 67-78-80" : {
+    "lat" : 46.786652,
+    "lon" : 23.6142,
+    "precision" : "exact"
+  },
+  "Str. Fagului nr. 31E" : {
+    "lat" : 46.754851,
+    "lon" : 23.613939,
+    "precision" : "street"
+  },
+  "Str. Fagului nr. 60A" : {
+    "lat" : 46.752467,
+    "lon" : 23.610255,
+    "precision" : "exact"
+  },
+  "Str. Fortăreței, nr. 2" : {
+    "lat" : 46.767709,
+    "lon" : 23.588526,
+    "precision" : "street"
+  },
+  "Str. Frunzisului nr.104" : {
+    "lat" : 46.748439,
+    "lon" : 23.575129,
+    "precision" : "street"
+  },
+  "Str. Frunzișului 104" : {
+    "lat" : 46.748505,
+    "lon" : 23.574469,
+    "precision" : "street"
+  },
+  "Str. Frunzișului nr.23-25" : {
+    "lat" : 46.754218,
+    "lon" : 23.568004,
+    "precision" : "exact"
+  },
+  "Str. Frunzișului nr.78" : {
+    "lat" : 46.751285,
+    "lon" : 23.572735,
+    "precision" : "street"
+  },
+  "Str. Fânațelor, nr. 7-11" : {
+    "lat" : 46.799529,
+    "lon" : 23.608611,
+    "precision" : "exact"
+  },
+  "Str. Făgetului" : {
+    "lat" : 46.727616,
+    "lon" : 23.584496,
+    "precision" : "street"
+  },
+  "Str. Făgetului fn" : {
+    "lat" : 46.736839,
+    "lon" : 23.589735,
+    "precision" : "street"
+  },
+  "Str. Făgetului nr. 10" : {
+    "lat" : 46.736839,
+    "lon" : 23.589735,
+    "precision" : "street"
+  },
+  "Str. Făgetului nr. 33B" : {
+    "lat" : 46.716259,
+    "lon" : 23.574061,
+    "precision" : "exact"
+  },
+  "Str. Făgetului nr. 34B" : {
+    "lat" : 46.732136,
+    "lon" : 23.587131,
+    "precision" : "exact"
+  },
+  "Str. Făgetului nr.34B" : {
+    "lat" : 46.732136,
+    "lon" : 23.587131,
+    "precision" : "exact"
+  },
+  "Str. Făgetului – vest" : {
+    "lat" : 46.727616,
+    "lon" : 23.584496,
+    "precision" : "street"
+  },
+  "Str. Gala Galaction" : null,
+  "Str. Galaction Liviu Munteanu" : {
+    "lat" : 46.720821,
+    "lon" : 23.578595,
+    "precision" : "street"
+  },
+  "Str. Galaction Liviu Munteanu nr. 8" : {
+    "lat" : 46.720693,
+    "lon" : 23.578366,
+    "precision" : "exact"
+  },
+  "Str. General Traian Mosoiu 62-64" : {
+    "lat" : 46.771143,
+    "lon" : 23.606395,
+    "precision" : "exact"
+  },
+  "Str. George Bibescu nr.46" : {
+    "lat" : 46.750037,
+    "lon" : 23.587885,
+    "precision" : "exact"
+  },
+  "Str. George Cosbuc, nr. 5" : {
+    "lat" : 46.76611,
+    "lon" : 23.575665,
+    "precision" : "exact"
+  },
+  "Str. George Cosbuc, nr.11" : {
+    "lat" : 46.76536,
+    "lon" : 23.5763,
+    "precision" : "street"
+  },
+  "Str. George Coșbuc nr. 5" : {
+    "lat" : 46.76611,
+    "lon" : 23.575665,
+    "precision" : "exact"
+  },
+  "Str. Gh. Sincai nr. 13" : {
+    "lat" : 46.768119,
+    "lon" : 23.586396,
+    "precision" : "exact"
+  },
+  "Str. Gheorghe Dima" : {
+    "lat" : 46.755577,
+    "lon" : 23.573008,
+    "precision" : "street"
+  },
+  "Str. Gheorghe Doja nr. 43" : {
+    "lat" : 46.75934,
+    "lon" : 23.601409,
+    "precision" : "exact"
+  },
+  "Str. Ghimeșului nr. 3" : {
+    "lat" : 46.781972,
+    "lon" : 23.642271,
+    "precision" : "street"
+  },
+  "Str. Ghoerghe Doja, nr. 13" : null,
+  "Str. Goethe nr.8" : {
+    "lat" : 46.750211,
+    "lon" : 23.596929,
+    "precision" : "exact"
+  },
+  "Str. Gr. Alexandrescu nr. 47A" : {
+    "lat" : 46.75444,
+    "lon" : 23.545293,
+    "precision" : "exact"
+  },
+  "Str. Grigore Moisil nr. 1" : {
+    "lat" : 46.746854,
+    "lon" : 23.592131,
+    "precision" : "exact"
+  },
+  "Str. Grigore Moisil nr.1" : {
+    "lat" : 46.746854,
+    "lon" : 23.592131,
+    "precision" : "exact"
+  },
+  "Str. Grigore Moisil – vest" : {
+    "lat" : 46.74712,
+    "lon" : 23.590715,
+    "precision" : "street"
+  },
+  "Str. Griviței nr. 28" : {
+    "lat" : 46.786154,
+    "lon" : 23.616559,
+    "precision" : "street"
+  },
+  "Str. Gruia nr. 51" : {
+    "lat" : 46.776338,
+    "lon" : 23.574578,
+    "precision" : "exact"
+  },
+  "Str. Gării nr. 21" : {
+    "lat" : 46.788337,
+    "lon" : 23.594316,
+    "precision" : "exact"
+  },
+  "Str. Haiducului nr. 1" : {
+    "lat" : 46.781721,
+    "lon" : 23.59065,
+    "precision" : "exact"
+  },
+  "Str. Hațeg nr. 11" : {
+    "lat" : 46.771138,
+    "lon" : 23.562682,
+    "precision" : "exact"
+  },
+  "Str. Henri Barbusse nr. 41" : {
+    "lat" : 46.783058,
+    "lon" : 23.607634,
+    "precision" : "exact"
+  },
+  "Str. Henri Barbusse nr. 44-46" : {
+    "lat" : 46.782783,
+    "lon" : 23.608073,
+    "precision" : "exact"
+  },
+  "Str. Horea 33-35 și str. Crișan 26" : {
+    "lat" : 46.778796,
+    "lon" : 23.586141,
+    "precision" : "exact"
+  },
+  "Str. Horea nr. 72" : {
+    "lat" : 46.777897,
+    "lon" : 23.587274,
+    "precision" : "street"
+  },
+  "Str. I. B. Deleanu nr. 1" : null,
+  "Str. Iasomiei nr.18" : {
+    "lat" : 46.795661,
+    "lon" : 23.607649,
+    "precision" : "exact"
+  },
+  "Str. Iasomiei nr.20A" : {
+    "lat" : 46.795947,
+    "lon" : 23.607785,
+    "precision" : "exact"
+  },
+  "Str. Inului nr. 1" : {
+    "lat" : 46.782998,
+    "lon" : 23.616778,
+    "precision" : "street"
+  },
+  "Str. Inău nr. 13" : {
+    "lat" : 46.775715,
+    "lon" : 23.615926,
+    "precision" : "exact"
+  },
+  "Str. Inău nr. 24" : {
+    "lat" : 46.775534,
+    "lon" : 23.616607,
+    "precision" : "exact"
+  },
+  "Str. Ioan Pop de Cluj nr. 2" : {
+    "lat" : 46.781443,
+    "lon" : 23.669996,
+    "precision" : "street"
+  },
+  "Str. Ionel Perlea nr. 14" : {
+    "lat" : 46.744267,
+    "lon" : 23.648909,
+    "precision" : "street"
+  },
+  "Str. Iuliu Moldoveanu nr. 23" : null,
+  "Str. Izei nr.11" : {
+    "lat" : 46.780868,
+    "lon" : 23.597528,
+    "precision" : "exact"
+  },
+  "Str. Izvorului 19" : {
+    "lat" : 46.792029,
+    "lon" : 23.577647,
+    "precision" : "street"
+  },
+  "Str. Kos Karoly, nr. 11A" : {
+    "lat" : 46.738614,
+    "lon" : 23.588819,
+    "precision" : "exact"
+  },
+  "Str. L.W. Bethoven 30" : null,
+  "Str. Lalelelor nr. 7" : {
+    "lat" : 46.778899,
+    "lon" : 23.594651,
+    "precision" : "street"
+  },
+  "Str. Laterala nr.6A" : {
+    "lat" : 46.758411,
+    "lon" : 23.564901,
+    "precision" : "exact"
+  },
+  "Str. Lipova – nord" : {
+    "lat" : 46.798502,
+    "lon" : 23.621704,
+    "precision" : "street"
+  },
+  "Str. Lombului" : {
+    "lat" : 46.785637,
+    "lon" : 23.559213,
+    "precision" : "street"
+  },
+  "Str. Lombului nr. 2-6" : {
+    "lat" : 46.783005,
+    "lon" : 23.55977,
+    "precision" : "exact"
+  },
+  "Str. Lombului nr.30" : {
+    "lat" : 46.787544,
+    "lon" : 23.559599,
+    "precision" : "exact"
+  },
+  "Str. Lombului – str. Gh. Sion" : {
+    "lat" : 46.785637,
+    "lon" : 23.559213,
+    "precision" : "street"
+  },
+  "Str. Luminii" : {
+    "lat" : 46.740244,
+    "lon" : 23.584463,
+    "precision" : "street"
+  },
+  "Str. Luminii, str Eugen Ionescu vest" : null,
+  "Str. Lutoasa nr. 20" : {
+    "lat" : 46.76701,
+    "lon" : 23.599948,
+    "precision" : "street"
+  },
+  "Str. Lutoasă nr. 1 și str. Andrei Mureșanu nr. 4" : {
+    "lat" : 46.76701,
+    "lon" : 23.599948,
+    "precision" : "street"
+  },
+  "Str. Lutoasă nr. 24" : {
+    "lat" : 46.766936,
+    "lon" : 23.599956,
+    "precision" : "exact"
+  },
+  "Str. Macului-Lacului nr. 2A" : null,
+  "Str. Madach Imre nr. 54" : {
+    "lat" : 46.763223,
+    "lon" : 23.611243,
+    "precision" : "exact"
+  },
+  "Str. Madach Imre, nr. 52" : {
+    "lat" : 46.763714,
+    "lon" : 23.61074,
+    "precision" : "exact"
+  },
+  "Str. Maramureșului 57A" : {
+    "lat" : 46.791175,
+    "lon" : 23.588756,
+    "precision" : "street"
+  },
+  "Str. Maramureșului nr. 153A" : {
+    "lat" : 46.791175,
+    "lon" : 23.588756,
+    "precision" : "street"
+  },
+  "Str. Mateiu Caragiale" : {
+    "lat" : 46.790248,
+    "lon" : 23.65215,
+    "precision" : "street"
+  },
+  "Str. Mateiu Caragiale nr. 13" : {
+    "lat" : 46.790366,
+    "lon" : 23.65253,
+    "precision" : "exact"
+  },
+  "Str. Mediaș – latura nordica" : {
+    "lat" : 46.800163,
+    "lon" : 23.597845,
+    "precision" : "street"
+  },
+  "Str. Meteor nr. 46" : {
+    "lat" : 46.754419,
+    "lon" : 23.589356,
+    "precision" : "exact"
+  },
+  "Str. Meteor nr. 50" : {
+    "lat" : 46.754318,
+    "lon" : 23.589084,
+    "precision" : "exact"
+  },
+  "Str. Meteor nr. 69E" : {
+    "lat" : 46.752349,
+    "lon" : 23.588522,
+    "precision" : "exact"
+  },
+  "Str. Meteor nr.63" : {
+    "lat" : 46.753975,
+    "lon" : 23.588757,
+    "precision" : "exact"
+  },
+  "Str. Mihai Romanul sud" : {
+    "lat" : 46.741665,
+    "lon" : 23.598425,
+    "precision" : "street"
+  },
+  "Str. Mihai Românu" : null,
+  "Str. Mihai Veliciu nr. 5" : {
+    "lat" : 46.766784,
+    "lon" : 23.603902,
+    "precision" : "exact"
+  },
+  "Str. Miko Imre nr. 12" : {
+    "lat" : 46.748471,
+    "lon" : 23.590313,
+    "precision" : "street"
+  },
+  "Str. Mircea Eliade nr. 60" : {
+    "lat" : 46.751544,
+    "lon" : 23.586828,
+    "precision" : "street"
+  },
+  "Str. Mircea Eliade nr.37" : {
+    "lat" : 46.752004,
+    "lon" : 23.588764,
+    "precision" : "exact"
+  },
+  "Str. Moldovei nr. 14-16" : {
+    "lat" : 46.764889,
+    "lon" : 23.572783,
+    "precision" : "exact"
+  },
+  "Str. Moldovei nr.14-16" : {
+    "lat" : 46.764889,
+    "lon" : 23.572783,
+    "precision" : "exact"
+  },
+  "Str. Moldovei nr.2" : {
+    "lat" : 46.764667,
+    "lon" : 23.573812,
+    "precision" : "exact"
+  },
+  "Str. Morarilor nr.2" : {
+    "lat" : 46.781468,
+    "lon" : 23.551413,
+    "precision" : "street"
+  },
+  "Str. Morii, Nr. 18" : {
+    "lat" : 46.78702,
+    "lon" : 23.647995,
+    "precision" : "exact"
+  },
+  "Str. Măceșului" : {
+    "lat" : 46.749174,
+    "lon" : 23.607572,
+    "precision" : "street"
+  },
+  "Str. Măceșului nr 64A, 9" : {
+    "lat" : 46.743027,
+    "lon" : 23.604968,
+    "precision" : "exact"
+  },
+  "Str. Măceșului nr. 58D" : {
+    "lat" : 46.743891,
+    "lon" : 23.605058,
+    "precision" : "exact"
+  },
+  "Str. Mărișel-str. Huedinului" : null,
+  "Str. Nicolae Iorga" : {
+    "lat" : 46.762239,
+    "lon" : 23.600767,
+    "precision" : "street"
+  },
+  "Str. Nicolae Iorga nr.2" : {
+    "lat" : 46.763155,
+    "lon" : 23.59845,
+    "precision" : "exact"
+  },
+  "Str. Nicolae Margineanu" : {
+    "lat" : 46.716718,
+    "lon" : 23.580803,
+    "precision" : "street"
+  },
+  "Str. Nicolae Mărgineanu nr. 18" : {
+    "lat" : 46.718234,
+    "lon" : 23.580937,
+    "precision" : "exact"
+  },
+  "Str. Nădășel nr. 67B" : {
+    "lat" : 46.789991,
+    "lon" : 23.600847,
+    "precision" : "street"
+  },
+  "Str. Nădășel nr. 67C" : {
+    "lat" : 46.789991,
+    "lon" : 23.600847,
+    "precision" : "street"
+  },
+  "Str. Năvodari nr.2" : {
+    "lat" : 46.774081,
+    "lon" : 23.603917,
+    "precision" : "exact"
+  },
+  "Str. Oasului nr. 254 C" : {
+    "lat" : 46.787852,
+    "lon" : 23.596662,
+    "precision" : "street"
+  },
+  "Str. Oașului" : {
+    "lat" : 46.79891,
+    "lon" : 23.607237,
+    "precision" : "street"
+  },
+  "Str. Oașului nr. 246" : {
+    "lat" : 46.790464,
+    "lon" : 23.598343,
+    "precision" : "street"
+  },
+  "Str. Oașului nr. 27" : {
+    "lat" : 46.799063,
+    "lon" : 23.607539,
+    "precision" : "street"
+  },
+  "Str. Oașului nr. 42A" : {
+    "lat" : 46.79123,
+    "lon" : 23.599345,
+    "precision" : "exact"
+  },
+  "Str. Oașului nr.226" : {
+    "lat" : 46.790464,
+    "lon" : 23.598343,
+    "precision" : "street"
+  },
+  "Str. Oașului, 357 A" : {
+    "lat" : 46.799063,
+    "lon" : 23.607539,
+    "precision" : "street"
+  },
+  "Str. Observatorului 133" : {
+    "lat" : 46.756035,
+    "lon" : 23.595985,
+    "precision" : "street"
+  },
+  "Str. Observatorului nr. 72-72A" : {
+    "lat" : 46.756035,
+    "lon" : 23.595985,
+    "precision" : "street"
+  },
+  "Str. Octav Băncilă 24A" : {
+    "lat" : 46.787235,
+    "lon" : 23.650801,
+    "precision" : "exact"
+  },
+  "Str. Octav Băncilă, nr 32" : {
+    "lat" : 46.788257,
+    "lon" : 23.649868,
+    "precision" : "exact"
+  },
+  "Str. Octavian Goga nr. 28" : {
+    "lat" : 46.771628,
+    "lon" : 23.571872,
+    "precision" : "exact"
+  },
+  "Str. Odobești nr.14A" : {
+    "lat" : 46.798529,
+    "lon" : 23.601923,
+    "precision" : "street"
+  },
+  "Str. Onisifor Ghibu 25A" : {
+    "lat" : 46.776793,
+    "lon" : 23.600819,
+    "precision" : "street"
+  },
+  "Str. Onisifor Ghibu nr.25A" : {
+    "lat" : 46.776793,
+    "lon" : 23.600819,
+    "precision" : "street"
+  },
+  "Str. Orzului nr. 9" : {
+    "lat" : 46.786362,
+    "lon" : 23.55419,
+    "precision" : "street"
+  },
+  "Str. Pablo Picasso nr. 9A" : {
+    "lat" : 46.749173,
+    "lon" : 23.577589,
+    "precision" : "street"
+  },
+  "Str. Pablo Picasso, nr 7A" : {
+    "lat" : 46.7488,
+    "lon" : 23.579093,
+    "precision" : "exact"
+  },
+  "Str. Pablo Picasso, nr. 7A" : {
+    "lat" : 46.7488,
+    "lon" : 23.579093,
+    "precision" : "exact"
+  },
+  "Str. Parcul Feroviarilor nr. 12" : {
+    "lat" : 46.782542,
+    "lon" : 23.597103,
+    "precision" : "exact"
+  },
+  "Str. Parcul Feroviarilor nr. 4-5" : {
+    "lat" : 46.781886,
+    "lon" : 23.596018,
+    "precision" : "street"
+  },
+  "Str. Paris, nr. 71" : {
+    "lat" : 46.780539,
+    "lon" : 23.59889,
+    "precision" : "exact"
+  },
+  "Str. Parâng" : {
+    "lat" : 46.753967,
+    "lon" : 23.552907,
+    "precision" : "street"
+  },
+  "Str. Pasteur nr. 34-36" : {
+    "lat" : 46.760689,
+    "lon" : 23.585194,
+    "precision" : "street"
+  },
+  "Str. Pasteur nr.4-6 – str. Gh. Marinescu nr. 23" : {
+    "lat" : 46.7594,
+    "lon" : 23.58428,
+    "precision" : "street"
+  },
+  "Str. Patriciu Barbu nr.72" : {
+    "lat" : 46.783916,
+    "lon" : 23.605365,
+    "precision" : "exact"
+  },
+  "Str. Pavel Dan" : {
+    "lat" : 46.745647,
+    "lon" : 23.571151,
+    "precision" : "street"
+  },
+  "Str. Piezișa nr. 8" : {
+    "lat" : 46.763596,
+    "lon" : 23.577237,
+    "precision" : "street"
+  },
+  "Str. Piezișă nr. 23" : {
+    "lat" : 46.763365,
+    "lon" : 23.577629,
+    "precision" : "exact"
+  },
+  "Str. Pintea Viteazu FN" : {
+    "lat" : 46.790471,
+    "lon" : 23.649972,
+    "precision" : "street"
+  },
+  "Str. Plevnei nr. 172" : {
+    "lat" : 46.786641,
+    "lon" : 23.643281,
+    "precision" : "street"
+  },
+  "Str. Plevnei nr. 54" : {
+    "lat" : 46.787284,
+    "lon" : 23.634289,
+    "precision" : "street"
+  },
+  "Str. Plevnei nr.83" : {
+    "lat" : 46.787381,
+    "lon" : 23.636604,
+    "precision" : "exact"
+  },
+  "Str. Plevnei – sud" : {
+    "lat" : 46.78681,
+    "lon" : 23.640928,
+    "precision" : "street"
+  },
+  "Str. Plevnei, nr 55" : {
+    "lat" : 46.786641,
+    "lon" : 23.643281,
+    "precision" : "street"
+  },
+  "Str. Ploiesti nr. 44" : {
+    "lat" : 46.776723,
+    "lon" : 23.595925,
+    "precision" : "street"
+  },
+  "Str. Plopilor nr. 43-45" : {
+    "lat" : 46.763252,
+    "lon" : 23.566392,
+    "precision" : "exact"
+  },
+  "Str. Pluto 10-16" : {
+    "lat" : 46.745227,
+    "lon" : 23.631237,
+    "precision" : "street"
+  },
+  "Str. Poienarilor, nr 4" : {
+    "lat" : 46.784965,
+    "lon" : 23.568822,
+    "precision" : "street"
+  },
+  "Str. Pomet nr. 16b" : {
+    "lat" : 46.81494,
+    "lon" : 23.607904,
+    "precision" : "street"
+  },
+  "Str. Pometului" : null,
+  "Str. Porțelanului" : {
+    "lat" : 46.789123,
+    "lon" : 23.605173,
+    "precision" : "street"
+  },
+  "Str. Porțelanului- str. Tăbăcarilor" : null,
+  "Str. Povarnisului" : {
+    "lat" : 46.777819,
+    "lon" : 23.562167,
+    "precision" : "street"
+  },
+  "Str. Predeal nr. 40k" : {
+    "lat" : 46.755905,
+    "lon" : 23.604953,
+    "precision" : "exact"
+  },
+  "Str. Pârâului nr. 9" : {
+    "lat" : 46.758548,
+    "lon" : 23.563767,
+    "precision" : "street"
+  },
+  "Str. Rachitei" : {
+    "lat" : 46.740162,
+    "lon" : 23.587539,
+    "precision" : "street"
+  },
+  "Str. Rahovei nr.11" : {
+    "lat" : 46.77601,
+    "lon" : 23.570741,
+    "precision" : "street"
+  },
+  "Str. Rarău nr. 28" : {
+    "lat" : 46.774477,
+    "lon" : 23.562731,
+    "precision" : "exact"
+  },
+  "Str. Raului" : {
+    "lat" : 46.789453,
+    "lon" : 23.661807,
+    "precision" : "street"
+  },
+  "Str. Regele Ferdinand nr. 25" : {
+    "lat" : 46.772595,
+    "lon" : 23.588901,
+    "precision" : "exact"
+  },
+  "Str. Remenyik Sandor -est" : {
+    "lat" : 46.748019,
+    "lon" : 23.643641,
+    "precision" : "street"
+  },
+  "Str. Rene Decartes nr. 44" : null,
+  "Str. Republicii 56-58-58A" : null,
+  "Str. Republicii nr. 100" : {
+    "lat" : 46.757769,
+    "lon" : 23.593465,
+    "precision" : "exact"
+  },
+  "Str. Republicii nr. 102" : {
+    "lat" : 46.757652,
+    "lon" : 23.593521,
+    "precision" : "exact"
+  },
+  "Str. Rodnei nr. 1" : {
+    "lat" : 46.784051,
+    "lon" : 23.643746,
+    "precision" : "exact"
+  },
+  "Str. Romul Ladea nr. 19" : {
+    "lat" : 46.755178,
+    "lon" : 23.620941,
+    "precision" : "street"
+  },
+  "Str. Romul Ladea – str. Nordului" : {
+    "lat" : 46.755178,
+    "lon" : 23.620941,
+    "precision" : "street"
+  },
+  "Str. Romulus Vuia nr.227" : {
+    "lat" : 46.780255,
+    "lon" : 23.571843,
+    "precision" : "street"
+  },
+  "Str. Romulus Vuia, nr. 227" : {
+    "lat" : 46.780255,
+    "lon" : 23.571843,
+    "precision" : "street"
+  },
+  "Str. Răsăritului nr.72" : {
+    "lat" : 46.784269,
+    "lon" : 23.626613,
+    "precision" : "street"
+  },
+  "Str. Salcâmului nr. 1-3" : {
+    "lat" : 46.76504,
+    "lon" : 23.56792,
+    "precision" : "street"
+  },
+  "Str. Sarmisegetuza nr. 11-13" : {
+    "lat" : 46.775318,
+    "lon" : 23.62346,
+    "precision" : "exact"
+  },
+  "Str. Sarmisegetuza nr.11-13" : {
+    "lat" : 46.775318,
+    "lon" : 23.62346,
+    "precision" : "exact"
+  },
+  "Str. Scolii nr.46" : {
+    "lat" : 46.78267,
+    "lon" : 23.555126,
+    "precision" : "street"
+  },
+  "Str. Septimiu Albini nr. 96" : {
+    "lat" : 46.764447,
+    "lon" : 23.61172,
+    "precision" : "exact"
+  },
+  "Str. Septimiu Albini nr.12-10A" : {
+    "lat" : 46.770951,
+    "lon" : 23.608716,
+    "precision" : "exact"
+  },
+  "Str. Septimiu Muresan" : {
+    "lat" : 46.784894,
+    "lon" : 23.572543,
+    "precision" : "street"
+  },
+  "Str. Sfânta Vineri nr. 1" : {
+    "lat" : 46.788401,
+    "lon" : 23.550942,
+    "precision" : "street"
+  },
+  "Str. Silvaniei" : {
+    "lat" : 46.798759,
+    "lon" : 23.638448,
+    "precision" : "street"
+  },
+  "Str. Sinaia nr. 6-8" : {
+    "lat" : 46.76934,
+    "lon" : 23.56553,
+    "precision" : "street"
+  },
+  "Str. Siretului nr. 2-4" : {
+    "lat" : 46.78033,
+    "lon" : 23.626515,
+    "precision" : "exact"
+  },
+  "Str. Sobarilor nr. 31" : {
+    "lat" : 46.794938,
+    "lon" : 23.609148,
+    "precision" : "street"
+  },
+  "Str. Someșului 15-21" : {
+    "lat" : 46.778145,
+    "lon" : 23.594038,
+    "precision" : "exact"
+  },
+  "Str. Sopor" : {
+    "lat" : 46.741265,
+    "lon" : 23.655207,
+    "precision" : "street"
+  },
+  "Str. Soporului" : {
+    "lat" : 46.766511,
+    "lon" : 23.653831,
+    "precision" : "street"
+  },
+  "Str. Soporului – nord" : {
+    "lat" : 46.766511,
+    "lon" : 23.653831,
+    "precision" : "street"
+  },
+  "Str. Speranței" : {
+    "lat" : 46.742184,
+    "lon" : 23.638193,
+    "precision" : "street"
+  },
+  "Str. Stefan Augustin Doinas nr. 7" : {
+    "lat" : 46.748938,
+    "lon" : 23.591153,
+    "precision" : "street"
+  },
+  "Str. Stefan Augustin Doinaș nr. 7" : {
+    "lat" : 46.748938,
+    "lon" : 23.591153,
+    "precision" : "street"
+  },
+  "Str. Stefan Pascu – est" : {
+    "lat" : 46.798913,
+    "lon" : 23.60428,
+    "precision" : "street"
+  },
+  "Str. Stupilor" : null,
+  "Str. Sălajului nr. 1" : {
+    "lat" : 46.784734,
+    "lon" : 23.561661,
+    "precision" : "exact"
+  },
+  "Str. Take Ionescu nr. 51" : null,
+  "Str. Tarnavelor nr. 18" : {
+    "lat" : 46.77872,
+    "lon" : 23.624962,
+    "precision" : "exact"
+  },
+  "Str. Teodor Mihali 53" : {
+    "lat" : 46.772986,
+    "lon" : 23.622416,
+    "precision" : "street"
+  },
+  "Str. Teodor Mihali nr. 58-60" : {
+    "lat" : 46.773132,
+    "lon" : 23.621077,
+    "precision" : "exact"
+  },
+  "Str. Teodor Mihali, nr. 19-23" : {
+    "lat" : 46.772986,
+    "lon" : 23.622416,
+    "precision" : "street"
+  },
+  "Str. Teodor Mihali, nr. 53" : {
+    "lat" : 46.772986,
+    "lon" : 23.622416,
+    "precision" : "street"
+  },
+  "Str. Theodor Pallady" : {
+    "lat" : 46.754256,
+    "lon" : 23.633664,
+    "precision" : "street"
+  },
+  "Str. Tiberiu Popoviciu – sud" : {
+    "lat" : 46.818763,
+    "lon" : 23.588618,
+    "precision" : "street"
+  },
+  "Str. Tipografiei nr. 32" : {
+    "lat" : 46.773158,
+    "lon" : 23.59369,
+    "precision" : "exact"
+  },
+  "Str. Tractoriștilor" : {
+    "lat" : 46.788273,
+    "lon" : 23.659017,
+    "precision" : "street"
+  },
+  "Str. Tractoriștilor nr. 2" : {
+    "lat" : 46.785235,
+    "lon" : 23.659796,
+    "precision" : "exact"
+  },
+  "Str. Traian Moșoiu nr. 23" : {
+    "lat" : 46.770059,
+    "lon" : 23.603318,
+    "precision" : "street"
+  },
+  "Str. Traian Moșoiu nr.66-68" : {
+    "lat" : 46.771199,
+    "lon" : 23.606717,
+    "precision" : "exact"
+  },
+  "Str. Traian Vuia nr. 113" : {
+    "lat" : 46.781114,
+    "lon" : 23.665359,
+    "precision" : "exact"
+  },
+  "Str. Traian Vuia nr. 14" : {
+    "lat" : 46.783904,
+    "lon" : 23.645444,
+    "precision" : "exact"
+  },
+  "Str. Traian Vuia nr. 155A" : {
+    "lat" : 46.782206,
+    "lon" : 23.697957,
+    "precision" : "exact"
+  },
+  "Str. Traian Vuia nr. 180A" : {
+    "lat" : 46.780449,
+    "lon" : 23.673646,
+    "precision" : "exact"
+  },
+  "Str. Traian Vuia nr. 21-23" : {
+    "lat" : 46.784348,
+    "lon" : 23.649218,
+    "precision" : "exact"
+  },
+  "Str. Traian Vuia nr. 222E,F" : {
+    "lat" : 46.781121,
+    "lon" : 23.692483,
+    "precision" : "exact"
+  },
+  "Str. Traian Vuia nr. 7" : {
+    "lat" : 46.78425,
+    "lon" : 23.646912,
+    "precision" : "exact"
+  },
+  "Str. Traian Vuia nr.21-23" : {
+    "lat" : 46.784348,
+    "lon" : 23.649218,
+    "precision" : "exact"
+  },
+  "Str. Traian Vuia, nr. 21-23" : {
+    "lat" : 46.784348,
+    "lon" : 23.649218,
+    "precision" : "exact"
+  },
+  "Str. Traian, nr. 66" : {
+    "lat" : 46.771199,
+    "lon" : 23.606717,
+    "precision" : "exact"
+  },
+  "Str. Trandafirilor nr. 3" : {
+    "lat" : 46.786206,
+    "lon" : 23.574167,
+    "precision" : "exact"
+  },
+  "Str. Transilvaniei nr. 17" : {
+    "lat" : 46.786996,
+    "lon" : 23.569058,
+    "precision" : "exact"
+  },
+  "Str. Triajului" : {
+    "lat" : 46.783769,
+    "lon" : 23.531584,
+    "precision" : "street"
+  },
+  "Str. Tribunu Vlăduțiu nr. 15" : null,
+  "Str. Trifoiului nr. 21" : {
+    "lat" : 46.753286,
+    "lon" : 23.606728,
+    "precision" : "street"
+  },
+  "Str. Trifoiului nr. 41" : {
+    "lat" : 46.753286,
+    "lon" : 23.606728,
+    "precision" : "street"
+  },
+  "Str. Trifoiului nr.29D" : {
+    "lat" : 46.753286,
+    "lon" : 23.606728,
+    "precision" : "street"
+  },
+  "Str. Tudor Mușatescu- str. Mihai Românul" : null,
+  "Str. Turnu Severin nr. 3" : {
+    "lat" : 46.785788,
+    "lon" : 23.652127,
+    "precision" : "exact"
+  },
+  "Str. Uliului 121" : {
+    "lat" : 46.768415,
+    "lon" : 23.542985,
+    "precision" : "street"
+  },
+  "Str. Uliului – latura nordică" : {
+    "lat" : 46.768415,
+    "lon" : 23.542985,
+    "precision" : "street"
+  },
+  "Str. Urcușului nr.11" : {
+    "lat" : 46.756796,
+    "lon" : 23.565005,
+    "precision" : "street"
+  },
+  "Str. Valea Chintaului nr. 71" : {
+    "lat" : 46.825072,
+    "lon" : 23.586772,
+    "precision" : "street"
+  },
+  "Str. Valter Mărăcineanu nord" : {
+    "lat" : 46.793548,
+    "lon" : 23.544125,
+    "precision" : "street"
+  },
+  "Str. Vanătorului nr. 17" : {
+    "lat" : 46.778318,
+    "lon" : 23.572172,
+    "precision" : "exact"
+  },
+  "Str. Vasile Cârlova nr. 1A" : {
+    "lat" : 46.779585,
+    "lon" : 23.565423,
+    "precision" : "street"
+  },
+  "Str. Vasile Lupu nr. 49" : {
+    "lat" : 46.767226,
+    "lon" : 23.612667,
+    "precision" : "exact"
+  },
+  "Str. Vasile Velican" : {
+    "lat" : 46.746858,
+    "lon" : 23.560167,
+    "precision" : "street"
+  },
+  "Str. Victor Babeș nr. 5" : {
+    "lat" : 46.765006,
+    "lon" : 23.585186,
+    "precision" : "street"
+  },
+  "Str. Victor Babeș, nr. 39-39A" : {
+    "lat" : 46.76385,
+    "lon" : 23.585227,
+    "precision" : "exact"
+  },
+  "Str. Vidrei nr.6-8" : {
+    "lat" : 46.79022,
+    "lon" : 23.64726,
+    "precision" : "exact"
+  },
+  "Str. Viile Dâmbu Rotund nr. 21A" : null,
+  "Str. Viilor 46-50" : {
+    "lat" : 46.754864,
+    "lon" : 23.582222,
+    "precision" : "exact"
+  },
+  "Str. Viilor nr. 4" : {
+    "lat" : 46.758827,
+    "lon" : 23.580871,
+    "precision" : "exact"
+  },
+  "Str. Vlad Tepes nr.9" : {
+    "lat" : 46.782481,
+    "lon" : 23.659343,
+    "precision" : "exact"
+  },
+  "Str. Vlad Țepeș nr. 2" : {
+    "lat" : 46.782773,
+    "lon" : 23.6579,
+    "precision" : "exact"
+  },
+  "Str. Vlad Țepeș nr.1" : {
+    "lat" : 46.782909,
+    "lon" : 23.65986,
+    "precision" : "street"
+  },
+  "Str. Vlad Țepeș nr.7" : {
+    "lat" : 46.782715,
+    "lon" : 23.659472,
+    "precision" : "exact"
+  },
+  "Str. Voievod Gelu" : null,
+  "Str. Voievodu Gelu" : null,
+  "Str. Voroneț nr. 9-11" : {
+    "lat" : 46.798759,
+    "lon" : 23.646504,
+    "precision" : "exact"
+  },
+  "Str. Vrancea nr. 24" : {
+    "lat" : 46.790347,
+    "lon" : 23.590052,
+    "precision" : "exact"
+  },
+  "Str. Vânătorului nr. 15A-17" : {
+    "lat" : 46.777031,
+    "lon" : 23.572717,
+    "precision" : "exact"
+  },
+  "Str. Vânătorului nr. 17" : {
+    "lat" : 46.77772,
+    "lon" : 23.572628,
+    "precision" : "exact"
+  },
+  "Str. Vânătorului nr.17A" : {
+    "lat" : 46.77772,
+    "lon" : 23.572628,
+    "precision" : "exact"
+  },
+  "Str. Wolfgang Amadeus Mozart nr. 14L" : {
+    "lat" : 46.751124,
+    "lon" : 23.597457,
+    "precision" : "exact"
+  },
+  "Str. Wolfgang Goethe f.n" : null,
+  "Str. Wolfgang Goethe nr. 7" : {
+    "lat" : 46.750468,
+    "lon" : 23.5972,
+    "precision" : "exact"
+  },
+  "Str. Wolfgang Goethe nr.8" : {
+    "lat" : 46.750211,
+    "lon" : 23.596929,
+    "precision" : "exact"
+  },
+  "Str. Zambilei nr. 5-7" : {
+    "lat" : 46.76654,
+    "lon" : 23.61879,
+    "precision" : "exact"
+  },
+  "Str. Zambilei nr.2" : {
+    "lat" : 46.766663,
+    "lon" : 23.618425,
+    "precision" : "exact"
+  },
+  "Str. Zefirului nr. 4" : {
+    "lat" : 46.77797,
+    "lon" : 23.563694,
+    "precision" : "street"
+  },
+  "Str. Zorilor nr. 13-15" : {
+    "lat" : 46.758005,
+    "lon" : 23.578564,
+    "precision" : "street"
+  },
+  "Str. Zorilor, nr.13-15" : {
+    "lat" : 46.758005,
+    "lon" : 23.578564,
+    "precision" : "street"
+  },
+  "Str. Șoimului nr. 14-16-18" : {
+    "lat" : 46.757863,
+    "lon" : 23.594817,
+    "precision" : "street"
+  },
+  "Str. Ștefan Cicio Pop" : {
+    "lat" : 46.74116,
+    "lon" : 23.57283,
+    "precision" : "street"
+  },
+  "Str. Ștefan Pascu – est" : {
+    "lat" : 46.798913,
+    "lon" : 23.60428,
+    "precision" : "street"
+  },
+  "Str.Fabricii de Zahăr nr.89" : {
+    "lat" : 46.781118,
+    "lon" : 23.616344,
+    "precision" : "street"
+  },
+  "Str.Viile Nadasel nr.29" : {
+    "lat" : 46.796442,
+    "lon" : 23.597767,
+    "precision" : "street"
+  },
+  "Tetarom 1 Vest" : {
+    "lat" : 46.780912,
+    "lon" : 23.539246,
+    "precision" : "street"
+  },
+  "Valea Chintaului 7" : {
+    "lat" : 46.82302,
+    "lon" : 23.591398,
+    "precision" : "street"
+  },
+  "Valea Chintăului" : {
+    "lat" : 46.825072,
+    "lon" : 23.586772,
+    "precision" : "street"
+  },
+  "Valea Chintăului- est" : {
+    "lat" : 46.825072,
+    "lon" : 23.586772,
+    "precision" : "street"
+  },
+  "Zona B-dul Muncii-sud" : {
+    "lat" : 46.797446,
+    "lon" : 23.664482,
+    "precision" : "area"
+  },
+  "Zona Borhanci" : {
+    "lat" : 46.746879,
+    "lon" : 23.6387,
+    "precision" : "area"
+  },
+  "Zona Cetatuia" : {
+    "lat" : 46.775161,
+    "lon" : 23.579282,
+    "precision" : "area"
+  },
+  "Zona Sf Ion" : null,
+  "Zona Sopor" : {
+    "lat" : 46.761257,
+    "lon" : 23.654419,
+    "precision" : "area"
+  },
+  "aleea Bucura nr. 4" : {
+    "lat" : 46.766137,
+    "lon" : 23.544184,
+    "precision" : "street"
+  },
+  "amenajare străzi adiacente" : null,
+  "b-dul 21 Decembrie 1989 nr. 98" : {
+    "lat" : 46.774304,
+    "lon" : 23.601611,
+    "precision" : "exact"
+  },
+  "b-dul Muncii – sud" : {
+    "lat" : 46.798005,
+    "lon" : 23.61135,
+    "precision" : "street"
+  },
+  "bd. Eroilor" : {
+    "lat" : 46.769965,
+    "lon" : 23.593392,
+    "precision" : "street"
+  },
+  "blv. Muncii 4-6" : null,
+  "bvd Muncii nr. 57-59" : {
+    "lat" : 46.796704,
+    "lon" : 23.61831,
+    "precision" : "exact"
+  },
+  "bvd. 21 Decembrie 1918 nr. 142" : {
+    "lat" : 46.777474,
+    "lon" : 23.609814,
+    "precision" : "street"
+  },
+  "bvd. 21 Decembrie 1989 nr. 98" : {
+    "lat" : 46.774304,
+    "lon" : 23.601611,
+    "precision" : "exact"
+  },
+  "bvd. Muncii nr. 1-15" : {
+    "lat" : 46.799386,
+    "lon" : 23.611414,
+    "precision" : "exact"
+  },
+  "bvd. Muncii nr. 80 prov." : {
+    "lat" : 46.795979,
+    "lon" : 23.631144,
+    "precision" : "street"
+  },
+  "bvd. Muncii nr.2- str.Byron nr.1-3" : {
+    "lat" : 46.795979,
+    "lon" : 23.631144,
+    "precision" : "street"
+  },
+  "bvd. Muncii – nord" : {
+    "lat" : 46.798005,
+    "lon" : 23.61135,
+    "precision" : "street"
+  },
+  "bvd. Muncii – sud" : {
+    "lat" : 46.798005,
+    "lon" : 23.61135,
+    "precision" : "street"
+  },
+  "bvd. Muncii-nord" : {
+    "lat" : 46.798005,
+    "lon" : 23.61135,
+    "precision" : "street"
+  },
+  "calea Dezmirului nr. 16-18" : {
+    "lat" : 46.779211,
+    "lon" : 23.691027,
+    "precision" : "street"
+  },
+  "cartier Borhanci" : {
+    "lat" : 46.746879,
+    "lon" : 23.6387,
+    "precision" : "area"
+  },
+  "colonia Sopor" : {
+    "lat" : 46.761257,
+    "lon" : 23.654419,
+    "precision" : "area"
+  },
+  "complex studentesc Hasdeu" : null,
+  "drumul Sf. Ioan" : {
+    "lat" : 46.741739,
+    "lon" : 23.536012,
+    "precision" : "street"
+  },
+  "drumul Sf. Ioan – latura sudică" : {
+    "lat" : 46.741739,
+    "lon" : 23.536012,
+    "precision" : "street"
+  },
+  "drumul Sf. Ioan – sud" : {
+    "lat" : 46.741739,
+    "lon" : 23.536012,
+    "precision" : "street"
+  },
+  "drumul Sf. Ioan-vest" : {
+    "lat" : 46.741739,
+    "lon" : 23.536012,
+    "precision" : "street"
+  },
+  "extindere parc industrial Emerson" : null,
+  "nord de str. Liviu Rusu" : null,
+  "prelungire str. Câmpului" : null,
+  "prelungire str. Luminii" : null,
+  "str Alexandru Odobescu – est" : {
+    "lat" : 46.791019,
+    "lon" : 23.574215,
+    "precision" : "street"
+  },
+  "str Antonin Ciolan" : {
+    "lat" : 46.721514,
+    "lon" : 23.568005,
+    "precision" : "street"
+  },
+  "str Arieșului nr.70" : {
+    "lat" : 46.766881,
+    "lon" : 23.613138,
+    "precision" : "exact"
+  },
+  "str Artarului" : {
+    "lat" : 46.751728,
+    "lon" : 23.612253,
+    "precision" : "street"
+  },
+  "str Artarului nr. 30" : {
+    "lat" : 46.751513,
+    "lon" : 23.611288,
+    "precision" : "exact"
+  },
+  "str Aurel Vlaicu nr 76A str Siretului 6b" : {
+    "lat" : 46.780304,
+    "lon" : 23.626015,
+    "precision" : "exact"
+  },
+  "str Beiusului, nr. 8" : {
+    "lat" : 46.783522,
+    "lon" : 23.639474,
+    "precision" : "exact"
+  },
+  "str Belgrad nr 7" : {
+    "lat" : 46.787866,
+    "lon" : 23.574624,
+    "precision" : "exact"
+  },
+  "str Bicaz Sud" : {
+    "lat" : 46.750189,
+    "lon" : 23.64662,
+    "precision" : "street"
+  },
+  "str Borhanciului nr 109C" : {
+    "lat" : 46.754522,
+    "lon" : 23.628603,
+    "precision" : "street"
+  },
+  "str Borhanciului- str. Antonina de Gerando" : {
+    "lat" : 46.755672,
+    "lon" : 23.626377,
+    "precision" : "area"
+  },
+  "str C-tin Brancusi nr 107-109" : null,
+  "str C-tin Brancusi nr. 122-124" : null,
+  "str C-tin Brâncuși 156" : null,
+  "str C. Brancusi nr. 78" : null,
+  "str Campina 3" : {
+    "lat" : 46.788702,
+    "lon" : 23.616419,
+    "precision" : "exact"
+  },
+  "str Campina nr 51-53" : {
+    "lat" : 46.788103,
+    "lon" : 23.624294,
+    "precision" : "exact"
+  },
+  "str Caracal nr. 9" : {
+    "lat" : 46.780807,
+    "lon" : 23.588868,
+    "precision" : "exact"
+  },
+  "str Ciobanului nr. 8" : {
+    "lat" : 46.756909,
+    "lon" : 23.54801,
+    "precision" : "street"
+  },
+  "str Cisnadie nr. 8" : null,
+  "str Clopoțeilor" : null,
+  "str Cocorilor nr. 38C" : {
+    "lat" : 46.7939,
+    "lon" : 23.580799,
+    "precision" : "street"
+  },
+  "str Constantin Brâncuși nr. 65-67" : {
+    "lat" : 46.7651,
+    "lon" : 23.605988,
+    "precision" : "exact"
+  },
+  "str Constatin Brâncusi nr 107-109" : null,
+  "str Corneliu Coposu nr. 112-114" : {
+    "lat" : 46.785821,
+    "lon" : 23.56795,
+    "precision" : "exact"
+  },
+  "str Cosasilor 47-49" : {
+    "lat" : 46.788791,
+    "lon" : 23.61311,
+    "precision" : "exact"
+  },
+  "str Cosașilor nr 47-19" : {
+    "lat" : 46.786696,
+    "lon" : 23.612942,
+    "precision" : "street"
+  },
+  "str Câmpina nr. 40-42" : {
+    "lat" : 46.787876,
+    "lon" : 23.620619,
+    "precision" : "exact"
+  },
+  "str David Ferencz nr. 12" : null,
+  "str Eugen Ionesco – est" : {
+    "lat" : 46.744664,
+    "lon" : 23.583696,
+    "precision" : "street"
+  },
+  "str Fabricii de cărămidă nr 22" : {
+    "lat" : 46.782377,
+    "lon" : 23.55342,
+    "precision" : "street"
+  },
+  "str Fabricii de zahar 56" : {
+    "lat" : 46.783498,
+    "lon" : 23.623886,
+    "precision" : "street"
+  },
+  "str Fabricii de zahar nr 33-35" : {
+    "lat" : 46.78183,
+    "lon" : 23.617507,
+    "precision" : "exact"
+  },
+  "str Fabricii de zahar – str. Câmpul pâinii" : {
+    "lat" : 46.781118,
+    "lon" : 23.616344,
+    "precision" : "street"
+  },
+  "str Fabricii nr 118" : {
+    "lat" : 46.79019,
+    "lon" : 23.616855,
+    "precision" : "exact"
+  },
+  "str Fagetului 195c" : {
+    "lat" : 46.734226,
+    "lon" : 23.589521,
+    "precision" : "street"
+  },
+  "str Fagului nr.27" : {
+    "lat" : 46.754851,
+    "lon" : 23.613939,
+    "precision" : "street"
+  },
+  "str Fagului – str. Romul Ladea" : {
+    "lat" : 46.756355,
+    "lon" : 23.619025,
+    "precision" : "street"
+  },
+  "str Frunzisului -sud" : {
+    "lat" : 46.748439,
+    "lon" : 23.575129,
+    "precision" : "street"
+  },
+  "str Frunzisului 78" : {
+    "lat" : 46.751285,
+    "lon" : 23.572735,
+    "precision" : "street"
+  },
+  "str Frunzisului – nord" : {
+    "lat" : 46.748439,
+    "lon" : 23.575129,
+    "precision" : "street"
+  },
+  "str Făgetului nr. 35" : {
+    "lat" : 46.713397,
+    "lon" : 23.572633,
+    "precision" : "exact"
+  },
+  "str Garii nr. 21" : {
+    "lat" : 46.788337,
+    "lon" : 23.594316,
+    "precision" : "exact"
+  },
+  "str George Cosbuc nr 4-6" : {
+    "lat" : 46.766122,
+    "lon" : 23.576155,
+    "precision" : "exact"
+  },
+  "str Gh. Sion 17-19" : {
+    "lat" : 46.792801,
+    "lon" : 23.563242,
+    "precision" : "street"
+  },
+  "str Gheorghe Doja 21" : {
+    "lat" : 46.760327,
+    "lon" : 23.599606,
+    "precision" : "exact"
+  },
+  "str Giordano Bruno 1-3" : {
+    "lat" : 46.786656,
+    "lon" : 23.580873,
+    "precision" : "exact"
+  },
+  "str Hasdeu nr.99" : {
+    "lat" : 46.762239,
+    "lon" : 23.575542,
+    "precision" : "exact"
+  },
+  "str Henri Barbusse nr.13" : {
+    "lat" : 46.783042,
+    "lon" : 23.607837,
+    "precision" : "street"
+  },
+  "str Henri Barbusse, nr. 13" : {
+    "lat" : 46.783042,
+    "lon" : 23.607837,
+    "precision" : "street"
+  },
+  "str Liviu Rusu nr 3" : {
+    "lat" : 46.717202,
+    "lon" : 23.576182,
+    "precision" : "exact"
+  },
+  "str Liviu Rusu- latura sudică" : {
+    "lat" : 46.717202,
+    "lon" : 23.578007,
+    "precision" : "street"
+  },
+  "str Liviu Rusu- str. Sfânta Maria" : null,
+  "str Luncii 19" : {
+    "lat" : 46.789653,
+    "lon" : 23.617891,
+    "precision" : "exact"
+  },
+  "str Macesului nr 44" : {
+    "lat" : 46.746654,
+    "lon" : 23.606792,
+    "precision" : "exact"
+  },
+  "str Migdalului- Vest" : {
+    "lat" : 46.779483,
+    "lon" : 23.574169,
+    "precision" : "street"
+  },
+  "str Mihai Românul – Nord" : {
+    "lat" : 46.741665,
+    "lon" : 23.598425,
+    "precision" : "street"
+  },
+  "str Mihai Românul – nord" : {
+    "lat" : 46.741665,
+    "lon" : 23.598425,
+    "precision" : "street"
+  },
+  "str Nordului" : {
+    "lat" : 46.740829,
+    "lon" : 23.62773,
+    "precision" : "street"
+  },
+  "str Nordului – vest" : {
+    "lat" : 46.740829,
+    "lon" : 23.62773,
+    "precision" : "street"
+  },
+  "str Oasului nr. 298" : {
+    "lat" : 46.82299,
+    "lon" : 23.591978,
+    "precision" : "street"
+  },
+  "str Observator" : null,
+  "str Odobesti- est" : {
+    "lat" : 46.798529,
+    "lon" : 23.601923,
+    "precision" : "street"
+  },
+  "str Onisifor Ghibu nr. 31" : {
+    "lat" : 46.776793,
+    "lon" : 23.600819,
+    "precision" : "street"
+  },
+  "str Orzului 5D prov" : null,
+  "str Otetului 14" : {
+    "lat" : 46.764626,
+    "lon" : 23.570639,
+    "precision" : "exact"
+  },
+  "str Otetului nr 22" : {
+    "lat" : 46.76404,
+    "lon" : 23.571886,
+    "precision" : "street"
+  },
+  "str Paris – Ghe. Lazar nr. 38" : null,
+  "str Piersicului 8" : {
+    "lat" : 46.79205,
+    "lon" : 23.587277,
+    "precision" : "exact"
+  },
+  "str Pintea Viteazul nr 10" : null,
+  "str Plevnei fn" : {
+    "lat" : 46.78681,
+    "lon" : 23.640928,
+    "precision" : "street"
+  },
+  "str Plevnei – sud" : {
+    "lat" : 46.78681,
+    "lon" : 23.640928,
+    "precision" : "street"
+  },
+  "str Pomet – sud" : {
+    "lat" : 46.81494,
+    "lon" : 23.607904,
+    "precision" : "street"
+  },
+  "str Primăverii nr.8" : {
+    "lat" : 46.755349,
+    "lon" : 23.555059,
+    "precision" : "exact"
+  },
+  "str Prof. Gh. Marinescu nr. 4" : null,
+  "str Progresului nr. 24" : {
+    "lat" : 46.7768,
+    "lon" : 23.618601,
+    "precision" : "street"
+  },
+  "str Progresului nr. 28-30" : {
+    "lat" : 46.7768,
+    "lon" : 23.618601,
+    "precision" : "street"
+  },
+  "str Raului – nord" : {
+    "lat" : 46.789453,
+    "lon" : 23.661807,
+    "precision" : "street"
+  },
+  "str Reghin – vest" : {
+    "lat" : 46.799395,
+    "lon" : 23.597445,
+    "precision" : "street"
+  },
+  "str Regina Maria – vest" : {
+    "lat" : 46.753245,
+    "lon" : 23.628302,
+    "precision" : "street"
+  },
+  "str Republicii nr 19" : {
+    "lat" : 46.765212,
+    "lon" : 23.587734,
+    "precision" : "exact"
+  },
+  "str Rozmarinului" : {
+    "lat" : 46.752537,
+    "lon" : 23.638124,
+    "precision" : "street"
+  },
+  "str Semenicului" : {
+    "lat" : 46.77299,
+    "lon" : 23.610423,
+    "precision" : "street"
+  },
+  "str Septimiu Muresan 2-7" : {
+    "lat" : 46.786689,
+    "lon" : 23.579719,
+    "precision" : "exact"
+  },
+  "str Sextil Puscariu nr 5" : {
+    "lat" : 46.771308,
+    "lon" : 23.588317,
+    "precision" : "exact"
+  },
+  "str Sighisoarei 17" : {
+    "lat" : 46.757525,
+    "lon" : 23.579038,
+    "precision" : "exact"
+  },
+  "str Silvaniei-latura vestica" : null,
+  "str Sobarilor-Fabricii" : null,
+  "str Somesului nr.15-21" : {
+    "lat" : 46.778145,
+    "lon" : 23.594038,
+    "precision" : "exact"
+  },
+  "str Soporului 43-45" : {
+    "lat" : 46.767761,
+    "lon" : 23.636401,
+    "precision" : "street"
+  },
+  "str Soporului nr. 1" : {
+    "lat" : 46.767911,
+    "lon" : 23.634651,
+    "precision" : "exact"
+  },
+  "str Stefan Cicio Pop – latura nordică" : {
+    "lat" : 46.74116,
+    "lon" : 23.57283,
+    "precision" : "street"
+  },
+  "str Teleorman nr. 68" : {
+    "lat" : 46.782593,
+    "lon" : 23.626308,
+    "precision" : "exact"
+  },
+  "str Tractoristilor – est" : {
+    "lat" : 46.788273,
+    "lon" : 23.659017,
+    "precision" : "street"
+  },
+  "str Traian Vuia nr 21-23" : {
+    "lat" : 46.784348,
+    "lon" : 23.649218,
+    "precision" : "exact"
+  },
+  "str Traian Vuia nr 250" : {
+    "lat" : 46.781355,
+    "lon" : 23.687123,
+    "precision" : "street"
+  },
+  "str Traian Vuia nr. 85 – str. Colectivistilor nr. 2" : {
+    "lat" : 46.784859,
+    "lon" : 23.657159,
+    "precision" : "exact"
+  },
+  "str Traian nr. 21-23-25" : {
+    "lat" : 46.777822,
+    "lon" : 23.591159,
+    "precision" : "exact"
+  },
+  "str Trandafirului nr. 10" : null,
+  "str Valea Chintăului nr. 97" : {
+    "lat" : 46.825072,
+    "lon" : 23.586772,
+    "precision" : "street"
+  },
+  "str Valea Fanatelor 7-11" : {
+    "lat" : 46.801936,
+    "lon" : 23.611738,
+    "precision" : "street"
+  },
+  "str Valea Gârbăului" : {
+    "lat" : 46.736103,
+    "lon" : 23.53275,
+    "precision" : "street"
+  },
+  "str Vantului – sud" : {
+    "lat" : 46.77693,
+    "lon" : 23.561506,
+    "precision" : "street"
+  },
+  "str Viile Dambul Rotund – vest" : {
+    "lat" : 46.794513,
+    "lon" : 23.574918,
+    "precision" : "street"
+  },
+  "str Voievodu Gelu fn" : null,
+  "str Voievodu Gelu nr. 11" : null,
+  "str Zborului nr.4" : {
+    "lat" : 46.781293,
+    "lon" : 23.667265,
+    "precision" : "exact"
+  },
+  "str. A. Marino nr. 23" : null,
+  "str. A. Papiu Ilarian nr. 20" : null,
+  "str. Actorului nr. 27" : {
+    "lat" : 46.77129,
+    "lon" : 23.613897,
+    "precision" : "exact"
+  },
+  "str. Actorului nr. 51" : {
+    "lat" : 46.771282,
+    "lon" : 23.616002,
+    "precision" : "exact"
+  },
+  "str. Adjudului" : {
+    "lat" : 46.801811,
+    "lon" : 23.597256,
+    "precision" : "street"
+  },
+  "str. Adjudului nr. 1" : {
+    "lat" : 46.801811,
+    "lon" : 23.597256,
+    "precision" : "street"
+  },
+  "str. Adrian Marino nr. 21 prov." : {
+    "lat" : 46.748853,
+    "lon" : 23.59689,
+    "precision" : "exact"
+  },
+  "str. Adrian Marino nr. 27" : {
+    "lat" : 46.748454,
+    "lon" : 23.597029,
+    "precision" : "exact"
+  },
+  "str. Adrian Marino, nr. 21" : {
+    "lat" : 46.748853,
+    "lon" : 23.59689,
+    "precision" : "exact"
+  },
+  "str. Adrian Marino, nr. 23" : {
+    "lat" : 46.748671,
+    "lon" : 23.596995,
+    "precision" : "exact"
+  },
+  "str. Ady Endre nr. 23" : {
+    "lat" : 46.760613,
+    "lon" : 23.601933,
+    "precision" : "exact"
+  },
+  "str. Aiudului nr. 20" : {
+    "lat" : 46.781966,
+    "lon" : 23.645577,
+    "precision" : "exact"
+  },
+  "str. Aiudului nr. 38A" : {
+    "lat" : 46.780954,
+    "lon" : 23.647721,
+    "precision" : "exact"
+  },
+  "str. Alba Iulia nr. 11" : {
+    "lat" : 46.764793,
+    "lon" : 23.597141,
+    "precision" : "exact"
+  },
+  "str. Albert Einstein nr. 8" : {
+    "lat" : 46.776053,
+    "lon" : 23.588511,
+    "precision" : "exact"
+  },
+  "str. Albert Einstein, nr. 16-18" : {
+    "lat" : 46.776783,
+    "lon" : 23.588473,
+    "precision" : "exact"
+  },
+  "str. Albiei nr. 1" : {
+    "lat" : 46.790657,
+    "lon" : 23.615069,
+    "precision" : "exact"
+  },
+  "str. Alexandru Macedonski nr.15" : {
+    "lat" : 46.754019,
+    "lon" : 23.615759,
+    "precision" : "street"
+  },
+  "str. Alverna nr. 58" : {
+    "lat" : 46.756813,
+    "lon" : 23.614217,
+    "precision" : "street"
+  },
+  "str. Amza Pelea" : null,
+  "str. Anatole France nr. 28" : {
+    "lat" : 46.765496,
+    "lon" : 23.60357,
+    "precision" : "exact"
+  },
+  "str. Andrei Mureșanu nr. 32" : {
+    "lat" : 46.764378,
+    "lon" : 23.602137,
+    "precision" : "exact"
+  },
+  "str. Andrei Șaguna nr. 8" : {
+    "lat" : 46.773378,
+    "lon" : 23.589071,
+    "precision" : "exact"
+  },
+  "str. Anton Pann nr.1" : {
+    "lat" : 46.77868,
+    "lon" : 23.596592,
+    "precision" : "exact"
+  },
+  "str. Antonin Ciolan" : {
+    "lat" : 46.721514,
+    "lon" : 23.568005,
+    "precision" : "street"
+  },
+  "str. Antonin Ciolan fn" : {
+    "lat" : 46.721514,
+    "lon" : 23.568005,
+    "precision" : "street"
+  },
+  "str. Antonio Gaudi" : {
+    "lat" : 46.749792,
+    "lon" : 23.617024,
+    "precision" : "street"
+  },
+  "str. Antonio Gaudi nr. 16" : {
+    "lat" : 46.753465,
+    "lon" : 23.619773,
+    "precision" : "exact"
+  },
+  "str. Antonio Gaudi nr. 2A" : {
+    "lat" : 46.75465,
+    "lon" : 23.620991,
+    "precision" : "street"
+  },
+  "str. Aramei nr. 4" : {
+    "lat" : 46.781825,
+    "lon" : 23.576106,
+    "precision" : "street"
+  },
+  "str. Arieșului nr. 80" : {
+    "lat" : 46.76578,
+    "lon" : 23.613324,
+    "precision" : "exact"
+  },
+  "str. Arieșului nr. 85" : {
+    "lat" : 46.765879,
+    "lon" : 23.61381,
+    "precision" : "exact"
+  },
+  "str. Arieșului nr.30" : {
+    "lat" : 46.7704,
+    "lon" : 23.612708,
+    "precision" : "exact"
+  },
+  "str. Arinilor nr. 22B" : {
+    "lat" : 46.761545,
+    "lon" : 23.547769,
+    "precision" : "exact"
+  },
+  "str. Artarului f.n" : null,
+  "str. Artarului nr. 30" : {
+    "lat" : 46.751513,
+    "lon" : 23.611288,
+    "precision" : "exact"
+  },
+  "str. Arțarului nr. 36" : {
+    "lat" : 46.751135,
+    "lon" : 23.610711,
+    "precision" : "exact"
+  },
+  "str. Arțarului nr. 37A" : {
+    "lat" : 46.751728,
+    "lon" : 23.612253,
+    "precision" : "street"
+  },
+  "str. Augustin Maior" : {
+    "lat" : 46.793263,
+    "lon" : 23.546157,
+    "precision" : "street"
+  },
+  "str. Augustin Maior HCL 429/2005" : null,
+  "str. Augustin Maior f.n" : null,
+  "str. Augustin Maior – latura sudică" : {
+    "lat" : 46.793263,
+    "lon" : 23.546157,
+    "precision" : "street"
+  },
+  "str. Aurel Ciupe nr. 4-6" : {
+    "lat" : 46.742415,
+    "lon" : 23.570955,
+    "precision" : "street"
+  },
+  "str. Aurel Ghurghianu" : null,
+  "str. Aurel Suciu nr. 10" : {
+    "lat" : 46.772202,
+    "lon" : 23.607113,
+    "precision" : "street"
+  },
+  "str. Aurel Suciu nr. 23" : {
+    "lat" : 46.771877,
+    "lon" : 23.60856,
+    "precision" : "exact"
+  },
+  "str. Aurel Vlaicu nr. 100" : {
+    "lat" : 46.780582,
+    "lon" : 23.628542,
+    "precision" : "exact"
+  },
+  "str. Aurel Vlaicu nr. 172" : {
+    "lat" : 46.781322,
+    "lon" : 23.635578,
+    "precision" : "exact"
+  },
+  "str. Aurel Vlaicu nr. 26-28-30" : {
+    "lat" : 46.779725,
+    "lon" : 23.622614,
+    "precision" : "street"
+  },
+  "str. Aurel Vlaicu nr. 3" : {
+    "lat" : 46.779031,
+    "lon" : 23.616474,
+    "precision" : "exact"
+  },
+  "str. Aurel Vlaicu nr. 76A, str. Siretului nr. 6" : {
+    "lat" : 46.780304,
+    "lon" : 23.626015,
+    "precision" : "exact"
+  },
+  "str. Aurel Vlaicu nr.100" : {
+    "lat" : 46.780582,
+    "lon" : 23.628542,
+    "precision" : "exact"
+  },
+  "str. Aurel Vlaicu nr.23" : {
+    "lat" : 46.780464,
+    "lon" : 23.62491,
+    "precision" : "exact"
+  },
+  "str. Aviator Badescu nr, 25" : {
+    "lat" : 46.763759,
+    "lon" : 23.596259,
+    "precision" : "street"
+  },
+  "str. Avram Iancu nr. 26" : {
+    "lat" : 46.767386,
+    "lon" : 23.596302,
+    "precision" : "street"
+  },
+  "str. Avram Iancu nr. 4" : {
+    "lat" : 46.766093,
+    "lon" : 23.588221,
+    "precision" : "exact"
+  },
+  "str. Azuga – Aleea Albac" : null,
+  "str. B-dul 21 Decembrie 1989 nr. 98" : null,
+  "str. B. P. Hasdeu nr. 99" : null,
+  "str. B. P. Hașdeu nr. 63" : null,
+  "str. B.P. Hașdeu nr. 6" : null,
+  "str. Badea Cârțan-nord" : {
+    "lat" : 46.783365,
+    "lon" : 23.569232,
+    "precision" : "street"
+  },
+  "str. Barc 1, nr. 49A" : {
+    "lat" : 46.79255,
+    "lon" : 23.655162,
+    "precision" : "exact"
+  },
+  "str. Barc I nr 49A" : {
+    "lat" : 46.790758,
+    "lon" : 23.649682,
+    "precision" : "exact"
+  },
+  "str. Barc I nr. 43" : {
+    "lat" : 46.790854,
+    "lon" : 23.650486,
+    "precision" : "exact"
+  },
+  "str. Barc I nr.32A" : {
+    "lat" : 46.791225,
+    "lon" : 23.651927,
+    "precision" : "exact"
+  },
+  "str. Barc nr. 30" : {
+    "lat" : 46.792465,
+    "lon" : 23.650975,
+    "precision" : "exact"
+  },
+  "str. Barc nr. 32A" : {
+    "lat" : 46.791225,
+    "lon" : 23.651927,
+    "precision" : "exact"
+  },
+  "str. Bartok Bela nr. 11" : {
+    "lat" : 46.769792,
+    "lon" : 23.565016,
+    "precision" : "street"
+  },
+  "str. Basarabia – vest" : null,
+  "str. Basarabiei" : {
+    "lat" : 46.744681,
+    "lon" : 23.559388,
+    "precision" : "street"
+  },
+  "str. Becaș nr. 35A" : {
+    "lat" : 46.757305,
+    "lon" : 23.608426,
+    "precision" : "street"
+  },
+  "str. Beiusului" : {
+    "lat" : 46.787969,
+    "lon" : 23.639281,
+    "precision" : "street"
+  },
+  "str. Beiusului nr. 30" : {
+    "lat" : 46.785243,
+    "lon" : 23.639466,
+    "precision" : "exact"
+  },
+  "str. Beiusului nr. 8" : {
+    "lat" : 46.783522,
+    "lon" : 23.639474,
+    "precision" : "exact"
+  },
+  "str. Beiușului nr. 74" : {
+    "lat" : 46.791293,
+    "lon" : 23.642393,
+    "precision" : "exact"
+  },
+  "str. Beiușului nr.1B" : {
+    "lat" : 46.785114,
+    "lon" : 23.63519,
+    "precision" : "exact"
+  },
+  "str. Belgrad nr 7" : {
+    "lat" : 46.787866,
+    "lon" : 23.574624,
+    "precision" : "exact"
+  },
+  "str. Belgrad nr. 7" : {
+    "lat" : 46.787866,
+    "lon" : 23.574624,
+    "precision" : "exact"
+  },
+  "str. Bicaz" : {
+    "lat" : 46.750189,
+    "lon" : 23.64662,
+    "precision" : "street"
+  },
+  "str. Bicaz-sud" : {
+    "lat" : 46.750189,
+    "lon" : 23.64662,
+    "precision" : "street"
+  },
+  "str. Bistriței nr. 75-77" : {
+    "lat" : 46.77013,
+    "lon" : 23.617604,
+    "precision" : "exact"
+  },
+  "str. Bistriței, nr. 36" : {
+    "lat" : 46.770628,
+    "lon" : 23.617028,
+    "precision" : "exact"
+  },
+  "str. Blajului nr. 20" : {
+    "lat" : 46.784826,
+    "lon" : 23.642704,
+    "precision" : "exact"
+  },
+  "str. Bobâlnei 58" : {
+    "lat" : 46.788793,
+    "lon" : 23.621802,
+    "precision" : "exact"
+  },
+  "str. Bobâlnei 62-64" : {
+    "lat" : 46.788928,
+    "lon" : 23.622246,
+    "precision" : "exact"
+  },
+  "str. Bobâlnei nr. 26" : {
+    "lat" : 46.788446,
+    "lon" : 23.619842,
+    "precision" : "street"
+  },
+  "str. Bobâlnei nr. 60" : {
+    "lat" : 46.788879,
+    "lon" : 23.622079,
+    "precision" : "exact"
+  },
+  "str. Bobâlnei nr.60" : {
+    "lat" : 46.788879,
+    "lon" : 23.622079,
+    "precision" : "exact"
+  },
+  "str. Bobâlnei, nr. 60" : {
+    "lat" : 46.788879,
+    "lon" : 23.622079,
+    "precision" : "exact"
+  },
+  "str. Borhanci fn" : {
+    "lat" : 46.765983,
+    "lon" : 23.619875,
+    "precision" : "street"
+  },
+  "str. Borhanci – nord" : {
+    "lat" : 46.765983,
+    "lon" : 23.619875,
+    "precision" : "street"
+  },
+  "str. Borhanciului" : {
+    "lat" : 46.751944,
+    "lon" : 23.636217,
+    "precision" : "street"
+  },
+  "str. Borhanciului 80" : {
+    "lat" : 46.751944,
+    "lon" : 23.636217,
+    "precision" : "street"
+  },
+  "str. Borhanciului nr. 109C prov" : {
+    "lat" : 46.754522,
+    "lon" : 23.628603,
+    "precision" : "street"
+  },
+  "str. Borhanciului nr. 127" : {
+    "lat" : 46.754522,
+    "lon" : 23.628603,
+    "precision" : "street"
+  },
+  "str. Borhanciului nr. 28" : {
+    "lat" : 46.754522,
+    "lon" : 23.628603,
+    "precision" : "street"
+  },
+  "str. Borhanciului nr. 45-49" : {
+    "lat" : 46.751944,
+    "lon" : 23.636217,
+    "precision" : "street"
+  },
+  "str. Borhanciului nr. 46" : {
+    "lat" : 46.754522,
+    "lon" : 23.628603,
+    "precision" : "street"
+  },
+  "str. Borhanciului nr.109C" : {
+    "lat" : 46.754522,
+    "lon" : 23.628603,
+    "precision" : "street"
+  },
+  "str. Borhanciului – est" : {
+    "lat" : 46.751944,
+    "lon" : 23.636217,
+    "precision" : "street"
+  },
+  "str. Borhanciului – est , Colonia Sopor nr.48" : null,
+  "str. Borhanciului – latura sudică" : {
+    "lat" : 46.751944,
+    "lon" : 23.636217,
+    "precision" : "street"
+  },
+  "str. Borhanciului – nord" : {
+    "lat" : 46.751944,
+    "lon" : 23.636217,
+    "precision" : "street"
+  },
+  "str. Borhanciului – sud" : {
+    "lat" : 46.751944,
+    "lon" : 23.636217,
+    "precision" : "street"
+  },
+  "str. Borhanciului- str. Antonina de Gerando" : {
+    "lat" : 46.755672,
+    "lon" : 23.626377,
+    "precision" : "area"
+  },
+  "str. Brancusi nr.115" : {
+    "lat" : 46.762307,
+    "lon" : 23.61091,
+    "precision" : "exact"
+  },
+  "str. Branului nr. 49B" : {
+    "lat" : 46.788413,
+    "lon" : 23.645288,
+    "precision" : "exact"
+  },
+  "str. Breaza" : {
+    "lat" : 46.793356,
+    "lon" : 23.58463,
+    "precision" : "street"
+  },
+  "str. Breaza – est" : {
+    "lat" : 46.793356,
+    "lon" : 23.58463,
+    "precision" : "street"
+  },
+  "str. Brutarilor nr. 9" : {
+    "lat" : 46.765583,
+    "lon" : 23.568327,
+    "precision" : "exact"
+  },
+  "str. Brutăriei nr. 19" : null,
+  "str. Brăduțului nr. 10" : {
+    "lat" : 46.756273,
+    "lon" : 23.601543,
+    "precision" : "exact"
+  },
+  "str. Bucuresti 41-45" : {
+    "lat" : 46.780495,
+    "lon" : 23.601803,
+    "precision" : "street"
+  },
+  "str. Bucuresti nr. 22" : {
+    "lat" : 46.780193,
+    "lon" : 23.59967,
+    "precision" : "exact"
+  },
+  "str. București 47, Dimitrie Comșa nr. 26" : null,
+  "str. București nr. 28" : {
+    "lat" : 46.780252,
+    "lon" : 23.600451,
+    "precision" : "exact"
+  },
+  "str. București nr. 4-6" : {
+    "lat" : 46.779904,
+    "lon" : 23.596502,
+    "precision" : "exact"
+  },
+  "str. Bujorului nr. 8" : {
+    "lat" : 46.793145,
+    "lon" : 23.609419,
+    "precision" : "exact"
+  },
+  "str. Bună Ziua" : {
+    "lat" : 46.74722,
+    "lon" : 23.593791,
+    "precision" : "street"
+  },
+  "str. Bună Ziua nr. 34-36" : {
+    "lat" : 46.750104,
+    "lon" : 23.606047,
+    "precision" : "street"
+  },
+  "str. Bună ziua sud" : {
+    "lat" : 46.748121,
+    "lon" : 23.597565,
+    "precision" : "street"
+  },
+  "str. Bună ziua – sud" : {
+    "lat" : 46.748121,
+    "lon" : 23.597565,
+    "precision" : "street"
+  },
+  "str. Burebista nr. 1A-3" : {
+    "lat" : 46.783436,
+    "lon" : 23.589654,
+    "precision" : "street"
+  },
+  "str. Busuiocului nr.21" : {
+    "lat" : 46.788193,
+    "lon" : 23.562518,
+    "precision" : "exact"
+  },
+  "str. Bârc I nr.8" : {
+    "lat" : 46.791433,
+    "lon" : 23.654858,
+    "precision" : "exact"
+  },
+  "str. Bărc II, nr. 2A prov." : {
+    "lat" : 46.792856,
+    "lon" : 23.654932,
+    "precision" : "exact"
+  },
+  "str. C-tin Brâncuși nr. 101-103" : null,
+  "str. C-tin Noica – str. Stefan Augustin Doinaș" : null,
+  "str. C. Brâncuși nr. 55" : null,
+  "str. C. Brâncuși nr. 57-59" : null,
+  "str. C.A. Rosetti" : {
+    "lat" : 46.774564,
+    "lon" : 23.570743,
+    "precision" : "street"
+  },
+  "str. Caisului nr. 34" : {
+    "lat" : 46.756067,
+    "lon" : 23.586749,
+    "precision" : "exact"
+  },
+  "str. Calea Baciului nr. 19-21" : {
+    "lat" : 46.78441,
+    "lon" : 23.555717,
+    "precision" : "street"
+  },
+  "str. Calea Someșeni nr. 8A/3" : {
+    "lat" : 46.777435,
+    "lon" : 23.648777,
+    "precision" : "exact"
+  },
+  "str. Calea Turzii nr. 223d-223e" : {
+    "lat" : 46.746335,
+    "lon" : 23.593479,
+    "precision" : "exact"
+  },
+  "str. Calea Turzii nr. 32" : {
+    "lat" : 46.765158,
+    "lon" : 23.598223,
+    "precision" : "exact"
+  },
+  "str. Calea Turzii nr. 33-35" : {
+    "lat" : 46.764815,
+    "lon" : 23.599546,
+    "precision" : "exact"
+  },
+  "str. Calea Turzii nr. 69A" : {
+    "lat" : 46.761519,
+    "lon" : 23.598007,
+    "precision" : "exact"
+  },
+  "str. Calistrat Hogaș nr. 15" : null,
+  "str. Callatis nr. 19" : {
+    "lat" : 46.783122,
+    "lon" : 23.592547,
+    "precision" : "street"
+  },
+  "str. Callatis nr. 23" : {
+    "lat" : 46.783122,
+    "lon" : 23.592547,
+    "precision" : "street"
+  },
+  "str. Calvaria" : null,
+  "str. Campina nr. 51-53" : {
+    "lat" : 46.788103,
+    "lon" : 23.624294,
+    "precision" : "exact"
+  },
+  "str. Campului" : {
+    "lat" : 46.744839,
+    "lon" : 23.569708,
+    "precision" : "street"
+  },
+  "str. Campului – est" : {
+    "lat" : 46.744839,
+    "lon" : 23.569708,
+    "precision" : "street"
+  },
+  "str. Campului, nr. 125" : {
+    "lat" : 46.740519,
+    "lon" : 23.571077,
+    "precision" : "street"
+  },
+  "str. Cantonului" : {
+    "lat" : 46.778955,
+    "lon" : 23.693431,
+    "precision" : "street"
+  },
+  "str. Cantonului 30" : {
+    "lat" : 46.778955,
+    "lon" : 23.693431,
+    "precision" : "street"
+  },
+  "str. Capitan Grigore Ignat nr. 39" : {
+    "lat" : 46.789151,
+    "lon" : 23.65641,
+    "precision" : "exact"
+  },
+  "str. Cardinal Iuliu Hossu nr. 22-26, nr. 28" : {
+    "lat" : 46.769387,
+    "lon" : 23.581224,
+    "precision" : "exact"
+  },
+  "str. Carierei Nord" : {
+    "lat" : 46.73697,
+    "lon" : 23.583238,
+    "precision" : "street"
+  },
+  "str. Carierei – nord" : {
+    "lat" : 46.73697,
+    "lon" : 23.583238,
+    "precision" : "street"
+  },
+  "str. Carpati nr.38" : {
+    "lat" : 46.782642,
+    "lon" : 23.581735,
+    "precision" : "exact"
+  },
+  "str. Ceahlau nr. 19" : {
+    "lat" : 46.757855,
+    "lon" : 23.588026,
+    "precision" : "street"
+  },
+  "str. Ceahlau nr. 60B" : {
+    "lat" : 46.757508,
+    "lon" : 23.587973,
+    "precision" : "exact"
+  },
+  "str. Ceahlău nr. 19" : {
+    "lat" : 46.757855,
+    "lon" : 23.588026,
+    "precision" : "street"
+  },
+  "str. Ceahlău nr. 60B" : {
+    "lat" : 46.757508,
+    "lon" : 23.587973,
+    "precision" : "exact"
+  },
+  "str. Ceahlău nr. 60b" : {
+    "lat" : 46.757508,
+    "lon" : 23.587973,
+    "precision" : "exact"
+  },
+  "str. Cernauti" : {
+    "lat" : 46.735962,
+    "lon" : 23.556279,
+    "precision" : "street"
+  },
+  "str. Cernăuți" : {
+    "lat" : 46.735962,
+    "lon" : 23.556279,
+    "precision" : "street"
+  },
+  "str. Cetatii nr. 2" : {
+    "lat" : 46.779665,
+    "lon" : 23.582047,
+    "precision" : "street"
+  },
+  "str. Cetinei nr. 24" : {
+    "lat" : 46.732399,
+    "lon" : 23.588769,
+    "precision" : "street"
+  },
+  "str. Cetății nr. 13" : {
+    "lat" : 46.775703,
+    "lon" : 23.582958,
+    "precision" : "street"
+  },
+  "str. Cetății nr. 2" : {
+    "lat" : 46.779665,
+    "lon" : 23.582047,
+    "precision" : "street"
+  },
+  "str. Cezar Baltag nr. 30A" : {
+    "lat" : 46.746645,
+    "lon" : 23.566595,
+    "precision" : "street"
+  },
+  "str. Cezar Baltag nr. 30B" : {
+    "lat" : 46.746645,
+    "lon" : 23.566595,
+    "precision" : "street"
+  },
+  "str. Cezar Boliac nr. 7" : null,
+  "str. Cezar Boliac – Romul Ladea" : null,
+  "str. Cezar Bolliac" : {
+    "lat" : 46.751156,
+    "lon" : 23.631762,
+    "precision" : "street"
+  },
+  "str. Cezar Bolliac – latura sud-vestică" : {
+    "lat" : 46.751156,
+    "lon" : 23.631762,
+    "precision" : "street"
+  },
+  "str. Cezar Petrescu nr .1" : {
+    "lat" : 46.746659,
+    "lon" : 23.567254,
+    "precision" : "street"
+  },
+  "str. Cheile Baciului nr. 4B" : {
+    "lat" : 46.779374,
+    "lon" : 23.514469,
+    "precision" : "street"
+  },
+  "str. Cheile Baciului nr. 5 prov" : {
+    "lat" : 46.779374,
+    "lon" : 23.514469,
+    "precision" : "street"
+  },
+  "str. Cheile Baciului nr. 924B" : {
+    "lat" : 46.783203,
+    "lon" : 23.52784,
+    "precision" : "street"
+  },
+  "str. Cheile Baciului nr.924B" : {
+    "lat" : 46.783203,
+    "lon" : 23.52784,
+    "precision" : "street"
+  },
+  "str. Ciobanului nr. 8" : {
+    "lat" : 46.756909,
+    "lon" : 23.54801,
+    "precision" : "street"
+  },
+  "str. Ciocârliei nr. 2" : {
+    "lat" : 46.779228,
+    "lon" : 23.609707,
+    "precision" : "exact"
+  },
+  "str. Ciucea – Aleea Horezu" : {
+    "lat" : 46.796557,
+    "lon" : 23.623236,
+    "precision" : "street"
+  },
+  "str. Ciucea – aleea Lipova" : {
+    "lat" : 46.796557,
+    "lon" : 23.623236,
+    "precision" : "street"
+  },
+  "str. Clinicilor 11" : {
+    "lat" : 46.76472,
+    "lon" : 23.578267,
+    "precision" : "exact"
+  },
+  "str. Clinicilor nr 29" : {
+    "lat" : 46.764619,
+    "lon" : 23.576707,
+    "precision" : "exact"
+  },
+  "str. Clinicilor nr 31" : {
+    "lat" : 46.764605,
+    "lon" : 23.576538,
+    "precision" : "exact"
+  },
+  "str. Clinicilor nr. 20-22" : {
+    "lat" : 46.765702,
+    "lon" : 23.581315,
+    "precision" : "exact"
+  },
+  "str. Clinicilor nr. 29" : {
+    "lat" : 46.764619,
+    "lon" : 23.576707,
+    "precision" : "exact"
+  },
+  "str. Clinicilor nr. 31" : {
+    "lat" : 46.764605,
+    "lon" : 23.576538,
+    "precision" : "exact"
+  },
+  "str. Clinicilor nr. 60" : {
+    "lat" : 46.764885,
+    "lon" : 23.577434,
+    "precision" : "exact"
+  },
+  "str. Clopoteilor – est" : null,
+  "str. Cloșca nr. 13" : {
+    "lat" : 46.777299,
+    "lon" : 23.58871,
+    "precision" : "street"
+  },
+  "str. Cloșca, nr.13" : {
+    "lat" : 46.777299,
+    "lon" : 23.58871,
+    "precision" : "street"
+  },
+  "str. Cocorilor nr. 40 A" : {
+    "lat" : 46.7939,
+    "lon" : 23.580799,
+    "precision" : "street"
+  },
+  "str. Cocorilor nr. 40C" : {
+    "lat" : 46.7939,
+    "lon" : 23.580799,
+    "precision" : "street"
+  },
+  "str. Cocorilor nr. 40D" : {
+    "lat" : 46.7939,
+    "lon" : 23.580799,
+    "precision" : "street"
+  },
+  "str. Cocorilor nr. 40F" : {
+    "lat" : 46.7939,
+    "lon" : 23.580799,
+    "precision" : "street"
+  },
+  "str. Colinei – vest" : {
+    "lat" : 46.752658,
+    "lon" : 23.537144,
+    "precision" : "street"
+  },
+  "str. Colonia Sopor" : {
+    "lat" : 46.741265,
+    "lon" : 23.655207,
+    "precision" : "street"
+  },
+  "str. Cometei nr. 16-20" : {
+    "lat" : 46.753518,
+    "lon" : 23.593122,
+    "precision" : "exact"
+  },
+  "str. Cometei nr. 4" : {
+    "lat" : 46.75323,
+    "lon" : 23.595117,
+    "precision" : "exact"
+  },
+  "str. Constantin Brâncuși" : {
+    "lat" : 46.766721,
+    "lon" : 23.602863,
+    "precision" : "street"
+  },
+  "str. Constantin Brâncuși nr. 123-125" : {
+    "lat" : 46.761822,
+    "lon" : 23.611695,
+    "precision" : "exact"
+  },
+  "str. Constantin Brâncuși, nr. 119-119A" : {
+    "lat" : 46.76204,
+    "lon" : 23.611249,
+    "precision" : "exact"
+  },
+  "str. Constantin Brâncuși, nr. 84" : {
+    "lat" : 46.763598,
+    "lon" : 23.608035,
+    "precision" : "exact"
+  },
+  "str. Constatin Brâncuși nr. 158" : null,
+  "str. Copacilor nr. 5" : {
+    "lat" : 46.788441,
+    "lon" : 23.653082,
+    "precision" : "exact"
+  },
+  "str. Corneliu Coposu nr 2- str. Giordano Bruno nr 21-23" : {
+    "lat" : 46.787937,
+    "lon" : 23.579441,
+    "precision" : "exact"
+  },
+  "str. Corneliu Coposu nr. 112-114" : {
+    "lat" : 46.785821,
+    "lon" : 23.56795,
+    "precision" : "exact"
+  },
+  "str. Corneliu Coposu nr. 144-146-148" : {
+    "lat" : 46.785318,
+    "lon" : 23.565121,
+    "precision" : "exact"
+  },
+  "str. Corneliu Coposu nr. 24-26" : {
+    "lat" : 46.787586,
+    "lon" : 23.577207,
+    "precision" : "exact"
+  },
+  "str. Corneliu Coposu nr. 32-34" : {
+    "lat" : 46.787466,
+    "lon" : 23.578123,
+    "precision" : "street"
+  },
+  "str. Corneliu Coposu nr. 34" : {
+    "lat" : 46.787514,
+    "lon" : 23.576343,
+    "precision" : "exact"
+  },
+  "str. Corneliu Coposu nr. 58" : {
+    "lat" : 46.785039,
+    "lon" : 23.563398,
+    "precision" : "exact"
+  },
+  "str. Corneliu Coposu nr.167-167A" : {
+    "lat" : 46.78281,
+    "lon" : 23.565103,
+    "precision" : "exact"
+  },
+  "str. Cosașilor nr. 3-7" : {
+    "lat" : 46.785734,
+    "lon" : 23.61206,
+    "precision" : "exact"
+  },
+  "str. Costache Negri f.n" : null,
+  "str. Coșbuc nr. 4-6" : {
+    "lat" : 46.766122,
+    "lon" : 23.576155,
+    "precision" : "exact"
+  },
+  "str. Crișului nr 10 a" : {
+    "lat" : 46.778628,
+    "lon" : 23.621968,
+    "precision" : "exact"
+  },
+  "str. Croitorilor nr. 19-21" : {
+    "lat" : 46.776172,
+    "lon" : 23.592244,
+    "precision" : "exact"
+  },
+  "str. Croitorilor nr. 27" : {
+    "lat" : 46.776434,
+    "lon" : 23.5932,
+    "precision" : "exact"
+  },
+  "str. Crângului nr. 1" : {
+    "lat" : 46.760832,
+    "lon" : 23.597263,
+    "precision" : "exact"
+  },
+  "str. Câmpina nr. 10" : {
+    "lat" : 46.788265,
+    "lon" : 23.6165,
+    "precision" : "exact"
+  },
+  "str. Câmpina nr. 41" : {
+    "lat" : 46.788379,
+    "lon" : 23.621673,
+    "precision" : "exact"
+  },
+  "str. Câmpina nr. 43" : {
+    "lat" : 46.788301,
+    "lon" : 23.621695,
+    "precision" : "exact"
+  },
+  "str. Câmpului" : {
+    "lat" : 46.751924,
+    "lon" : 23.565156,
+    "precision" : "street"
+  },
+  "str. Câmpului est" : {
+    "lat" : 46.751924,
+    "lon" : 23.565156,
+    "precision" : "street"
+  },
+  "str. Câmpului latura nordică" : {
+    "lat" : 46.751924,
+    "lon" : 23.565156,
+    "precision" : "street"
+  },
+  "str. Câmpului nr. 119" : {
+    "lat" : 46.740519,
+    "lon" : 23.571077,
+    "precision" : "street"
+  },
+  "str. Câmpului nr. 125" : {
+    "lat" : 46.744839,
+    "lon" : 23.569708,
+    "precision" : "street"
+  },
+  "str. Câmpului nr. 145" : {
+    "lat" : 46.740519,
+    "lon" : 23.571077,
+    "precision" : "street"
+  },
+  "str. Câmpului nr. 156A" : {
+    "lat" : 46.755371,
+    "lon" : 23.564175,
+    "precision" : "street"
+  },
+  "str. Câmpului nr. 252" : {
+    "lat" : 46.744839,
+    "lon" : 23.569708,
+    "precision" : "street"
+  },
+  "str. Câmpului nr. 333" : {
+    "lat" : 46.751924,
+    "lon" : 23.565156,
+    "precision" : "street"
+  },
+  "str. Câmpului sud" : {
+    "lat" : 46.751924,
+    "lon" : 23.565156,
+    "precision" : "street"
+  },
+  "str. Câmpului – est" : {
+    "lat" : 46.751924,
+    "lon" : 23.565156,
+    "precision" : "street"
+  },
+  "str. Căpitan Grigore Ignat 13A" : {
+    "lat" : 46.786304,
+    "lon" : 23.655811,
+    "precision" : "exact"
+  },
+  "str. Căpitan Grigore Ignat nr. 41" : {
+    "lat" : 46.789387,
+    "lon" : 23.656301,
+    "precision" : "exact"
+  },
+  "str. Cărbunarilor nr. 4" : {
+    "lat" : 46.772165,
+    "lon" : 23.611078,
+    "precision" : "exact"
+  },
+  "str. D. D Rosca nr. 24" : {
+    "lat" : 46.726281,
+    "lon" : 23.578297,
+    "precision" : "street"
+  },
+  "str. D. Ferenc nr. 4, B. Samuel nr.5" : null,
+  "str. D.D. Rosca – est" : {
+    "lat" : 46.726281,
+    "lon" : 23.578297,
+    "precision" : "street"
+  },
+  "str. D.D. Rosca – vest" : {
+    "lat" : 46.726281,
+    "lon" : 23.578297,
+    "precision" : "street"
+  },
+  "str. Dambovitei nr. 33" : {
+    "lat" : 46.780989,
+    "lon" : 23.622403,
+    "precision" : "exact"
+  },
+  "str. Daniil P Barceanu nr. 5" : {
+    "lat" : 46.779805,
+    "lon" : 23.594048,
+    "precision" : "street"
+  },
+  "str. Dealul Fânațelor FN" : {
+    "lat" : 46.822248,
+    "lon" : 23.594541,
+    "precision" : "street"
+  },
+  "str. Decebal nr. 108" : {
+    "lat" : 46.785135,
+    "lon" : 23.593797,
+    "precision" : "street"
+  },
+  "str. Decebal nr. 116" : {
+    "lat" : 46.776768,
+    "lon" : 23.589696,
+    "precision" : "street"
+  },
+  "str. Decebal nr. 29-29A" : {
+    "lat" : 46.776768,
+    "lon" : 23.589696,
+    "precision" : "street"
+  },
+  "str. Decebal nr. 41" : {
+    "lat" : 46.779777,
+    "lon" : 23.588473,
+    "precision" : "exact"
+  },
+  "str. Decebal nr. 47" : {
+    "lat" : 46.785135,
+    "lon" : 23.593797,
+    "precision" : "street"
+  },
+  "str. Decebal nr. 57" : {
+    "lat" : 46.780535,
+    "lon" : 23.589799,
+    "precision" : "exact"
+  },
+  "str. Decebal nr. 7" : {
+    "lat" : 46.776768,
+    "lon" : 23.589696,
+    "precision" : "street"
+  },
+  "str. Decebal nr. 72" : {
+    "lat" : 46.781171,
+    "lon" : 23.590292,
+    "precision" : "exact"
+  },
+  "str. Decebal nr.7" : {
+    "lat" : 46.776768,
+    "lon" : 23.589696,
+    "precision" : "street"
+  },
+  "str. Decebal, nr. 53-55" : {
+    "lat" : 46.776768,
+    "lon" : 23.589696,
+    "precision" : "street"
+  },
+  "str. Dima – str.Sighisoarei" : {
+    "lat" : 46.755577,
+    "lon" : 23.573008,
+    "precision" : "street"
+  },
+  "str. Dimitrie Comșa 26- str. București 47" : null,
+  "str. Dimitrie Gusti nr. 2" : {
+    "lat" : 46.749044,
+    "lon" : 23.563174,
+    "precision" : "exact"
+  },
+  "str. Dimitrie Gusti nr. 8" : {
+    "lat" : 46.748963,
+    "lon" : 23.563252,
+    "precision" : "street"
+  },
+  "str. Dinicu Golescu nr.12" : {
+    "lat" : 46.744294,
+    "lon" : 23.572482,
+    "precision" : "street"
+  },
+  "str. Dionisie Roman – nord" : {
+    "lat" : 46.779671,
+    "lon" : 23.637793,
+    "precision" : "street"
+  },
+  "str. Dobrogei nr. 1D" : {
+    "lat" : 46.783453,
+    "lon" : 23.654673,
+    "precision" : "exact"
+  },
+  "str. Dobrogei nr. 1E" : {
+    "lat" : 46.783453,
+    "lon" : 23.654673,
+    "precision" : "exact"
+  },
+  "str. Doinei 93" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "str. Doinei 95" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "str. Doinei nr. 41" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "str. Doinei nr. 42" : {
+    "lat" : 46.793153,
+    "lon" : 23.583543,
+    "precision" : "exact"
+  },
+  "str. Doinei nr. 45A (47, 47A, 49)" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "str. Doinei nr. 45B" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "str. Doinei nr. 45C" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "str. Doinei nr. 45D" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "str. Doinei nr. 45E" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "str. Doinei nr. 47D" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "str. Doinei, nr. 93" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "str. Doinei, nr. 95" : {
+    "lat" : 46.793241,
+    "lon" : 23.583345,
+    "precision" : "street"
+  },
+  "str. Donat nr. 248" : {
+    "lat" : 46.769084,
+    "lon" : 23.548622,
+    "precision" : "street"
+  },
+  "str. Donath -Nord" : {
+    "lat" : 46.769084,
+    "lon" : 23.548622,
+    "precision" : "street"
+  },
+  "str. Donath 174-176" : {
+    "lat" : 46.766119,
+    "lon" : 23.545534,
+    "precision" : "exact"
+  },
+  "str. Donath nr. 120" : {
+    "lat" : 46.770425,
+    "lon" : 23.550552,
+    "precision" : "exact"
+  },
+  "str. Donath nr. 120a" : {
+    "lat" : 46.770425,
+    "lon" : 23.550552,
+    "precision" : "exact"
+  },
+  "str. Donath nr. 172" : {
+    "lat" : 46.767287,
+    "lon" : 23.546684,
+    "precision" : "exact"
+  },
+  "str. Donath nr. 185" : {
+    "lat" : 46.765644,
+    "lon" : 23.544925,
+    "precision" : "street"
+  },
+  "str. Donath nr. 211" : {
+    "lat" : 46.765644,
+    "lon" : 23.544925,
+    "precision" : "street"
+  },
+  "str. Donath nr. 264" : {
+    "lat" : 46.769084,
+    "lon" : 23.548622,
+    "precision" : "street"
+  },
+  "str. Donath nr. 53 A" : {
+    "lat" : 46.770318,
+    "lon" : 23.551276,
+    "precision" : "exact"
+  },
+  "str. Donath nr.266" : {
+    "lat" : 46.769084,
+    "lon" : 23.548622,
+    "precision" : "street"
+  },
+  "str. Donath, nr. 160" : {
+    "lat" : 46.768658,
+    "lon" : 23.547902,
+    "precision" : "exact"
+  },
+  "str. Dornei nr.1" : {
+    "lat" : 46.776436,
+    "lon" : 23.57969,
+    "precision" : "exact"
+  },
+  "str. Dorobanților nr. 104-106" : null,
+  "str. Dorobanților nr. 114-118" : null,
+  "str. Dragos Voda nr. 26" : {
+    "lat" : 46.789871,
+    "lon" : 23.587206,
+    "precision" : "exact"
+  },
+  "str. Dragos Voda nr. 30 -30A" : {
+    "lat" : 46.790076,
+    "lon" : 23.587049,
+    "precision" : "exact"
+  },
+  "str. Dunarii nr. 117a" : {
+    "lat" : 46.778213,
+    "lon" : 23.639581,
+    "precision" : "exact"
+  },
+  "str. Dunării nr. 117a" : {
+    "lat" : 46.778213,
+    "lon" : 23.639581,
+    "precision" : "exact"
+  },
+  "str. Dunării nr. 152" : {
+    "lat" : 46.778188,
+    "lon" : 23.640986,
+    "precision" : "exact"
+  },
+  "str. Dunării nr. 16" : {
+    "lat" : 46.775862,
+    "lon" : 23.626971,
+    "precision" : "exact"
+  },
+  "str. Dunării nr. 65" : {
+    "lat" : 46.777786,
+    "lon" : 23.636997,
+    "precision" : "exact"
+  },
+  "str. Dunării – est" : {
+    "lat" : 46.778907,
+    "lon" : 23.643434,
+    "precision" : "street"
+  },
+  "str. Dâmboviței-str.Cojocnei" : null,
+  "str. Ecaterina Teodoroiu, nr. 41" : {
+    "lat" : 46.78778,
+    "lon" : 23.581424,
+    "precision" : "street"
+  },
+  "str. Eclipsei" : null,
+  "str. Eclipsei f.n" : null,
+  "str. Eclipsei- Aleea Pluto" : null,
+  "str. Edgar Quinet 1-3" : {
+    "lat" : 46.746294,
+    "lon" : 23.56589,
+    "precision" : "exact"
+  },
+  "str. Edgar Quinet, nr. 18" : {
+    "lat" : 46.746245,
+    "lon" : 23.565686,
+    "precision" : "street"
+  },
+  "str. Edgard Quinet nr.1-3" : null,
+  "str. Edgard Quinet nr.5" : null,
+  "str. Eftimie Murgu nr. 11" : {
+    "lat" : 46.75692,
+    "lon" : 23.600753,
+    "precision" : "exact"
+  },
+  "str. Eftimie Murgu nr. 16" : {
+    "lat" : 46.756773,
+    "lon" : 23.60117,
+    "precision" : "street"
+  },
+  "str. Emil Petrovici nr. 9" : {
+    "lat" : 46.779392,
+    "lon" : 23.590527,
+    "precision" : "exact"
+  },
+  "str. Emil Racovita nr. 41" : {
+    "lat" : 46.7781,
+    "lon" : 23.583318,
+    "precision" : "exact"
+  },
+  "str. Ep. Marton Aron nr. 38" : null,
+  "str. Eremia Grigorescu nr. 65" : {
+    "lat" : 46.773093,
+    "lon" : 23.565904,
+    "precision" : "exact"
+  },
+  "str. Erkel Ferenc fn" : {
+    "lat" : 46.749665,
+    "lon" : 23.598169,
+    "precision" : "street"
+  },
+  "str. Erkel Ferenc nr. 1" : {
+    "lat" : 46.748455,
+    "lon" : 23.598301,
+    "precision" : "exact"
+  },
+  "str. Erkel Ferenk" : null,
+  "str. Ernest Hemingway nr. 3A" : {
+    "lat" : 46.804307,
+    "lon" : 23.6159,
+    "precision" : "street"
+  },
+  "str. Eta Boeriu" : {
+    "lat" : 46.737519,
+    "lon" : 23.613136,
+    "precision" : "street"
+  },
+  "str. Eta Boeriu – sud" : {
+    "lat" : 46.737519,
+    "lon" : 23.613136,
+    "precision" : "street"
+  },
+  "str. Eugen Ionesco fn" : {
+    "lat" : 46.744664,
+    "lon" : 23.583696,
+    "precision" : "street"
+  },
+  "str. Eugen Ionesco – est" : {
+    "lat" : 46.744664,
+    "lon" : 23.583696,
+    "precision" : "street"
+  },
+  "str. Eugen Ionesco-vest" : {
+    "lat" : 46.744664,
+    "lon" : 23.583696,
+    "precision" : "street"
+  },
+  "str. Eugen Lovinescu nr. 18A" : {
+    "lat" : 46.748255,
+    "lon" : 23.566129,
+    "precision" : "street"
+  },
+  "str. Eugen Lovinescu nr. 39" : {
+    "lat" : 46.748255,
+    "lon" : 23.566129,
+    "precision" : "street"
+  },
+  "str. Eusebiu Marton Aron, nr. 23A" : null,
+  "str. F.J.Curie nr. 1" : null,
+  "str. Fabrici de Chibrituri nr.5-11, str. Jean Jaures 6A, str. Maramuresului nr.36" : null,
+  "str. Fabricii de Chibrituri" : {
+    "lat" : 46.784845,
+    "lon" : 23.584234,
+    "precision" : "street"
+  },
+  "str. Fabricii de Chibrituri nr. 5-11" : {
+    "lat" : 46.785116,
+    "lon" : 23.583753,
+    "precision" : "exact"
+  },
+  "str. Fabricii de Zahăr" : {
+    "lat" : 46.783498,
+    "lon" : 23.623886,
+    "precision" : "street"
+  },
+  "str. Fabricii de Zahăr intersecție cu str. Plevnei" : null,
+  "str. Fabricii de Zahăr nr. 145" : {
+    "lat" : 46.789118,
+    "lon" : 23.627498,
+    "precision" : "exact"
+  },
+  "str. Fabricii de chibrituri" : {
+    "lat" : 46.784845,
+    "lon" : 23.584234,
+    "precision" : "street"
+  },
+  "str. Fabricii de chibrituri nr. 5-11, str. Maramureșului nr. 36, str. Maramureșului nr. 48, str. Jean Jaures fn" : {
+    "lat" : 46.785783,
+    "lon" : 23.584155,
+    "precision" : "exact"
+  },
+  "str. Fabricii de zahar, nr. 147" : {
+    "lat" : 46.789252,
+    "lon" : 23.627509,
+    "precision" : "exact"
+  },
+  "str. Fabricii de zahăr nr. 33-35" : {
+    "lat" : 46.78183,
+    "lon" : 23.617507,
+    "precision" : "exact"
+  },
+  "str. Fabricii de zahăr nr. 98" : {
+    "lat" : 46.7851,
+    "lon" : 23.62661,
+    "precision" : "exact"
+  },
+  "str. Fabricii nr. 68-70" : {
+    "lat" : 46.78245,
+    "lon" : 23.613048,
+    "precision" : "street"
+  },
+  "str. Fabricii nr. 90-92-94" : {
+    "lat" : 46.77868,
+    "lon" : 23.614674,
+    "precision" : "street"
+  },
+  "str. Fabricii nr. 93-103" : {
+    "lat" : 46.789409,
+    "lon" : 23.614695,
+    "precision" : "exact"
+  },
+  "str. Fabricii nr.57A-59" : {
+    "lat" : 46.793021,
+    "lon" : 23.615388,
+    "precision" : "street"
+  },
+  "str. Fabricii – str.Sobarilor" : {
+    "lat" : 46.787341,
+    "lon" : 23.614828,
+    "precision" : "street"
+  },
+  "str. Fabricii- str. Sobarilor" : null,
+  "str. Fagetului – aleea Dariu Pop" : {
+    "lat" : 46.736839,
+    "lon" : 23.589735,
+    "precision" : "street"
+  },
+  "str. Fagului 41C" : {
+    "lat" : 46.754373,
+    "lon" : 23.613272,
+    "precision" : "exact"
+  },
+  "str. Fagului nr. 14 prov." : {
+    "lat" : 46.754851,
+    "lon" : 23.613939,
+    "precision" : "street"
+  },
+  "str. Fagului nr. 27" : {
+    "lat" : 46.754851,
+    "lon" : 23.613939,
+    "precision" : "street"
+  },
+  "str. Fagului nr. 32F" : {
+    "lat" : 46.750931,
+    "lon" : 23.608141,
+    "precision" : "exact"
+  },
+  "str. Fagului nr. 52" : {
+    "lat" : 46.753426,
+    "lon" : 23.610857,
+    "precision" : "exact"
+  },
+  "str. Fagului nr. 68C" : {
+    "lat" : 46.752951,
+    "lon" : 23.610656,
+    "precision" : "exact"
+  },
+  "str. Fagului, nr. 60A" : {
+    "lat" : 46.752467,
+    "lon" : 23.610255,
+    "precision" : "exact"
+  },
+  "str. Fanatelor nr. 7-11" : {
+    "lat" : 46.799529,
+    "lon" : 23.608611,
+    "precision" : "exact"
+  },
+  "str. Fierului nr. 7A" : {
+    "lat" : 46.781892,
+    "lon" : 23.581631,
+    "precision" : "street"
+  },
+  "str. Fierului nr. 7B" : {
+    "lat" : 46.781892,
+    "lon" : 23.581631,
+    "precision" : "street"
+  },
+  "str. Florilor" : {
+    "lat" : 46.821398,
+    "lon" : 23.596661,
+    "precision" : "street"
+  },
+  "str. Fortaretei nr. 2" : {
+    "lat" : 46.767709,
+    "lon" : 23.588526,
+    "precision" : "street"
+  },
+  "str. Frumoasă nr. 15" : {
+    "lat" : 46.788671,
+    "lon" : 23.651473,
+    "precision" : "exact"
+  },
+  "str. Frunzisului 27" : {
+    "lat" : 46.748505,
+    "lon" : 23.574469,
+    "precision" : "street"
+  },
+  "str. Frunzisului nr 88" : {
+    "lat" : 46.747661,
+    "lon" : 23.576879,
+    "precision" : "exact"
+  },
+  "str. Frunzisului nr. 80-82" : {
+    "lat" : 46.748439,
+    "lon" : 23.575129,
+    "precision" : "street"
+  },
+  "str. Frunzisului, nr. 23-25" : {
+    "lat" : 46.754218,
+    "lon" : 23.568004,
+    "precision" : "exact"
+  },
+  "str. Frunzișului" : {
+    "lat" : 46.748439,
+    "lon" : 23.575129,
+    "precision" : "street"
+  },
+  "str. Frunzișului fn" : {
+    "lat" : 46.751285,
+    "lon" : 23.572735,
+    "precision" : "street"
+  },
+  "str. Frunzișului nr. 117" : {
+    "lat" : 46.748439,
+    "lon" : 23.575129,
+    "precision" : "street"
+  },
+  "str. Frunzișului nr. 23-25" : {
+    "lat" : 46.754218,
+    "lon" : 23.568004,
+    "precision" : "exact"
+  },
+  "str. Frunzișului nr. 93" : {
+    "lat" : 46.751285,
+    "lon" : 23.572735,
+    "precision" : "street"
+  },
+  "str. Frunzișului, str. Sergiu Celibidache -vest" : null,
+  "str. Frunzișului, str. Szenczi Molnár Albert -sud" : null,
+  "str. Frunzișului-est" : {
+    "lat" : 46.748439,
+    "lon" : 23.575129,
+    "precision" : "street"
+  },
+  "str. Fânațelor nr. 13P" : {
+    "lat" : 46.800576,
+    "lon" : 23.609865,
+    "precision" : "street"
+  },
+  "str. Fânațelor, nr. 17A" : {
+    "lat" : 46.800576,
+    "lon" : 23.609865,
+    "precision" : "street"
+  },
+  "str. Făgetului latura vestică" : {
+    "lat" : 46.727616,
+    "lon" : 23.584496,
+    "precision" : "street"
+  },
+  "str. Făgetului nr. 34B" : {
+    "lat" : 46.732136,
+    "lon" : 23.587131,
+    "precision" : "exact"
+  },
+  "str. Făgetului vest – actualizare aviz" : {
+    "lat" : 46.727616,
+    "lon" : 23.584496,
+    "precision" : "street"
+  },
+  "str. Făgetului – Latura vestică" : {
+    "lat" : 46.727616,
+    "lon" : 23.584496,
+    "precision" : "street"
+  },
+  "str. Făgetului – str. Eugen Ionesco" : {
+    "lat" : 46.727616,
+    "lon" : 23.584496,
+    "precision" : "street"
+  },
+  "str. Făgetului, FN" : {
+    "lat" : 46.727616,
+    "lon" : 23.584496,
+    "precision" : "street"
+  },
+  "str. Făgetului, nr. 5T" : {
+    "lat" : 46.733778,
+    "lon" : 23.588022,
+    "precision" : "exact"
+  },
+  "str. Făgetului, nr. 6" : {
+    "lat" : 46.72754,
+    "lon" : 23.581697,
+    "precision" : "exact"
+  },
+  "str. Făgărașului nr. 25A" : {
+    "lat" : 46.788567,
+    "lon" : 23.571464,
+    "precision" : "exact"
+  },
+  "str. G-ral Traian Moșoiu nr. 41" : null,
+  "str. G. Clemenceau nr.7" : null,
+  "str. G. Cosbuc nr. 4" : null,
+  "str. G. Coșbuc nr. 4" : null,
+  "str. G. Verdi, str J.S. Bach" : null,
+  "str. G.F. Hegel fn" : null,
+  "str. Gala Galaction f.n." : null,
+  "str. Galati" : {
+    "lat" : 46.776793,
+    "lon" : 23.600819,
+    "precision" : "street"
+  },
+  "str. Galați nr. 20C" : {
+    "lat" : 46.777649,
+    "lon" : 23.602247,
+    "precision" : "exact"
+  },
+  "str. Garibaldi nr. 20A" : {
+    "lat" : 46.768342,
+    "lon" : 23.567941,
+    "precision" : "exact"
+  },
+  "str. Garii – str. Branduselor" : {
+    "lat" : 46.787164,
+    "lon" : 23.591994,
+    "precision" : "street"
+  },
+  "str. Gavril Muzicescu nr.1" : {
+    "lat" : 46.768723,
+    "lon" : 23.569957,
+    "precision" : "street"
+  },
+  "str. Gen. Traian Moșoiu nr.64" : null,
+  "str. General Eremia Grigorescu nr. 80A" : {
+    "lat" : 46.77344,
+    "lon" : 23.569755,
+    "precision" : "exact"
+  },
+  "str. George Coșbuc nr. 11" : {
+    "lat" : 46.769076,
+    "lon" : 23.574597,
+    "precision" : "street"
+  },
+  "str. George Stephenson nr. 9" : {
+    "lat" : 46.787203,
+    "lon" : 23.595384,
+    "precision" : "exact"
+  },
+  "str. Gh. Doja nr. 49" : {
+    "lat" : 46.759161,
+    "lon" : 23.601756,
+    "precision" : "exact"
+  },
+  "str. Gh. Doja nr.49" : {
+    "lat" : 46.759161,
+    "lon" : 23.601756,
+    "precision" : "exact"
+  },
+  "str. Gh. Sion" : {
+    "lat" : 46.792801,
+    "lon" : 23.563242,
+    "precision" : "street"
+  },
+  "str. Gheorghe Dima -sud, str Sighisoarei nr 19" : {
+    "lat" : 46.755577,
+    "lon" : 23.573008,
+    "precision" : "street"
+  },
+  "str. Gheorghe Dima Vest" : {
+    "lat" : 46.755577,
+    "lon" : 23.573008,
+    "precision" : "street"
+  },
+  "str. Gheorghe Dima fn" : {
+    "lat" : 46.755577,
+    "lon" : 23.573008,
+    "precision" : "street"
+  },
+  "str. Gheorghe Dima – Vest" : {
+    "lat" : 46.755577,
+    "lon" : 23.573008,
+    "precision" : "street"
+  },
+  "str. Gheorghe Lazar – str. Paris nr. 38-38A" : {
+    "lat" : 46.778485,
+    "lon" : 23.598607,
+    "precision" : "exact"
+  },
+  "str. Gheorgheni nr. 42" : {
+    "lat" : 46.765465,
+    "lon" : 23.60476,
+    "precision" : "exact"
+  },
+  "str. Gherase Dendrino nr. 38" : {
+    "lat" : 46.735568,
+    "lon" : 23.593251,
+    "precision" : "exact"
+  },
+  "str. Gheroghe Dima-sud" : null,
+  "str. Ghimeșului, F.N." : null,
+  "str. Giordano Bruno nr. 41" : {
+    "lat" : 46.788906,
+    "lon" : 23.5776,
+    "precision" : "exact"
+  },
+  "str. Giuseppe Verdi – str. George Bernard Shaw" : {
+    "lat" : 46.806553,
+    "lon" : 23.626678,
+    "precision" : "street"
+  },
+  "str. Giuseppe Verdi- str. G B Shaw" : null,
+  "str. Giuseppe Verdi- str. G.B Shaw" : null,
+  "str. Gladiolelor nr. 1A" : {
+    "lat" : 46.790279,
+    "lon" : 23.593994,
+    "precision" : "exact"
+  },
+  "str. Gospodarilor nr. 13A" : {
+    "lat" : 46.782505,
+    "lon" : 23.604586,
+    "precision" : "exact"
+  },
+  "str. Grapei nr. 5" : {
+    "lat" : 46.765782,
+    "lon" : 23.567883,
+    "precision" : "street"
+  },
+  "str. Grigore Alexandrescu nr. 26A" : {
+    "lat" : 46.756382,
+    "lon" : 23.547023,
+    "precision" : "exact"
+  },
+  "str. Grigore Ignat nr. 11" : {
+    "lat" : 46.786071,
+    "lon" : 23.656277,
+    "precision" : "exact"
+  },
+  "str. Grigore Moisil nr. 1" : {
+    "lat" : 46.746854,
+    "lon" : 23.592131,
+    "precision" : "exact"
+  },
+  "str. Grigore Moisil nr. 17" : {
+    "lat" : 46.74712,
+    "lon" : 23.590715,
+    "precision" : "street"
+  },
+  "str. Grâului nr. 9" : {
+    "lat" : 46.787353,
+    "lon" : 23.552237,
+    "precision" : "street"
+  },
+  "str. Gării" : {
+    "lat" : 46.787164,
+    "lon" : 23.591994,
+    "precision" : "street"
+  },
+  "str. Haiducului nr. 1" : {
+    "lat" : 46.781721,
+    "lon" : 23.59065,
+    "precision" : "exact"
+  },
+  "str. Hameiului nr. 16-26" : {
+    "lat" : 46.750733,
+    "lon" : 23.540521,
+    "precision" : "street"
+  },
+  "str. Hameiului – nord" : {
+    "lat" : 46.750733,
+    "lon" : 23.540521,
+    "precision" : "street"
+  },
+  "str. Hașdeu" : {
+    "lat" : 46.762477,
+    "lon" : 23.576093,
+    "precision" : "street"
+  },
+  "str. Hațeg nr. 22" : {
+    "lat" : 46.772104,
+    "lon" : 23.560408,
+    "precision" : "exact"
+  },
+  "str. Heltai Gaspar nr. 43" : {
+    "lat" : 46.765873,
+    "lon" : 23.616698,
+    "precision" : "exact"
+  },
+  "str. Henri Barbusse nr. 41" : {
+    "lat" : 46.783058,
+    "lon" : 23.607634,
+    "precision" : "exact"
+  },
+  "str. Horea nr. 21-23" : {
+    "lat" : 46.777122,
+    "lon" : 23.586739,
+    "precision" : "exact"
+  },
+  "str. Horea nr. 33-35, str. Crișan 26" : {
+    "lat" : 46.778796,
+    "lon" : 23.586141,
+    "precision" : "exact"
+  },
+  "str. Horea nr. 33-35, str. Crișan nr. 26" : {
+    "lat" : 46.778796,
+    "lon" : 23.586141,
+    "precision" : "exact"
+  },
+  "str. Horea nr. 72" : {
+    "lat" : 46.777897,
+    "lon" : 23.587274,
+    "precision" : "street"
+  },
+  "str. Horticultorilor nr.3" : {
+    "lat" : 46.75996,
+    "lon" : 23.616923,
+    "precision" : "street"
+  },
+  "str. Huedinului" : {
+    "lat" : 46.748023,
+    "lon" : 23.557629,
+    "precision" : "street"
+  },
+  "str. Huedinului f.n" : null,
+  "str. I. B. Deleanu nr. 21" : null,
+  "str. I. Ghica nr. 14" : null,
+  "str. I.B.Deleanu 35A" : null,
+  "str. I.P. Reteganu nr. 35, lot 1 și lot 2" : null,
+  "str. I.P. Reteganu nr. 6" : null,
+  "str. Ialomitei nr. 17" : {
+    "lat" : 46.781242,
+    "lon" : 23.619144,
+    "precision" : "exact"
+  },
+  "str. Iancu de Hunedoara nr.3" : {
+    "lat" : 46.769169,
+    "lon" : 23.56217,
+    "precision" : "street"
+  },
+  "str. Iasomiei nr. 1A" : {
+    "lat" : 46.795084,
+    "lon" : 23.607593,
+    "precision" : "exact"
+  },
+  "str. Ilie Macelaru nr. 22A" : {
+    "lat" : 46.765573,
+    "lon" : 23.572858,
+    "precision" : "exact"
+  },
+  "str. Intre Lacuri 8" : {
+    "lat" : 46.777561,
+    "lon" : 23.622969,
+    "precision" : "street"
+  },
+  "str. Inului nr. 1" : {
+    "lat" : 46.782998,
+    "lon" : 23.616778,
+    "precision" : "street"
+  },
+  "str. Inău nr. 25-27" : {
+    "lat" : 46.776036,
+    "lon" : 23.617525,
+    "precision" : "exact"
+  },
+  "str. Ioan Budai Deleanu nr. 35A" : null,
+  "str. Ioan Budai Deleanu nr. 73" : null,
+  "str. Ioan Buteanu fn" : {
+    "lat" : 46.750665,
+    "lon" : 23.637363,
+    "precision" : "street"
+  },
+  "str. Ioan Buteanu, nr. 12 provizoriu" : {
+    "lat" : 46.750665,
+    "lon" : 23.637363,
+    "precision" : "street"
+  },
+  "str. Ioan Zaciu" : null,
+  "str. Ioan Zaciu nr. 1" : null,
+  "str. Ioan Zaciu nr. 1 prov." : null,
+  "str. Ion I.C. Bratianu nr. 34" : null,
+  "str. Ion Pop Reteganu nr. 21" : {
+    "lat" : 46.758191,
+    "lon" : 23.60035,
+    "precision" : "exact"
+  },
+  "str. Iosif Vulcan nr. 4" : {
+    "lat" : 46.762516,
+    "lon" : 23.602937,
+    "precision" : "exact"
+  },
+  "str. Iris fn" : {
+    "lat" : 46.792695,
+    "lon" : 23.604524,
+    "precision" : "street"
+  },
+  "str. Iris nr. 7" : {
+    "lat" : 46.792695,
+    "lon" : 23.604524,
+    "precision" : "street"
+  },
+  "str. Iuliu Merca – str. Aurel Ghiurghianu" : {
+    "lat" : 46.748039,
+    "lon" : 23.584243,
+    "precision" : "street"
+  },
+  "str. Jan Huss nr. 7" : null,
+  "str. Jiului nr. 58B" : {
+    "lat" : 46.779515,
+    "lon" : 23.644121,
+    "precision" : "exact"
+  },
+  "str. Johan Sebastian Bach – latura sudică" : null,
+  "str. Johann Sebastian Bach – sud" : {
+    "lat" : 46.802634,
+    "lon" : 23.638383,
+    "precision" : "street"
+  },
+  "str. Jozsef Atilla nr.2" : null,
+  "str. Lalelelor nr. 7" : {
+    "lat" : 46.778899,
+    "lon" : 23.594651,
+    "precision" : "street"
+  },
+  "str. Laterală nr. 30" : {
+    "lat" : 46.758466,
+    "lon" : 23.565113,
+    "precision" : "street"
+  },
+  "str. Laterală nr. 6A" : {
+    "lat" : 46.758411,
+    "lon" : 23.564901,
+    "precision" : "exact"
+  },
+  "str. Leonard Mociulski nr.16" : {
+    "lat" : 46.790058,
+    "lon" : 23.571269,
+    "precision" : "street"
+  },
+  "str. Leonida Neamtu nr.2" : null,
+  "str. Livezeni nr. 6A" : {
+    "lat" : 46.785921,
+    "lon" : 23.564435,
+    "precision" : "exact"
+  },
+  "str. Livezeni, nr. 21" : {
+    "lat" : 46.785919,
+    "lon" : 23.564269,
+    "precision" : "street"
+  },
+  "str. Liviu Rebreanu nr.23" : {
+    "lat" : 46.765981,
+    "lon" : 23.620311,
+    "precision" : "exact"
+  },
+  "str. Liviu Rusu – latura nordică" : {
+    "lat" : 46.717202,
+    "lon" : 23.578007,
+    "precision" : "street"
+  },
+  "str. Liviu Rusu – str. Prof. Nicolae Mărgineanu" : {
+    "lat" : 46.717202,
+    "lon" : 23.578007,
+    "precision" : "street"
+  },
+  "str. Lombului nr. 2-4-4b-6" : {
+    "lat" : 46.783005,
+    "lon" : 23.55977,
+    "precision" : "exact"
+  },
+  "str. Lombului nr. 30" : {
+    "lat" : 46.787544,
+    "lon" : 23.559599,
+    "precision" : "exact"
+  },
+  "str. Lombului – latura estica" : {
+    "lat" : 46.785637,
+    "lon" : 23.559213,
+    "precision" : "street"
+  },
+  "str. Louis Pasteur 43-49" : {
+    "lat" : 46.756784,
+    "lon" : 23.582219,
+    "precision" : "street"
+  },
+  "str. Louis Pasteur nr. 48-50" : {
+    "lat" : 46.756155,
+    "lon" : 23.581177,
+    "precision" : "exact"
+  },
+  "str. Lucian Matis" : {
+    "lat" : 46.742118,
+    "lon" : 23.585214,
+    "precision" : "street"
+  },
+  "str. Lucian Matiș" : {
+    "lat" : 46.742118,
+    "lon" : 23.585214,
+    "precision" : "street"
+  },
+  "str. Luminii nr. 19-21" : {
+    "lat" : 46.739374,
+    "lon" : 23.583845,
+    "precision" : "street"
+  },
+  "str. Luminii – str. Eugen Ionescu" : {
+    "lat" : 46.740244,
+    "lon" : 23.584463,
+    "precision" : "street"
+  },
+  "str. Luncii nr. 61-63" : {
+    "lat" : 46.790392,
+    "lon" : 23.621072,
+    "precision" : "exact"
+  },
+  "str. Luncii nr.16" : {
+    "lat" : 46.789354,
+    "lon" : 23.617431,
+    "precision" : "exact"
+  },
+  "str. Lăcătușului nr. 1A" : {
+    "lat" : 46.779714,
+    "lon" : 23.579797,
+    "precision" : "street"
+  },
+  "str. Madach Imre nr. 21" : {
+    "lat" : 46.766234,
+    "lon" : 23.609061,
+    "precision" : "exact"
+  },
+  "str. Maramureșului nr, 187-189" : {
+    "lat" : 46.791175,
+    "lon" : 23.588756,
+    "precision" : "street"
+  },
+  "str. Maramureșului nr. 189" : {
+    "lat" : 46.793698,
+    "lon" : 23.597864,
+    "precision" : "exact"
+  },
+  "str. Maramureșului nr. 55a" : {
+    "lat" : 46.790428,
+    "lon" : 23.584359,
+    "precision" : "exact"
+  },
+  "str. Maramureșului nr. 71" : {
+    "lat" : 46.790863,
+    "lon" : 23.585816,
+    "precision" : "exact"
+  },
+  "str. Marașești nr 81" : {
+    "lat" : 46.781131,
+    "lon" : 23.6044,
+    "precision" : "exact"
+  },
+  "str. Margaului nr.2" : {
+    "lat" : 46.790742,
+    "lon" : 23.622466,
+    "precision" : "street"
+  },
+  "str. Marin Sorescu" : {
+    "lat" : 46.74782,
+    "lon" : 23.60165,
+    "precision" : "street"
+  },
+  "str. Marinescu nr. 76" : {
+    "lat" : 46.760057,
+    "lon" : 23.580458,
+    "precision" : "exact"
+  },
+  "str. Martin Opitz nr. 11A" : {
+    "lat" : 46.792705,
+    "lon" : 23.609699,
+    "precision" : "exact"
+  },
+  "str. Martin Opitz nr. 13-17" : {
+    "lat" : 46.792704,
+    "lon" : 23.609816,
+    "precision" : "exact"
+  },
+  "str. Mateiu Caragiale nr. 12" : {
+    "lat" : 46.790169,
+    "lon" : 23.652246,
+    "precision" : "exact"
+  },
+  "str. Mateiu Caragiale nr. 13" : {
+    "lat" : 46.790366,
+    "lon" : 23.65253,
+    "precision" : "exact"
+  },
+  "str. Mateiu Caragiale nr. 4" : {
+    "lat" : 46.790032,
+    "lon" : 23.65064,
+    "precision" : "exact"
+  },
+  "str. Mediaș nord" : {
+    "lat" : 46.800163,
+    "lon" : 23.597845,
+    "precision" : "street"
+  },
+  "str. Melodiei" : {
+    "lat" : 46.750819,
+    "lon" : 23.575919,
+    "precision" : "street"
+  },
+  "str. Meseriilor nr 9" : {
+    "lat" : 46.782484,
+    "lon" : 23.601614,
+    "precision" : "exact"
+  },
+  "str. Meseriilor nr. 27" : {
+    "lat" : 46.782975,
+    "lon" : 23.601864,
+    "precision" : "street"
+  },
+  "str. Meseriilor nr. 9" : {
+    "lat" : 46.782484,
+    "lon" : 23.601614,
+    "precision" : "exact"
+  },
+  "str. Mestecenilor nr. 10" : null,
+  "str. Meteor nr. 67" : {
+    "lat" : 46.753889,
+    "lon" : 23.588259,
+    "precision" : "exact"
+  },
+  "str. Mihai Romanu – nord" : null,
+  "str. Mihai Românu f.n." : null,
+  "str. Mihai Românu – latura sudică" : null,
+  "str. Mihai Românul" : {
+    "lat" : 46.741665,
+    "lon" : 23.598425,
+    "precision" : "street"
+  },
+  "str. Mihai Românul nr. 2-6" : {
+    "lat" : 46.740957,
+    "lon" : 23.602433,
+    "precision" : "exact"
+  },
+  "str. Mihai Românul nr. 38C" : {
+    "lat" : 46.741665,
+    "lon" : 23.598425,
+    "precision" : "street"
+  },
+  "str. Mihai Românul – str. Măceșului" : {
+    "lat" : 46.741665,
+    "lon" : 23.598425,
+    "precision" : "street"
+  },
+  "str. Minerilor nr. 30" : {
+    "lat" : 46.769276,
+    "lon" : 23.604844,
+    "precision" : "exact"
+  },
+  "str. Minerilor nr.35" : {
+    "lat" : 46.769691,
+    "lon" : 23.605604,
+    "precision" : "exact"
+  },
+  "str. Mioriței nr. 7" : {
+    "lat" : 46.765047,
+    "lon" : 23.572263,
+    "precision" : "street"
+  },
+  "str. Mircea cel Bătrân" : null,
+  "str. Moldovei 4-6" : {
+    "lat" : 46.764765,
+    "lon" : 23.573291,
+    "precision" : "exact"
+  },
+  "str. Moldovei nr. 14-16" : {
+    "lat" : 46.764889,
+    "lon" : 23.572783,
+    "precision" : "exact"
+  },
+  "str. Moldovei nr.9-11" : {
+    "lat" : 46.764591,
+    "lon" : 23.572992,
+    "precision" : "exact"
+  },
+  "str. Moll Elemer nr. 14-18" : {
+    "lat" : 46.804208,
+    "lon" : 23.618417,
+    "precision" : "street"
+  },
+  "str. Moricz Zsigmond nr. 3" : {
+    "lat" : 46.744173,
+    "lon" : 23.568853,
+    "precision" : "street"
+  },
+  "str. Moricz Zsigmond nr. 32" : {
+    "lat" : 46.742938,
+    "lon" : 23.568348,
+    "precision" : "exact"
+  },
+  "str. Moricz Zsigmond nr.32" : {
+    "lat" : 46.742938,
+    "lon" : 23.568348,
+    "precision" : "exact"
+  },
+  "str. Morii nr. 31g" : {
+    "lat" : 46.790608,
+    "lon" : 23.646927,
+    "precision" : "exact"
+  },
+  "str. Morii, nr. 40D" : {
+    "lat" : 46.789387,
+    "lon" : 23.647635,
+    "precision" : "exact"
+  },
+  "str. Moș Ion Roata – est" : {
+    "lat" : 46.774404,
+    "lon" : 23.668904,
+    "precision" : "street"
+  },
+  "str. Moș Ion Roată fn" : {
+    "lat" : 46.774404,
+    "lon" : 23.668904,
+    "precision" : "street"
+  },
+  "str. Moților nr. 19-21" : null,
+  "str. Mureșului nr. 19" : {
+    "lat" : 46.778061,
+    "lon" : 23.62543,
+    "precision" : "exact"
+  },
+  "str. Mureșului nr. 5" : {
+    "lat" : 46.777869,
+    "lon" : 23.623977,
+    "precision" : "exact"
+  },
+  "str. Mureșului nr. 9" : {
+    "lat" : 46.777916,
+    "lon" : 23.624291,
+    "precision" : "exact"
+  },
+  "str. Măceșului nr.58D" : {
+    "lat" : 46.743891,
+    "lon" : 23.605058,
+    "precision" : "exact"
+  },
+  "str. Măceșului – latura vestică" : {
+    "lat" : 46.749174,
+    "lon" : 23.607572,
+    "precision" : "street"
+  },
+  "str. Mărgăului nr.2" : {
+    "lat" : 46.790742,
+    "lon" : 23.622466,
+    "precision" : "street"
+  },
+  "str. Mărășești nr. 20" : {
+    "lat" : 46.781687,
+    "lon" : 23.601681,
+    "precision" : "street"
+  },
+  "str. Mărășești nr. 40" : {
+    "lat" : 46.781687,
+    "lon" : 23.601681,
+    "precision" : "street"
+  },
+  "str. Mărășești nr. 67" : {
+    "lat" : 46.781755,
+    "lon" : 23.603112,
+    "precision" : "exact"
+  },
+  "str. Mărășești, nr. 67" : {
+    "lat" : 46.781755,
+    "lon" : 23.603112,
+    "precision" : "exact"
+  },
+  "str. N. Titulescu nr. 201(Interservisan)" : null,
+  "str. Napoca 17 – str. Fortăreței nr. 4" : {
+    "lat" : 46.767763,
+    "lon" : 23.588023,
+    "precision" : "exact"
+  },
+  "str. Nichita Stănescu nr. 25" : {
+    "lat" : 46.750224,
+    "lon" : 23.583542,
+    "precision" : "street"
+  },
+  "str. Nicolae Bălcescu nr. 13" : {
+    "lat" : 46.775653,
+    "lon" : 23.596192,
+    "precision" : "exact"
+  },
+  "str. Nicolae Corches – vest" : {
+    "lat" : 46.736034,
+    "lon" : 23.600913,
+    "precision" : "street"
+  },
+  "str. Nicolae Draganu nr. 1A" : {
+    "lat" : 46.753596,
+    "lon" : 23.606062,
+    "precision" : "exact"
+  },
+  "str. Nicolae Drăganu – str. Fadrusz Janos" : {
+    "lat" : 46.753027,
+    "lon" : 23.601729,
+    "precision" : "street"
+  },
+  "str. Nicolae Iorga nr. 2" : {
+    "lat" : 46.763155,
+    "lon" : 23.59845,
+    "precision" : "exact"
+  },
+  "str. Nordului" : {
+    "lat" : 46.740829,
+    "lon" : 23.62773,
+    "precision" : "street"
+  },
+  "str. Nordului vest" : {
+    "lat" : 46.740829,
+    "lon" : 23.62773,
+    "precision" : "street"
+  },
+  "str. Nordului – vest" : {
+    "lat" : 46.740829,
+    "lon" : 23.62773,
+    "precision" : "street"
+  },
+  "str. Nordului- vest" : {
+    "lat" : 46.740829,
+    "lon" : 23.62773,
+    "precision" : "street"
+  },
+  "str. Nădășel nr. 40" : {
+    "lat" : 46.791141,
+    "lon" : 23.605836,
+    "precision" : "exact"
+  },
+  "str. Năvodari nr. 2" : {
+    "lat" : 46.774081,
+    "lon" : 23.603917,
+    "precision" : "exact"
+  },
+  "str. Oasului 27" : {
+    "lat" : 46.82299,
+    "lon" : 23.591978,
+    "precision" : "street"
+  },
+  "str. Oasului 369A" : {
+    "lat" : 46.815411,
+    "lon" : 23.601332,
+    "precision" : "exact"
+  },
+  "str. Oasului nr. 111-113" : {
+    "lat" : 46.795059,
+    "lon" : 23.601265,
+    "precision" : "exact"
+  },
+  "str. Oașului" : {
+    "lat" : 46.79891,
+    "lon" : 23.607237,
+    "precision" : "street"
+  },
+  "str. Oașului 332J" : {
+    "lat" : 46.790464,
+    "lon" : 23.598343,
+    "precision" : "street"
+  },
+  "str. Oașului 332f" : {
+    "lat" : 46.787852,
+    "lon" : 23.596662,
+    "precision" : "street"
+  },
+  "str. Oașului f.n." : null,
+  "str. Oașului nr 61-63 – P-ța Liebneick nr. 1" : {
+    "lat" : 46.79126,
+    "lon" : 23.598837,
+    "precision" : "exact"
+  },
+  "str. Oașului nr. 151-153" : {
+    "lat" : 46.797502,
+    "lon" : 23.604755,
+    "precision" : "exact"
+  },
+  "str. Oașului nr. 168" : {
+    "lat" : 46.802636,
+    "lon" : 23.607892,
+    "precision" : "exact"
+  },
+  "str. Oașului nr. 181" : {
+    "lat" : 46.82299,
+    "lon" : 23.591978,
+    "precision" : "street"
+  },
+  "str. Oașului nr. 230" : {
+    "lat" : 46.790464,
+    "lon" : 23.598343,
+    "precision" : "street"
+  },
+  "str. Oașului nr. 28-30" : {
+    "lat" : 46.799063,
+    "lon" : 23.607539,
+    "precision" : "street"
+  },
+  "str. Oașului nr. 369 C" : {
+    "lat" : 46.815411,
+    "lon" : 23.601332,
+    "precision" : "exact"
+  },
+  "str. Oașului nr. 51-55" : {
+    "lat" : 46.790647,
+    "lon" : 23.598175,
+    "precision" : "exact"
+  },
+  "str. Oașului, nr. 139" : {
+    "lat" : 46.796653,
+    "lon" : 23.60359,
+    "precision" : "exact"
+  },
+  "str. Observator" : null,
+  "str. Observatorului nr. 2" : {
+    "lat" : 46.786608,
+    "lon" : 23.547673,
+    "precision" : "exact"
+  },
+  "str. Observatorului nr. 30-39" : {
+    "lat" : 46.755976,
+    "lon" : 23.595297,
+    "precision" : "street"
+  },
+  "str. Observatorului nr. 36" : {
+    "lat" : 46.754357,
+    "lon" : 23.583656,
+    "precision" : "street"
+  },
+  "str. Octav Băncilă, nr. 11a" : {
+    "lat" : 46.785372,
+    "lon" : 23.651372,
+    "precision" : "exact"
+  },
+  "str. Odobesti -est" : {
+    "lat" : 46.798529,
+    "lon" : 23.601923,
+    "precision" : "street"
+  },
+  "str. Odobesti f.n." : null,
+  "str. Odobesti – est" : {
+    "lat" : 46.798529,
+    "lon" : 23.601923,
+    "precision" : "street"
+  },
+  "str. Odobești" : {
+    "lat" : 46.798529,
+    "lon" : 23.601923,
+    "precision" : "street"
+  },
+  "str. Odobești nr. 19 – str. Viile Nădășel 90 prov." : {
+    "lat" : 46.80236,
+    "lon" : 23.598958,
+    "precision" : "street"
+  },
+  "str. Odobești nr. 53" : {
+    "lat" : 46.800494,
+    "lon" : 23.60057,
+    "precision" : "exact"
+  },
+  "str. Odobești nr. 53B" : {
+    "lat" : 46.800494,
+    "lon" : 23.60057,
+    "precision" : "exact"
+  },
+  "str. Odobești – est" : {
+    "lat" : 46.798529,
+    "lon" : 23.601923,
+    "precision" : "street"
+  },
+  "str. Oltului nr. 81" : {
+    "lat" : 46.778061,
+    "lon" : 23.63256,
+    "precision" : "exact"
+  },
+  "str. Oltului nr.81A" : {
+    "lat" : 46.778061,
+    "lon" : 23.63256,
+    "precision" : "exact"
+  },
+  "str. Onisifor Ghibu" : {
+    "lat" : 46.776793,
+    "lon" : 23.600819,
+    "precision" : "street"
+  },
+  "str. Orăștiei nr. 24" : {
+    "lat" : 46.7811,
+    "lon" : 23.661198,
+    "precision" : "exact"
+  },
+  "str. Orăștiei nr.10" : {
+    "lat" : 46.781055,
+    "lon" : 23.659825,
+    "precision" : "exact"
+  },
+  "str. Ospătăriei nr. 3" : {
+    "lat" : 46.761741,
+    "lon" : 23.565547,
+    "precision" : "exact"
+  },
+  "str. Otetului nr. 22" : {
+    "lat" : 46.76404,
+    "lon" : 23.571886,
+    "precision" : "street"
+  },
+  "str. Pajiștei nr. 35" : {
+    "lat" : 46.758664,
+    "lon" : 23.576754,
+    "precision" : "street"
+  },
+  "str. Parcul Feroviarilor nr. 19" : {
+    "lat" : 46.783534,
+    "lon" : 23.597324,
+    "precision" : "exact"
+  },
+  "str. Parcul Feroviarilor nr. 4-5" : {
+    "lat" : 46.781886,
+    "lon" : 23.596018,
+    "precision" : "street"
+  },
+  "str. Parcul Feroviarilor nr.12" : {
+    "lat" : 46.782542,
+    "lon" : 23.597103,
+    "precision" : "exact"
+  },
+  "str. Paris nr. 22" : {
+    "lat" : 46.777239,
+    "lon" : 23.598026,
+    "precision" : "exact"
+  },
+  "str. Paris nr. 38-28A" : {
+    "lat" : 46.778485,
+    "lon" : 23.598607,
+    "precision" : "exact"
+  },
+  "str. Paris nr. 70-74" : {
+    "lat" : 46.781074,
+    "lon" : 23.599641,
+    "precision" : "exact"
+  },
+  "str. Paris nr. 74" : {
+    "lat" : 46.781459,
+    "lon" : 23.59968,
+    "precision" : "exact"
+  },
+  "str. Paris nr.78A" : {
+    "lat" : 46.781571,
+    "lon" : 23.599525,
+    "precision" : "exact"
+  },
+  "str. Partizanilor nr. 129B" : {
+    "lat" : 46.786297,
+    "lon" : 23.561501,
+    "precision" : "exact"
+  },
+  "str. Pasteur nr. 43-49" : {
+    "lat" : 46.7594,
+    "lon" : 23.58428,
+    "precision" : "street"
+  },
+  "str. Pataki Samuel nr. 3" : null,
+  "str. Patriciu Barbu nr. 72" : {
+    "lat" : 46.783916,
+    "lon" : 23.605365,
+    "precision" : "exact"
+  },
+  "str. Petofi Sandor nr. 25" : {
+    "lat" : 46.77479,
+    "lon" : 23.605154,
+    "precision" : "exact"
+  },
+  "str. Petofi Sandor, nr. 25" : {
+    "lat" : 46.77479,
+    "lon" : 23.605154,
+    "precision" : "exact"
+  },
+  "str. Petre Dulfu" : null,
+  "str. Piersicului nr. 16" : {
+    "lat" : 46.79213,
+    "lon" : 23.588058,
+    "precision" : "exact"
+  },
+  "str. Plaiuri" : {
+    "lat" : 46.755637,
+    "lon" : 23.600801,
+    "precision" : "street"
+  },
+  "str. Platanilor nr. 11" : {
+    "lat" : 46.773524,
+    "lon" : 23.68472,
+    "precision" : "street"
+  },
+  "str. Platanilor nr. 17" : {
+    "lat" : 46.773524,
+    "lon" : 23.68472,
+    "precision" : "street"
+  },
+  "str. Platanilor nr. 18" : {
+    "lat" : 46.773524,
+    "lon" : 23.68472,
+    "precision" : "street"
+  },
+  "str. Plevnei 134" : {
+    "lat" : 46.78681,
+    "lon" : 23.640928,
+    "precision" : "street"
+  },
+  "str. Plevnei nr. 172" : {
+    "lat" : 46.786641,
+    "lon" : 23.643281,
+    "precision" : "street"
+  },
+  "str. Plevnei – sud" : {
+    "lat" : 46.78681,
+    "lon" : 23.640928,
+    "precision" : "street"
+  },
+  "str. Plevnei-sud" : {
+    "lat" : 46.78681,
+    "lon" : 23.640928,
+    "precision" : "street"
+  },
+  "str. Plopilor fn" : {
+    "lat" : 46.76334,
+    "lon" : 23.566817,
+    "precision" : "street"
+  },
+  "str. Plopilor nr. 43-45" : {
+    "lat" : 46.763252,
+    "lon" : 23.566392,
+    "precision" : "exact"
+  },
+  "str. Plvenei nr. 54" : null,
+  "str. Pomet" : {
+    "lat" : 46.81494,
+    "lon" : 23.607904,
+    "precision" : "street"
+  },
+  "str. Pometului vest" : null,
+  "str. Pometului – str. G.B Shaw" : null,
+  "str. Porumbeilor nr. 28A" : {
+    "lat" : 46.78124,
+    "lon" : 23.597777,
+    "precision" : "exact"
+  },
+  "str. Porțile de Fier" : {
+    "lat" : 46.762085,
+    "lon" : 23.554709,
+    "precision" : "street"
+  },
+  "str. Povărnișului nr. 17C" : {
+    "lat" : 46.777819,
+    "lon" : 23.562167,
+    "precision" : "street"
+  },
+  "str. Praga, latura vestică" : {
+    "lat" : 46.748184,
+    "lon" : 23.628509,
+    "precision" : "street"
+  },
+  "str. Prislop nr. 6" : {
+    "lat" : 46.756977,
+    "lon" : 23.606831,
+    "precision" : "exact"
+  },
+  "str. Prof. Nicolae Mărgineanu nr. 31B prov." : null,
+  "str. Profesor Marinescu, nr. 76" : {
+    "lat" : 46.760057,
+    "lon" : 23.580458,
+    "precision" : "exact"
+  },
+  "str. Progresului nr. 32-34" : {
+    "lat" : 46.776629,
+    "lon" : 23.618415,
+    "precision" : "exact"
+  },
+  "str. Pârâului, nr. 9" : {
+    "lat" : 46.758548,
+    "lon" : 23.563767,
+    "precision" : "street"
+  },
+  "str. Pădurii" : {
+    "lat" : 46.751986,
+    "lon" : 23.585841,
+    "precision" : "street"
+  },
+  "str. Raului – nord" : {
+    "lat" : 46.789453,
+    "lon" : 23.661807,
+    "precision" : "street"
+  },
+  "str. Ravasului nr. 22" : {
+    "lat" : 46.754805,
+    "lon" : 23.548949,
+    "precision" : "exact"
+  },
+  "str. Razboieni nr. 67A" : {
+    "lat" : 46.792321,
+    "lon" : 23.5973,
+    "precision" : "exact"
+  },
+  "str. Reghin – est" : {
+    "lat" : 46.799395,
+    "lon" : 23.597445,
+    "precision" : "street"
+  },
+  "str. Reghin-vest" : {
+    "lat" : 46.799395,
+    "lon" : 23.597445,
+    "precision" : "street"
+  },
+  "str. Regina Maria nr. 11" : {
+    "lat" : 46.753245,
+    "lon" : 23.628302,
+    "precision" : "street"
+  },
+  "str. Regina Maria nr. 12" : {
+    "lat" : 46.753245,
+    "lon" : 23.628302,
+    "precision" : "street"
+  },
+  "str. Regina Maria nr. 17A" : {
+    "lat" : 46.753245,
+    "lon" : 23.628302,
+    "precision" : "street"
+  },
+  "str. Regina Maria nr. 17b" : {
+    "lat" : 46.753245,
+    "lon" : 23.628302,
+    "precision" : "street"
+  },
+  "str. Regina Maria – sud" : {
+    "lat" : 46.753245,
+    "lon" : 23.628302,
+    "precision" : "street"
+  },
+  "str. Remeniyk Sandor" : null,
+  "str. Remenyik Sandor" : {
+    "lat" : 46.748019,
+    "lon" : 23.643641,
+    "precision" : "street"
+  },
+  "str. Remenyik Sandor – sud" : {
+    "lat" : 46.748019,
+    "lon" : 23.643641,
+    "precision" : "street"
+  },
+  "str. Remenyik Sandor-est" : {
+    "lat" : 46.748019,
+    "lon" : 23.643641,
+    "precision" : "street"
+  },
+  "str. Remenyk Sandor – est" : null,
+  "str. Remetea nr. 24A" : {
+    "lat" : 46.760513,
+    "lon" : 23.577116,
+    "precision" : "street"
+  },
+  "str. Remetea, nr. 28" : {
+    "lat" : 46.760214,
+    "lon" : 23.577264,
+    "precision" : "exact"
+  },
+  "str. Reményik Sándo – sud" : null,
+  "str. Rene Descartes nr. 46B-48" : {
+    "lat" : 46.756772,
+    "lon" : 23.588883,
+    "precision" : "exact"
+  },
+  "str. Rodnei nr. 1" : {
+    "lat" : 46.784051,
+    "lon" : 23.643746,
+    "precision" : "exact"
+  },
+  "str. Romul Ladea" : {
+    "lat" : 46.755178,
+    "lon" : 23.620941,
+    "precision" : "street"
+  },
+  "str. Romul Ladea nr. 102" : {
+    "lat" : 46.748634,
+    "lon" : 23.629764,
+    "precision" : "street"
+  },
+  "str. Romul Ladea nr. 15" : {
+    "lat" : 46.75573,
+    "lon" : 23.620836,
+    "precision" : "exact"
+  },
+  "str. Romul Ladea nr.102" : {
+    "lat" : 46.748634,
+    "lon" : 23.629764,
+    "precision" : "street"
+  },
+  "str. Romul Ladea – nord" : {
+    "lat" : 46.755178,
+    "lon" : 23.620941,
+    "precision" : "street"
+  },
+  "str. Romul Ladea – str. Nordului" : {
+    "lat" : 46.755178,
+    "lon" : 23.620941,
+    "precision" : "street"
+  },
+  "str. Romulus Vuia nr. 186" : {
+    "lat" : 46.779854,
+    "lon" : 23.582041,
+    "precision" : "street"
+  },
+  "str. Rosiori nr. 25" : {
+    "lat" : 46.784317,
+    "lon" : 23.605549,
+    "precision" : "exact"
+  },
+  "str. Rozmarinului" : {
+    "lat" : 46.752537,
+    "lon" : 23.638124,
+    "precision" : "street"
+  },
+  "str. Rubinului – latura estica" : {
+    "lat" : 46.797286,
+    "lon" : 23.569345,
+    "precision" : "street"
+  },
+  "str. Rubinului, nr. 21-25" : {
+    "lat" : 46.797286,
+    "lon" : 23.569345,
+    "precision" : "street"
+  },
+  "str. Râului – nord" : {
+    "lat" : 46.789453,
+    "lon" : 23.661807,
+    "precision" : "street"
+  },
+  "str. Răsăritului nr. 17" : {
+    "lat" : 46.785293,
+    "lon" : 23.601845,
+    "precision" : "exact"
+  },
+  "str. Sabin Drăgoi" : null,
+  "str. Salcâmului nr. 34" : {
+    "lat" : 46.765434,
+    "lon" : 23.567339,
+    "precision" : "exact"
+  },
+  "str. Salcâmului nr. 7" : {
+    "lat" : 46.76504,
+    "lon" : 23.56792,
+    "precision" : "street"
+  },
+  "str. Sanatorului, nr 34" : null,
+  "str. Sarmisegetuza nr. 11-13" : {
+    "lat" : 46.775318,
+    "lon" : 23.62346,
+    "precision" : "exact"
+  },
+  "str. Scortarilor nr. 12" : {
+    "lat" : 46.778608,
+    "lon" : 23.606464,
+    "precision" : "exact"
+  },
+  "str. Scorțarilor" : {
+    "lat" : 46.779091,
+    "lon" : 23.607639,
+    "precision" : "street"
+  },
+  "str. Scorțarilor – str. Buftea" : {
+    "lat" : 46.779091,
+    "lon" : 23.607639,
+    "precision" : "street"
+  },
+  "str. Semenicului nr. 4" : {
+    "lat" : 46.77299,
+    "lon" : 23.610423,
+    "precision" : "street"
+  },
+  "str. Septimiu Albini nr. 89" : {
+    "lat" : 46.764452,
+    "lon" : 23.61243,
+    "precision" : "exact"
+  },
+  "str. Septimiu Albini nr. 96" : {
+    "lat" : 46.764447,
+    "lon" : 23.61172,
+    "precision" : "exact"
+  },
+  "str. Septimius Severus nr. 4" : {
+    "lat" : 46.79383,
+    "lon" : 23.610049,
+    "precision" : "street"
+  },
+  "str. Sextil Pușcariu nr. 12" : {
+    "lat" : 46.771319,
+    "lon" : 23.58849,
+    "precision" : "street"
+  },
+  "str. Sibiului nr. 12" : {
+    "lat" : 46.786066,
+    "lon" : 23.562879,
+    "precision" : "exact"
+  },
+  "str. Sighișoarei nr 19" : {
+    "lat" : 46.758678,
+    "lon" : 23.577606,
+    "precision" : "street"
+  },
+  "str. Sighișoarei nr. 17" : {
+    "lat" : 46.757525,
+    "lon" : 23.579038,
+    "precision" : "exact"
+  },
+  "str. Sighișoarei nr. 18" : {
+    "lat" : 46.757901,
+    "lon" : 23.579757,
+    "precision" : "exact"
+  },
+  "str. Sighișoarei, nr. 18" : {
+    "lat" : 46.757901,
+    "lon" : 23.579757,
+    "precision" : "exact"
+  },
+  "str. Simeria – nord" : {
+    "lat" : 46.798659,
+    "lon" : 23.597536,
+    "precision" : "street"
+  },
+  "str. Simeria – sud" : {
+    "lat" : 46.798659,
+    "lon" : 23.597536,
+    "precision" : "street"
+  },
+  "str. Simion Mușat nr. 4" : {
+    "lat" : 46.780996,
+    "lon" : 23.615018,
+    "precision" : "exact"
+  },
+  "str. Sindicatelor nr. 10" : {
+    "lat" : 46.769274,
+    "lon" : 23.583819,
+    "precision" : "exact"
+  },
+  "str. Sobarilor" : {
+    "lat" : 46.795154,
+    "lon" : 23.611454,
+    "precision" : "street"
+  },
+  "str. Sobarilor 33" : {
+    "lat" : 46.795325,
+    "lon" : 23.613697,
+    "precision" : "street"
+  },
+  "str. Sobarilor nr. 33" : {
+    "lat" : 46.795325,
+    "lon" : 23.613697,
+    "precision" : "street"
+  },
+  "str. Sobarilor – str. Fabricii" : {
+    "lat" : 46.795154,
+    "lon" : 23.611454,
+    "precision" : "street"
+  },
+  "str. Someșului nr. 15-21" : {
+    "lat" : 46.778145,
+    "lon" : 23.594038,
+    "precision" : "exact"
+  },
+  "str. Someșului nr. 28" : {
+    "lat" : 46.77812,
+    "lon" : 23.595122,
+    "precision" : "exact"
+  },
+  "str. Someșului nr. 39" : {
+    "lat" : 46.778611,
+    "lon" : 23.596889,
+    "precision" : "exact"
+  },
+  "str. Someșului nr.46-48" : {
+    "lat" : 46.778284,
+    "lon" : 23.597585,
+    "precision" : "exact"
+  },
+  "str. Soporului" : {
+    "lat" : 46.766511,
+    "lon" : 23.653831,
+    "precision" : "street"
+  },
+  "str. Soporului 31" : {
+    "lat" : 46.767761,
+    "lon" : 23.636401,
+    "precision" : "street"
+  },
+  "str. Soporului fn" : {
+    "lat" : 46.766511,
+    "lon" : 23.653831,
+    "precision" : "street"
+  },
+  "str. Soporului nr. 31" : {
+    "lat" : 46.767761,
+    "lon" : 23.636401,
+    "precision" : "street"
+  },
+  "str. Soporului – str. Gheorgheni" : {
+    "lat" : 46.766511,
+    "lon" : 23.653831,
+    "precision" : "street"
+  },
+  "str. Spataru Milescu nr. 11A" : {
+    "lat" : 46.792556,
+    "lon" : 23.590516,
+    "precision" : "exact"
+  },
+  "str. Speranței" : {
+    "lat" : 46.742184,
+    "lon" : 23.638193,
+    "precision" : "street"
+  },
+  "str. Speranței nr. 1" : {
+    "lat" : 46.760325,
+    "lon" : 23.58121,
+    "precision" : "exact"
+  },
+  "str. Spicului – str. Constantin Brăiloiu" : {
+    "lat" : 46.791929,
+    "lon" : 23.570231,
+    "precision" : "street"
+  },
+  "str. St. Cicio Pop – Aleea Nectarului" : null,
+  "str. Stefan L. Roth nr. 5" : null,
+  "str. Steluței nr. 1" : {
+    "lat" : 46.787664,
+    "lon" : 23.588898,
+    "precision" : "street"
+  },
+  "str. Stephan Ludwig Roth nr. 21" : {
+    "lat" : 46.7742,
+    "lon" : 23.586094,
+    "precision" : "street"
+  },
+  "str. Stephan Ludwig Roth nr. 5" : {
+    "lat" : 46.7742,
+    "lon" : 23.586094,
+    "precision" : "street"
+  },
+  "str. Suceava 5" : {
+    "lat" : 46.781517,
+    "lon" : 23.574809,
+    "precision" : "street"
+  },
+  "str. Sălajului nr. 3" : {
+    "lat" : 46.784854,
+    "lon" : 23.561614,
+    "precision" : "exact"
+  },
+  "str. Taberei" : {
+    "lat" : 46.761334,
+    "lon" : 23.55296,
+    "precision" : "street"
+  },
+  "str. Taberei nr. 3" : {
+    "lat" : 46.76141,
+    "lon" : 23.551483,
+    "precision" : "exact"
+  },
+  "str. Tache Ionescu nr. 22" : {
+    "lat" : 46.765517,
+    "lon" : 23.610706,
+    "precision" : "exact"
+  },
+  "str. Taietura Turcului" : {
+    "lat" : 46.779782,
+    "lon" : 23.56137,
+    "precision" : "street"
+  },
+  "str. Tarnavelor 33" : {
+    "lat" : 46.779292,
+    "lon" : 23.626428,
+    "precision" : "exact"
+  },
+  "str. Teleorman nr 23A" : {
+    "lat" : 46.781457,
+    "lon" : 23.619856,
+    "precision" : "exact"
+  },
+  "str. Teleorman nr. 42" : {
+    "lat" : 46.781423,
+    "lon" : 23.621946,
+    "precision" : "street"
+  },
+  "str. Teleorman nr. 66" : {
+    "lat" : 46.780962,
+    "lon" : 23.621344,
+    "precision" : "street"
+  },
+  "str. Teleorman, nr. 59" : {
+    "lat" : 46.780959,
+    "lon" : 23.618554,
+    "precision" : "street"
+  },
+  "str. Teodor Mihali nr. 19-23" : {
+    "lat" : 46.772986,
+    "lon" : 23.622416,
+    "precision" : "street"
+  },
+  "str. Teodor Mihali nr.53" : {
+    "lat" : 46.772986,
+    "lon" : 23.622416,
+    "precision" : "street"
+  },
+  "str. Theodor Pallady nr. 22" : {
+    "lat" : 46.754256,
+    "lon" : 23.633664,
+    "precision" : "street"
+  },
+  "str. Tipografiei nr. 14" : {
+    "lat" : 46.773221,
+    "lon" : 23.591402,
+    "precision" : "exact"
+  },
+  "str. Tractoristilor 17H prov." : null,
+  "str. Tractoriștilor est" : {
+    "lat" : 46.788273,
+    "lon" : 23.659017,
+    "precision" : "street"
+  },
+  "str. Tractoriștilor nr. 19" : {
+    "lat" : 46.789186,
+    "lon" : 23.659923,
+    "precision" : "exact"
+  },
+  "str. Tractoriștilor nr.32" : {
+    "lat" : 46.790158,
+    "lon" : 23.660667,
+    "precision" : "exact"
+  },
+  "str. Traian Mosoiu 65-69" : {
+    "lat" : 46.771582,
+    "lon" : 23.60679,
+    "precision" : "exact"
+  },
+  "str. Traian Moșoiu" : {
+    "lat" : 46.770059,
+    "lon" : 23.603318,
+    "precision" : "street"
+  },
+  "str. Traian Moșoiu Nr.20" : {
+    "lat" : 46.7693,
+    "lon" : 23.601498,
+    "precision" : "exact"
+  },
+  "str. Traian Moșoiu nr 66-68" : {
+    "lat" : 46.771199,
+    "lon" : 23.606717,
+    "precision" : "exact"
+  },
+  "str. Traian Moșoiu nr. 42-44" : {
+    "lat" : 46.770419,
+    "lon" : 23.604516,
+    "precision" : "exact"
+  },
+  "str. Traian Vuia" : {
+    "lat" : 46.781715,
+    "lon" : 23.693483,
+    "precision" : "street"
+  },
+  "str. Traian Vuia 54" : {
+    "lat" : 46.781355,
+    "lon" : 23.687123,
+    "precision" : "street"
+  },
+  "str. Traian Vuia nr 95" : {
+    "lat" : 46.783103,
+    "lon" : 23.662179,
+    "precision" : "exact"
+  },
+  "str. Traian Vuia nr. 128" : {
+    "lat" : 46.780889,
+    "lon" : 23.677002,
+    "precision" : "street"
+  },
+  "str. Traian Vuia nr. 135" : {
+    "lat" : 46.780767,
+    "lon" : 23.669261,
+    "precision" : "exact"
+  },
+  "str. Traian Vuia nr. 155A" : {
+    "lat" : 46.782206,
+    "lon" : 23.697957,
+    "precision" : "exact"
+  },
+  "str. Traian Vuia nr. 17 – 17A" : {
+    "lat" : 46.784329,
+    "lon" : 23.64883,
+    "precision" : "exact"
+  },
+  "str. Traian Vuia nr. 19" : {
+    "lat" : 46.784347,
+    "lon" : 23.649093,
+    "precision" : "exact"
+  },
+  "str. Traian Vuia nr. 246" : {
+    "lat" : 46.782095,
+    "lon" : 23.69984,
+    "precision" : "street"
+  },
+  "str. Traian Vuia nr. 250" : {
+    "lat" : 46.781355,
+    "lon" : 23.687123,
+    "precision" : "street"
+  },
+  "str. Traian Vuia nr. 72" : {
+    "lat" : 46.783996,
+    "lon" : 23.653654,
+    "precision" : "exact"
+  },
+  "str. Traian Vuia nr. 97A" : {
+    "lat" : 46.782697,
+    "lon" : 23.662673,
+    "precision" : "exact"
+  },
+  "str. Traian Vuia nr.136" : {
+    "lat" : 46.780807,
+    "lon" : 23.664915,
+    "precision" : "exact"
+  },
+  "str. Traian Vuia nr.155A prov." : {
+    "lat" : 46.782206,
+    "lon" : 23.697957,
+    "precision" : "exact"
+  },
+  "str. Traian Vuia nr.194" : {
+    "lat" : 46.780889,
+    "lon" : 23.677002,
+    "precision" : "street"
+  },
+  "str. Traian Vuia nr.7" : {
+    "lat" : 46.78425,
+    "lon" : 23.646912,
+    "precision" : "exact"
+  },
+  "str. Traian Vuia, nr. 104" : {
+    "lat" : 46.784541,
+    "lon" : 23.658375,
+    "precision" : "exact"
+  },
+  "str. Traian nr. 28" : {
+    "lat" : 46.778034,
+    "lon" : 23.592166,
+    "precision" : "exact"
+  },
+  "str. Traian nr. 40-46" : {
+    "lat" : 46.770205,
+    "lon" : 23.604499,
+    "precision" : "exact"
+  },
+  "str. Traian nr. 66" : {
+    "lat" : 46.771199,
+    "lon" : 23.606717,
+    "precision" : "exact"
+  },
+  "str. Traian nr.58-62" : {
+    "lat" : 46.770964,
+    "lon" : 23.606109,
+    "precision" : "exact"
+  },
+  "str. Trandafirilor nr 10 a" : {
+    "lat" : 46.785727,
+    "lon" : 23.573864,
+    "precision" : "exact"
+  },
+  "str. Tribunu Vladutiu , Nr. 10" : null,
+  "str. Tribunu Vlăduțiu nr. 15" : null,
+  "str. Tribunul Vladuțiu nr. 14-16" : {
+    "lat" : 46.782039,
+    "lon" : 23.625891,
+    "precision" : "exact"
+  },
+  "str. Tribunul Vlăduțiu nr. 10" : {
+    "lat" : 46.783007,
+    "lon" : 23.625368,
+    "precision" : "exact"
+  },
+  "str. Trifoiului" : {
+    "lat" : 46.753286,
+    "lon" : 23.606728,
+    "precision" : "street"
+  },
+  "str. Trifoiului 25H" : {
+    "lat" : 46.754602,
+    "lon" : 23.60764,
+    "precision" : "exact"
+  },
+  "str. Trifoiului nr. 20" : {
+    "lat" : 46.7552,
+    "lon" : 23.60673,
+    "precision" : "street"
+  },
+  "str. Trifoiului nr. 41" : {
+    "lat" : 46.753286,
+    "lon" : 23.606728,
+    "precision" : "street"
+  },
+  "str. Trifoiului nr. 47" : {
+    "lat" : 46.751972,
+    "lon" : 23.606931,
+    "precision" : "exact"
+  },
+  "str. Trifoiului nr. 8" : {
+    "lat" : 46.753286,
+    "lon" : 23.606728,
+    "precision" : "street"
+  },
+  "str. Trotușului – str. Fabricii" : {
+    "lat" : 46.77989,
+    "lon" : 23.618344,
+    "precision" : "street"
+  },
+  "str. Trâmbițașului nr. 21" : {
+    "lat" : 46.777239,
+    "lon" : 23.573459,
+    "precision" : "exact"
+  },
+  "str. Tudor Arghezi – latura nord-vestica" : {
+    "lat" : 46.744549,
+    "lon" : 23.581934,
+    "precision" : "street"
+  },
+  "str. Tudor Arghezi – vest" : {
+    "lat" : 46.744549,
+    "lon" : 23.581934,
+    "precision" : "street"
+  },
+  "str. Tudor Vianu nr. 3" : {
+    "lat" : 46.744235,
+    "lon" : 23.647616,
+    "precision" : "street"
+  },
+  "str. Tudor Vladimirescu nr. 2-4" : {
+    "lat" : 46.781221,
+    "lon" : 23.565167,
+    "precision" : "street"
+  },
+  "str. Tudor Vladmirescu nr. 2-4" : null,
+  "str. Tudor Vladmirescu nr.17" : null,
+  "str. Târnavelor nr. 33" : {
+    "lat" : 46.779292,
+    "lon" : 23.626428,
+    "precision" : "exact"
+  },
+  "str. Târnavelor nr. 47a" : {
+    "lat" : 46.779251,
+    "lon" : 23.628863,
+    "precision" : "exact"
+  },
+  "str. Tăbăcarilor nr. 11" : {
+    "lat" : 46.7893,
+    "lon" : 23.606733,
+    "precision" : "exact"
+  },
+  "str. Tăbăcarilor – str. Porțelanului" : {
+    "lat" : 46.7882,
+    "lon" : 23.606775,
+    "precision" : "street"
+  },
+  "str. Tăietura Turcului nr. 3" : {
+    "lat" : 46.773594,
+    "lon" : 23.561326,
+    "precision" : "exact"
+  },
+  "str. Tăietura Turcului nr.47" : {
+    "lat" : 46.779336,
+    "lon" : 23.560479,
+    "precision" : "exact"
+  },
+  "str. Tășnad" : {
+    "lat" : 46.759608,
+    "lon" : 23.546455,
+    "precision" : "street"
+  },
+  "str. Uliului 30A" : {
+    "lat" : 46.771968,
+    "lon" : 23.549716,
+    "precision" : "exact"
+  },
+  "str. Uliului nr. 120" : {
+    "lat" : 46.768415,
+    "lon" : 23.542985,
+    "precision" : "street"
+  },
+  "str. Uliului nr. 121" : {
+    "lat" : 46.768415,
+    "lon" : 23.542985,
+    "precision" : "street"
+  },
+  "str. Uliului nr. 124" : {
+    "lat" : 46.768415,
+    "lon" : 23.542985,
+    "precision" : "street"
+  },
+  "str. Uliului nr. 97" : {
+    "lat" : 46.768415,
+    "lon" : 23.542985,
+    "precision" : "street"
+  },
+  "str. Universității nr 2 ap 14" : {
+    "lat" : 46.768015,
+    "lon" : 23.589954,
+    "precision" : "exact"
+  },
+  "str. Valea Chintaului nr. 94" : {
+    "lat" : 46.825072,
+    "lon" : 23.586772,
+    "precision" : "street"
+  },
+  "str. Valea Chintăului" : {
+    "lat" : 46.825072,
+    "lon" : 23.586772,
+    "precision" : "street"
+  },
+  "str. Valea Chintăului f.n." : null,
+  "str. Valea Chintăului nr. 49C" : {
+    "lat" : 46.825072,
+    "lon" : 23.586772,
+    "precision" : "street"
+  },
+  "str. Valea Chintăului – latura sud-vestică" : {
+    "lat" : 46.825072,
+    "lon" : 23.586772,
+    "precision" : "street"
+  },
+  "str. Valea Gârbăului" : {
+    "lat" : 46.736103,
+    "lon" : 23.53275,
+    "precision" : "street"
+  },
+  "str. Valea Seacă" : {
+    "lat" : 46.79215,
+    "lon" : 23.541461,
+    "precision" : "street"
+  },
+  "str. Valea Seacă – est" : {
+    "lat" : 46.79215,
+    "lon" : 23.541461,
+    "precision" : "street"
+  },
+  "str. Valea Seacă – latura estică" : {
+    "lat" : 46.79215,
+    "lon" : 23.541461,
+    "precision" : "street"
+  },
+  "str. Vantului nr. 1" : {
+    "lat" : 46.776748,
+    "lon" : 23.562039,
+    "precision" : "exact"
+  },
+  "str. Vantului – nord" : {
+    "lat" : 46.77693,
+    "lon" : 23.561506,
+    "precision" : "street"
+  },
+  "str. Vasile Alecsandri nr 4" : {
+    "lat" : 46.768574,
+    "lon" : 23.584019,
+    "precision" : "exact"
+  },
+  "str. Vasile Cârlova nr. 1.1A" : {
+    "lat" : 46.779585,
+    "lon" : 23.565423,
+    "precision" : "street"
+  },
+  "str. Vasile Lupu nr. 39" : {
+    "lat" : 46.767138,
+    "lon" : 23.611668,
+    "precision" : "exact"
+  },
+  "str. Veseliei nr 58 D și nr.58C" : {
+    "lat" : 46.74055,
+    "lon" : 23.636065,
+    "precision" : "street"
+  },
+  "str. Veseliei nr. 15A" : {
+    "lat" : 46.74055,
+    "lon" : 23.636065,
+    "precision" : "street"
+  },
+  "str. Veseliei nr. 60E și nr.60C" : {
+    "lat" : 46.74055,
+    "lon" : 23.636065,
+    "precision" : "street"
+  },
+  "str. Victor Babes nr. 39-39A" : {
+    "lat" : 46.76385,
+    "lon" : 23.585227,
+    "precision" : "exact"
+  },
+  "str. Videri 6-8, str Morii 31F, 31G" : null,
+  "str. Vidrei nr. 6-8" : {
+    "lat" : 46.79022,
+    "lon" : 23.64726,
+    "precision" : "exact"
+  },
+  "str. Viile Dambul rotund 15C" : {
+    "lat" : 46.796828,
+    "lon" : 23.571962,
+    "precision" : "exact"
+  },
+  "str. Viile Dambul rotund – nord" : {
+    "lat" : 46.795611,
+    "lon" : 23.572553,
+    "precision" : "street"
+  },
+  "str. Viile Dâmbul Rotund" : {
+    "lat" : 46.795611,
+    "lon" : 23.572553,
+    "precision" : "street"
+  },
+  "str. Viile Dâmbul Rotund nr. 15C" : {
+    "lat" : 46.796828,
+    "lon" : 23.571962,
+    "precision" : "exact"
+  },
+  "str. Viile Dâmbul Rotund – nord -est" : {
+    "lat" : 46.795611,
+    "lon" : 23.572553,
+    "precision" : "street"
+  },
+  "str. Viile Dâmbul Rotund, nr. 10A" : {
+    "lat" : 46.79459,
+    "lon" : 23.574637,
+    "precision" : "exact"
+  },
+  "str. Viile Nădășel nr. 10" : {
+    "lat" : 46.794291,
+    "lon" : 23.593576,
+    "precision" : "exact"
+  },
+  "str. Viile Nădășel nr. 15" : {
+    "lat" : 46.796442,
+    "lon" : 23.597767,
+    "precision" : "street"
+  },
+  "str. Viile Nădășel – str. Breaza" : {
+    "lat" : 46.796442,
+    "lon" : 23.597767,
+    "precision" : "street"
+  },
+  "str. Viile Nădășel, nr. 23" : {
+    "lat" : 46.796442,
+    "lon" : 23.597767,
+    "precision" : "street"
+  },
+  "str. Viilor nr. 46-50" : {
+    "lat" : 46.754864,
+    "lon" : 23.582222,
+    "precision" : "exact"
+  },
+  "str. Virgil Fulicea nr.21" : {
+    "lat" : 46.770047,
+    "lon" : 23.585513,
+    "precision" : "exact"
+  },
+  "str. Virgil Onițiu nr 9A" : {
+    "lat" : 46.772174,
+    "lon" : 23.56254,
+    "precision" : "street"
+  },
+  "str. Vișinilor nr. 13" : {
+    "lat" : 46.791351,
+    "lon" : 23.578065,
+    "precision" : "exact"
+  },
+  "str. Vlad Tepes nr. 1" : {
+    "lat" : 46.782909,
+    "lon" : 23.65986,
+    "precision" : "street"
+  },
+  "str. Vlad Țepeș nr 3" : {
+    "lat" : 46.782901,
+    "lon" : 23.660272,
+    "precision" : "exact"
+  },
+  "str. Vlădeasa nr. 14B" : {
+    "lat" : 46.78957,
+    "lon" : 23.564587,
+    "precision" : "street"
+  },
+  "str. Vlădeasa, nr. 32" : {
+    "lat" : 46.789248,
+    "lon" : 23.563344,
+    "precision" : "exact"
+  },
+  "str. Voievod Gelu" : null,
+  "str. Voievod Gelu 17" : null,
+  "str. Voievod Gelu fn" : null,
+  "str. Voievod Gelu nr. 5B" : null,
+  "str. Voievod Gelu – vest" : null,
+  "str. Voievod Glad nr. 25B" : null,
+  "str. Voievodu Gelu FN" : null,
+  "str. Voievodul Gelu nr. 11A" : {
+    "lat" : 46.747605,
+    "lon" : 23.638303,
+    "precision" : "street"
+  },
+  "str. Voievodul Gelu, nr. 17" : {
+    "lat" : 46.747605,
+    "lon" : 23.638303,
+    "precision" : "street"
+  },
+  "str. Voievodul Glad – Aleea Uranus" : {
+    "lat" : 46.744679,
+    "lon" : 23.635579,
+    "precision" : "street"
+  },
+  "str. Voronet – est" : {
+    "lat" : 46.800036,
+    "lon" : 23.646163,
+    "precision" : "street"
+  },
+  "str. Voronet- latura vestica" : null,
+  "str. Voroneț" : {
+    "lat" : 46.800036,
+    "lon" : 23.646163,
+    "precision" : "street"
+  },
+  "str. Voroneț nr. 4" : {
+    "lat" : 46.800036,
+    "lon" : 23.646163,
+    "precision" : "street"
+  },
+  "str. Vrancea nr. 13A" : {
+    "lat" : 46.788967,
+    "lon" : 23.58872,
+    "precision" : "exact"
+  },
+  "str. Vrancea nr. 2AB" : {
+    "lat" : 46.788763,
+    "lon" : 23.589152,
+    "precision" : "exact"
+  },
+  "str. Vrancea nr. 7" : {
+    "lat" : 46.788722,
+    "lon" : 23.588148,
+    "precision" : "exact"
+  },
+  "str. Vântului nr. 37" : {
+    "lat" : 46.776524,
+    "lon" : 23.562419,
+    "precision" : "street"
+  },
+  "str. Vântului – nord" : {
+    "lat" : 46.777299,
+    "lon" : 23.567667,
+    "precision" : "street"
+  },
+  "str. Vânătorului nr. 19a" : {
+    "lat" : 46.778318,
+    "lon" : 23.572172,
+    "precision" : "exact"
+  },
+  "str. Vânătorului nr. 63" : {
+    "lat" : 46.776719,
+    "lon" : 23.573444,
+    "precision" : "street"
+  },
+  "str. Vânătorului – nord" : {
+    "lat" : 46.776719,
+    "lon" : 23.573444,
+    "precision" : "street"
+  },
+  "str. Vânătorului – str. Rarău" : {
+    "lat" : 46.776719,
+    "lon" : 23.573444,
+    "precision" : "street"
+  },
+  "str. Vânătorului-str. Rahovei" : null,
+  "str. Zambilei nr. 2" : {
+    "lat" : 46.766663,
+    "lon" : 23.618425,
+    "precision" : "exact"
+  },
+  "str. Zambilei nr. 5-7" : {
+    "lat" : 46.76654,
+    "lon" : 23.61879,
+    "precision" : "exact"
+  },
+  "str. Zizinului nr 10" : {
+    "lat" : 46.785091,
+    "lon" : 23.601288,
+    "precision" : "exact"
+  },
+  "str. Zorilor nr. 13-15" : {
+    "lat" : 46.758005,
+    "lon" : 23.578564,
+    "precision" : "street"
+  },
+  "str. Zrinyi Miklos nr.14" : {
+    "lat" : 46.766051,
+    "lon" : 23.599579,
+    "precision" : "exact"
+  },
+  "str. Între Lacuri" : {
+    "lat" : 46.777561,
+    "lon" : 23.622969,
+    "precision" : "street"
+  },
+  "str. Între Lacuri, nr. 47" : {
+    "lat" : 46.775377,
+    "lon" : 23.626264,
+    "precision" : "exact"
+  },
+  "str. Între Lacuri, nr. 50" : {
+    "lat" : 46.774371,
+    "lon" : 23.626894,
+    "precision" : "exact"
+  },
+  "str. Ștefan Meteș nr. 4" : {
+    "lat" : 46.745213,
+    "lon" : 23.571661,
+    "precision" : "street"
+  },
+  "str. Ștefan Pascu -est" : {
+    "lat" : 46.798913,
+    "lon" : 23.60428,
+    "precision" : "street"
+  },
+  "str. Țebei nr. 19A" : {
+    "lat" : 46.770758,
+    "lon" : 23.569329,
+    "precision" : "exact"
+  },
+  "str.Bărc II nr. 71" : {
+    "lat" : 46.792499,
+    "lon" : 23.652484,
+    "precision" : "street"
+  },
+  "str.Frunzisului-latura sudica" : null,
+  "str.Oasului fundatura nr.6" : {
+    "lat" : 46.789278,
+    "lon" : 23.595463,
+    "precision" : "street"
+  },
+  "str.Sextil Pușcariu nr.5" : {
+    "lat" : 46.771308,
+    "lon" : 23.588317,
+    "precision" : "exact"
+  },
+  "str.Theodor Pallady" : {
+    "lat" : 46.754256,
+    "lon" : 23.633664,
+    "precision" : "street"
+  },
+  "strada Ciucea – aleea Lipova" : {
+    "lat" : 46.796557,
+    "lon" : 23.623236,
+    "precision" : "street"
+  },
+  "strada Ospătăriei" : {
+    "lat" : 46.762353,
+    "lon" : 23.566361,
+    "precision" : "street"
+  },
+  "zona Bd Muncii sud" : {
+    "lat" : 46.796733,
+    "lon" : 23.652959,
+    "precision" : "area"
+  },
+  "zona Borhanci" : {
+    "lat" : 46.746879,
+    "lon" : 23.6387,
+    "precision" : "area"
+  },
+  "zona Borhanci – est" : {
+    "lat" : 46.746879,
+    "lon" : 23.6387,
+    "precision" : "area"
+  },
+  "zona Borhanci-est" : {
+    "lat" : 46.746879,
+    "lon" : 23.6387,
+    "precision" : "area"
+  },
+  "zona Băile Someșeni" : {
+    "lat" : 46.780214,
+    "lon" : 23.652218,
+    "precision" : "area"
+  },
+  "zona Centura ocolitoare – sud" : null,
+  "zona Centurii ocolitoare Cluj N-E" : null,
+  "zona Făget" : {
+    "lat" : 46.73445,
+    "lon" : 23.592116,
+    "precision" : "area"
+  },
+  "zona Hașdeu" : {
+    "lat" : 46.76292,
+    "lon" : 23.583298,
+    "precision" : "area"
+  },
+  "zona Hoia" : {
+    "lat" : 46.772907,
+    "lon" : 23.519864,
+    "precision" : "area"
+  },
+  "zona Moș Ion Roată – est" : {
+    "lat" : 46.780351,
+    "lon" : 23.670235,
+    "precision" : "area"
+  },
+  "zona Sf. Ion – sud" : null,
+  "zona Someseni est" : {
+    "lat" : 46.788805,
+    "lon" : 23.650991,
+    "precision" : "area"
+  },
+  "zona Sopor" : {
+    "lat" : 46.761257,
+    "lon" : 23.654419,
+    "precision" : "area"
+  },
+  "zona Triajului – sud" : {
+    "lat" : 46.783618,
+    "lon" : 23.540923,
+    "precision" : "area"
+  },
+  "zona str Triajului" : {
+    "lat" : 46.783618,
+    "lon" : 23.540923,
+    "precision" : "area"
+  },
+  "zona str. Beclean" : {
+    "lat" : 46.799988,
+    "lon" : 23.599828,
+    "precision" : "area"
+  },
+  "zona str. Borhanci – sud" : {
+    "lat" : 46.762755,
+    "lon" : 23.621014,
+    "precision" : "area"
+  },
+  "zona str. Dealul Fânațelor" : {
+    "lat" : 46.822248,
+    "lon" : 23.594541,
+    "precision" : "area"
+  },
+  "zona str. Delul Fânațelor" : null,
+  "zona str. Fagetului – vest" : {
+    "lat" : 46.727616,
+    "lon" : 23.584496,
+    "precision" : "area"
+  },
+  "zona str. Mogoșoaia" : {
+    "lat" : 46.756153,
+    "lon" : 23.560656,
+    "precision" : "area"
+  },
+  "zona str. Pomet" : {
+    "lat" : 46.81407,
+    "lon" : 23.615538,
+    "precision" : "area"
+  },
+  "zona str. Primăverii- Aleea Peana" : null,
+  "zona strazii Dealul Fanatelor" : null,
+  "zona „La Terenuri” – Mănăștur" : {
+    "lat" : 46.749583,
+    "lon" : 23.554633,
+    "precision" : "area"
+  }
+}
