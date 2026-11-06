@@ -146,6 +146,11 @@
     "lon" : 23.619988,
     "precision" : "exact"
   },
+  "B-dul Muncii-sud" : {
+    "lat" : 46.798005,
+    "lon" : 23.61135,
+    "precision" : "street"
+  },
   "B-dul. Muncii nr. 1-15" : {
     "lat" : 46.799385,
     "lon" : 23.611414,
@@ -413,6 +418,11 @@
   "Calea Manastur nr. 3-5" : {
     "lat" : 46.760197,
     "lon" : 23.570468,
+    "precision" : "exact"
+  },
+  "Calea Motilor nr. 13" : {
+    "lat" : 46.767733,
+    "lon" : 23.583809,
     "precision" : "exact"
   },
   "Calea Motilor nr. 75" : {
@@ -3238,6 +3248,11 @@
     "lon" : 23.598425,
     "precision" : "street"
   },
+  "str Mugurilor- sud" : {
+    "lat" : 46.797178,
+    "lon" : 23.572163,
+    "precision" : "street"
+  },
   "str Nordului" : {
     "lat" : 46.740829,
     "lon" : 23.62773,
@@ -3525,6 +3540,11 @@
     "lon" : 23.615759,
     "precision" : "street"
   },
+  "str. Alexandru Macedonski – str. Antonio Gaudi" : {
+    "lat" : 46.754019,
+    "lon" : 23.615759,
+    "precision" : "street"
+  },
   "str. Alverna nr. 58" : {
     "lat" : 46.756813,
     "lon" : 23.614217,
@@ -3740,6 +3760,7 @@
     "lon" : 23.565016,
     "precision" : "street"
   },
+  "str. Basarabia nr. 12 și str. Dimitrie Gusti 23-25" : null,
   "str. Basarabia – vest" : null,
   "str. Basarabiei" : {
     "lat" : 46.744681,
@@ -5102,6 +5123,11 @@
     "lon" : 23.572735,
     "precision" : "street"
   },
+  "str. Frunzișului nr.93" : {
+    "lat" : 46.748439,
+    "lon" : 23.575129,
+    "precision" : "street"
+  },
   "str. Frunzișului, str. Sergiu Celibidache -vest" : null,
   "str. Frunzișului, str. Szenczi Molnár Albert -sud" : null,
   "str. Frunzișului-est" : {
@@ -5879,6 +5905,11 @@
     "lon" : 23.62773,
     "precision" : "street"
   },
+  "str. Nordului – est" : {
+    "lat" : 46.747543,
+    "lon" : 23.625558,
+    "precision" : "street"
+  },
   "str. Nordului – vest" : {
     "lat" : 46.740829,
     "lon" : 23.62773,
@@ -6200,6 +6231,11 @@
     "lon" : 23.607904,
     "precision" : "street"
   },
+  "str. Pomet – vest" : {
+    "lat" : 46.81407,
+    "lon" : 23.615538,
+    "precision" : "street"
+  },
   "str. Pometului vest" : null,
   "str. Pometului – str. G.B Shaw" : null,
   "str. Porumbeilor nr. 28A" : {
@@ -6412,6 +6448,7 @@
     "lon" : 23.56792,
     "precision" : "street"
   },
+  "str. Sanatorului nr. 68" : null,
   "str. Sanatorului, nr 34" : null,
   "str. Sarmisegetuza nr. 11-13" : {
     "lat" : 46.775318,
@@ -7007,6 +7044,11 @@
     "precision" : "street"
   },
   "str. Valea Fânațelor – str. J.S Bach" : {
+    "lat" : 46.801936,
+    "lon" : 23.611738,
+    "precision" : "street"
+  },
+  "str. Valea Fânațelor – str. JS Bach" : {
     "lat" : 46.801936,
     "lon" : 23.611738,
     "precision" : "street"
