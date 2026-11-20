@@ -679,6 +679,11 @@
     "lon" : 23.52784,
     "precision" : "street"
   },
+  "Colonia Borhanci 48" : {
+    "lat" : 46.746879,
+    "lon" : 23.6387,
+    "precision" : "area"
+  },
   "Colonia Borhanci 72" : {
     "lat" : 46.746879,
     "lon" : 23.6387,
@@ -3892,6 +3897,11 @@
     "lon" : 23.636217,
     "precision" : "street"
   },
+  "str. Borhanciului nr. 103" : {
+    "lat" : 46.756998,
+    "lon" : 23.619687,
+    "precision" : "street"
+  },
   "str. Borhanciului nr. 109C prov" : {
     "lat" : 46.754522,
     "lon" : 23.628603,
@@ -4047,6 +4057,7 @@
   },
   "str. C-tin Brâncuși nr. 101-103" : null,
   "str. C-tin Noica – str. Stefan Augustin Doinaș" : null,
+  "str. C-tin Nottara nr.44" : null,
   "str. C. Brâncuși nr. 55" : null,
   "str. C. Brâncuși nr. 57-59" : null,
   "str. C.A. Rosetti" : {
@@ -5103,6 +5114,11 @@
     "lon" : 23.575129,
     "precision" : "street"
   },
+  "str. Frunzișului 80-82" : {
+    "lat" : 46.748505,
+    "lon" : 23.574469,
+    "precision" : "street"
+  },
   "str. Frunzișului fn" : {
     "lat" : 46.751285,
     "lon" : 23.572735,
@@ -5155,6 +5171,11 @@
     "lon" : 23.587131,
     "precision" : "exact"
   },
+  "str. Făgetului nr. 4-6" : {
+    "lat" : 46.716997,
+    "lon" : 23.574152,
+    "precision" : "exact"
+  },
   "str. Făgetului vest – actualizare aviz" : {
     "lat" : 46.727616,
     "lon" : 23.584496,
@@ -5197,6 +5218,11 @@
   "str. G. Verdi, str J.S. Bach" : null,
   "str. G.F. Hegel fn" : null,
   "str. Gala Galaction f.n." : null,
+  "str. Galaction Liviu Munteanu nr. 8" : {
+    "lat" : 46.720693,
+    "lon" : 23.578366,
+    "precision" : "exact"
+  },
   "str. Galati" : {
     "lat" : 46.776793,
     "lon" : 23.600819,
@@ -5222,6 +5248,7 @@
     "lon" : 23.569957,
     "precision" : "street"
   },
+  "str. Gen. Traian Moșoiu nr. 70-72" : null,
   "str. Gen. Traian Moșoiu nr.64" : null,
   "str. General Eremia Grigorescu nr. 80A" : {
     "lat" : 46.77344,
@@ -5423,6 +5450,11 @@
     "lon" : 23.619144,
     "precision" : "exact"
   },
+  "str. Iancu de Hunedoara nr. 32" : {
+    "lat" : 46.768396,
+    "lon" : 23.561989,
+    "precision" : "exact"
+  },
   "str. Iancu de Hunedoara nr.3" : {
     "lat" : 46.769169,
     "lon" : 23.56217,
@@ -5494,6 +5526,7 @@
     "lon" : 23.584243,
     "precision" : "street"
   },
+  "str. J.S. Bach – latura sudică" : null,
   "str. Jan Huss nr. 7" : null,
   "str. Jiului nr. 58B" : {
     "lat" : 46.779515,
@@ -5584,6 +5617,11 @@
     "precision" : "street"
   },
   "str. Lucian Matiș" : {
+    "lat" : 46.742118,
+    "lon" : 23.585214,
+    "precision" : "street"
+  },
+  "str. Lucian Matiș nr. 17" : {
     "lat" : 46.742118,
     "lon" : 23.585214,
     "precision" : "street"
@@ -6158,6 +6196,11 @@
     "lat" : 46.783916,
     "lon" : 23.605365,
     "precision" : "exact"
+  },
+  "str. Petofi Sandor 1A" : {
+    "lat" : 46.773782,
+    "lon" : 23.606105,
+    "precision" : "street"
   },
   "str. Petofi Sandor nr. 25" : {
     "lat" : 46.77479,
@@ -6818,6 +6861,11 @@
     "lon" : 23.653654,
     "precision" : "exact"
   },
+  "str. Traian Vuia nr. 87" : {
+    "lat" : 46.780889,
+    "lon" : 23.677002,
+    "precision" : "street"
+  },
   "str. Traian Vuia nr. 97A" : {
     "lat" : 46.782697,
     "lon" : 23.662673,
@@ -7411,6 +7459,11 @@
   },
   "zona Centura ocolitoare – sud" : null,
   "zona Centurii ocolitoare Cluj N-E" : null,
+  "zona Colonia Sopor" : {
+    "lat" : 46.741424,
+    "lon" : 23.661426,
+    "precision" : "area"
+  },
   "zona Făget" : {
     "lat" : 46.73445,
     "lon" : 23.592116,
